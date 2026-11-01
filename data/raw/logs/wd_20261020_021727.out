@@ -1,0 +1,48 @@
+[    0.1s] loading checkpoint g5_entry
+[   19.9s] CoM height above leg feet: 7.25 m, footprint radius 3.1 m, tip-over angle 23 deg
+[   19.9s] learned aim offset: +0 m (29 flights)
+[   19.9s] drag modulation: CdA out 29.5 in 7.109681206949069
+[   19.9s] frozen 0 leading control surfaces
+[   20.2s] drag modulation: brakes IN (out -1211m / in +30670m, k_out 1.00 k_in 1.00)
+[   22.3s] grid fins: re-extended 4
+[   76.7s] ENTRY BURN start h=44900m v=2107m/s q=1.1kPa
+[   76.8s] entry guidance: cross +0 m, 590 m/s left -> tilt -0.00 deg
+[   77.4s] entry guidance: cross +0 m, 554 m/s left -> tilt -0.00 deg
+[   77.9s] entry guidance: cross -1 m, 511 m/s left -> tilt +0.00 deg
+[   78.3s] grid fins: re-extended 4
+[   78.5s] entry guidance: cross -1 m, 464 m/s left -> tilt +0.00 deg
+[   79.1s] entry guidance: cross -1 m, 416 m/s left -> tilt +0.00 deg
+[   79.6s] entry guidance: cross -2 m, 371 m/s left -> tilt +0.00 deg
+[   80.2s] entry guidance: cross -2 m, 322 m/s left -> tilt +0.01 deg
+[   80.8s] entry guidance: cross -2 m, 274 m/s left -> tilt +0.01 deg
+[   81.3s] entry guidance: cross -2 m, 227 m/s left -> tilt +0.01 deg
+[   81.8s] entry guidance: cross -3 m, 175 m/s left -> tilt +0.01 deg
+[   82.4s] entry guidance: cross -3 m, 125 m/s left -> tilt +0.02 deg
+[   82.9s] entry guidance: cross -3 m, 73 m/s left -> tilt +0.04 deg
+[   83.6s] ENTRY BURN end h=41229m v=1509m/s q=0.9kPa dv flown 593 m/s
+[   83.7s] vernier plan: cross -2 m (along -1322), 63.3 m per m/s -> 0.04 m/s sideways
+[   84.4s] drag modulation: brakes IN (out -2200m / in +11126m, k_out 1.00 k_in 2.75)
+[   85.6s] grid fins: re-extended 4
+[   94.6s] cross glide: cross -2 m (44 m per m/s) -> side 0.003 m/s^2, tilt -0.1 deg
+[   99.5s] cross glide: cross +14 m (35 m per m/s) -> side -0.027 m/s^2, tilt +0.3 deg
+[  104.4s] cross glide: cross +24 m (27 m per m/s) -> side -0.060 m/s^2, tilt +0.3 deg
+[  106.1s] grid fins: re-extended 4
+[  111.4s] cross glide: cross -13 m (21 m per m/s) -> side 0.043 m/s^2, tilt -0.1 deg
+[  121.5s] cross glide: cross -133 m (17 m per m/s) -> side 0.529 m/s^2, tilt -1.5 deg
+[  130.8s] cross glide: cross -86 m (15 m per m/s) -> side 0.378 m/s^2, tilt -1.5 deg
+[  135.0s] drag modulation: brakes IN (out -422m / in +2232m, k_out 1.04 k_in 2.76)
+[  137.1s] grid fins: re-extended 4
+[  139.1s] drag modulation: brakes OUT (out +66m / in +2720m, k_out 1.04 k_in 2.32)
+[  140.9s] cross glide: cross -43 m (14 m per m/s) -> side 0.202 m/s^2, tilt -1.0 deg
+[  141.5s] range trim: retro pulse #1 (out +372m)
+[  148.6s] range trim: retro pulse #6 (out +188m)
+[  151.2s] cross glide: cross +23 m (18 m per m/s) -> side -0.085 m/s^2, tilt +1.1 deg
+[  161.3s] cross glide: cross -5 m (15 m per m/s) -> side 0.021 m/s^2, tilt -0.3 deg
+[  236.0s] pad cleared: clearpad 1
+[  236.0s] fin steering: 12 trailing surfaces enabled at 1497 m
+[  245.7s] pad cleared: clearpad 0
+[  247.1s] landing burn: control surfaces released, gimbal only
+[  247.1s] IGNITION h=452m vz=-89.9 vh=2.4 offset=11m cda=30.54
+[  274.3s] RESULT PASS miss=2.7m v_td=0.22m/s upright=1.000 fuel_left=63 parts=26 VesselSituation.landed
+[  274.3s] event ('ignition', 452, np.float64(-89.9), 11)
+shot: screenshots/20261020_022204_orbit_T-WorksFineGF.png

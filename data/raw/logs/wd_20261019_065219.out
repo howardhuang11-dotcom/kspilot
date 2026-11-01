@@ -1,0 +1,50 @@
+[    0.1s] loading checkpoint g5_orbit
+[   21.7s] flying core: T-WorksFinePayload mass 19.9t fuel 836
+[   39.6s] drag table (brakes out) CdA@100m/s,10km=17.7  @2000m/s,40km=139.9
+[   39.6s] core CdA brakes in = 6.25 m^2
+[   39.6s] core CdA (brakes out, 10 km) = 19.34 m^2
+[   41.0s] deorbit plan: miss 0m dv 142.8 m/s (retro 138.4 normal 4.4) t_ign +2884s CdA 19.34
+[   41.0s] warping 1877s to node
+[  186.3s] node done, remaining nodes 1
+[  186.3s] warping 819s to node
+[  311.6s] node done, remaining nodes 0
+[  314.8s] vacuum correction 0: predicted miss 3762m (along +3762 cross -6) spread 0m, trim 0.675 m/s
+[  322.1s] burn done: 0.675 m/s timed pulse 0.60s at 3.3% thrust
+[  327.2s] trim effect 1.01x of prediction -> gain 0.54
+[  327.2s] vacuum correction 1: predicted miss 1484m (along +1484 cross -3) spread 1m, trim 0.250 m/s
+[  332.1s] burn done: 0.250 m/s timed pulse 0.60s at 1.2% thrust
+[  337.5s] trim effect 1.02x of prediction -> gain 0.47
+[  337.5s] vacuum correction 2: predicted miss 674m (along +674 cross -2) spread 1m, trim 0.104 m/s
+[  337.6s] warping to entry interface
+[  347.2s] checkpoint saved: g5_entry
+[  351.2s] CoM height above leg feet: 7.18 m
+[  351.3s] drag modulation: CdA out 19.3 in 6.24664029901426
+[  351.3s] frozen 0 leading control surfaces
+[  351.5s] drag modulation: brakes IN (brakes-out prediction along -826m cross -2m, k_out 1.00 k_in 1.00)
+[  399.4s] drag modulation: brakes OUT (brakes-out prediction along +6m cross -2m, k_out 1.00 k_in 0.51)
+[  476.5s] ENTRY BURN start h=23922m v=1479m/s q=20.0kPa
+[  487.2s] ENTRY BURN end h=21304m v=886m/s q=12.0kPa
+[  509.6s] drag modulation: brakes IN (brakes-out prediction along -6515m cross -6m, k_out 0.92 k_in 0.51)
+[  514.3s] drag modulation: brakes IN (brakes-out prediction along -5912m cross -6m, k_out 0.82 k_in 0.51)
+[  519.2s] drag modulation: brakes IN (brakes-out prediction along -5424m cross -6m, k_out 0.74 k_in 0.51)
+[  524.6s] drag modulation: brakes IN (brakes-out prediction along -5028m cross -7m, k_out 0.68 k_in 0.51)
+[  530.5s] drag modulation: brakes IN (brakes-out prediction along -4746m cross -7m, k_out 0.64 k_in 0.50)
+[  535.3s] drag modulation: brakes IN (brakes-out prediction along -4592m cross -7m, k_out 0.61 k_in 0.50)
+[  539.8s] drag modulation: brakes IN (brakes-out prediction along -4576m cross -7m, k_out 0.65 k_in 0.50)
+[  544.1s] drag modulation: brakes IN (brakes-out prediction along -4613m cross -7m, k_out 0.71 k_in 0.50)
+[  548.7s] drag modulation: brakes IN (brakes-out prediction along -4661m cross -7m, k_out 0.81 k_in 0.50)
+[  552.7s] drag modulation: brakes IN (brakes-out prediction along -4691m cross -7m, k_out 0.89 k_in 0.50)
+[  556.3s] drag modulation: brakes IN (brakes-out prediction along -4701m cross -7m, k_out 0.92 k_in 0.50)
+[  559.2s] drag modulation: brakes IN (brakes-out prediction along -4701m cross -8m, k_out 0.92 k_in 0.50)
+[  561.8s] drag modulation: brakes IN (brakes-out prediction along -4702m cross -8m, k_out 0.92 k_in 0.50)
+[  563.9s] drag modulation: brakes IN (brakes-out prediction along -4703m cross -8m, k_out 0.92 k_in 0.50)
+[  566.6s] drag modulation: brakes IN (brakes-out prediction along -4704m cross -8m, k_out 0.92 k_in 0.50)
+[  567.8s] drag modulation: brakes IN (brakes-out prediction along -4705m cross -8m, k_out 0.92 k_in 0.50)
+[  569.1s] drag modulation: brakes IN (brakes-out prediction along -4706m cross -8m, k_out 0.92 k_in 0.50)
+[  570.1s] drag modulation: brakes IN (brakes-out prediction along -4706m cross -8m, k_out 0.92 k_in 0.50)
+[  579.8s] pad cleared: clearpad 0
+[  592.2s] IGNITION h=440m vz=-138.7 vh=7.1 offset=4734m cda=17.58
+[  602.8s] RESULT FAIL miss=4705.7m v_td=11.21m/s upright=-0.981 fuel_left=0 parts=7 VesselSituation.landed
+[  602.8s] event ('ignition', 440, np.float64(-138.7), 4734)
+drag calibration (1 flights): 2km:0.98 6km:0.97 10km:0.65 14km:0.76 18km:0.98 22km:0.99 26km:0.99 30km:0.99 34km:0.99 38km:0.99 42km:0.99 46km:0.99 50km:0.99 54km:0.99 58km:0.99 62km:0.53 66km:0.56
+shot: screenshots/20261019_070223_orbit_T-WorksFinePayload.png

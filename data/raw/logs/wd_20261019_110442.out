@@ -1,0 +1,58 @@
+[   15.8s] stage 3: ΔV  898 m/s (vacuum 1056) TWR sea level 1.74 burn  42s mass 91.9→58.5t
+[   15.8s] stage 2: ΔV 3821 m/s (vacuum 4358) TWR sea level 1.11 burn 190s mass 52.3→13.0t
+[   15.8s] ascent+insertion requirement ≈ 3434 m/s  (vacuum equivalent)
+[   15.8s] recovery stage: dry 10.6t wet 58.6t engines 1 landing legs 4 CdA≈9.11m² terminal velocity≈141m/s landing TWR≈5.0
+[   15.8s] recovery requirement ≈ 591 m/s  (deorbit+landing burn+margin)
+[   15.8s] total available ΔV 5415 m/s , total required 4025 m/s , margin +1390 m/s
+[   15.8s] verdict: [ok] go
+[   16.0s] ascent: PVG target Pe=100km Ap=100km inc=6.00 autostage_limit=2
+[   18.9s] MJ: vertical ascent 46.39m/s | alt 0.1km Ap 0.1 Pe -598.4 stage 3 thrust 1572kN mass 91.4t
+[   19.9s] MJ: vertical ascent 33.99m/s | alt 0.1km Ap 0.1 Pe -598.4 stage 3 thrust 1573kN mass 90.1t
+[   20.9s] MJ: vertical ascent 17.99m/s | alt 0.2km Ap 0.2 Pe -598.4 stage 3 thrust 1575kN mass 88.5t
+[   22.0s] MJ: vertical ascent 1.32m/s | alt 0.2km Ap 0.4 Pe -598.4 stage 3 thrust 1579kN mass 86.9t
+[   23.0s] MJ: pitch program 15.57° | alt 0.4km Ap 0.6 Pe -598.4 stage 3 thrust 1584kN mass 85.3t
+[   24.0s] MJ: pitch program 14.68° | alt 0.5km Ap 0.9 Pe -598.4 stage 3 thrust 1590kN mass 83.7t
+[   25.0s] MJ: pitch program 13.80° | alt 0.7km Ap 1.2 Pe -598.4 stage 3 thrust 1598kN mass 82.1t
+[   26.0s] MJ: pitch program 12.93° | alt 0.9km Ap 1.7 Pe -598.4 stage 3 thrust 1607kN mass 80.5t
+[   27.0s] MJ: pitch program 12.06° | alt 1.2km Ap 2.2 Pe -598.4 stage 3 thrust 1617kN mass 78.9t
+[   28.1s] MJ: pitch program 11.19° | alt 1.5km Ap 2.9 Pe -598.3 stage 3 thrust 1628kN mass 77.3t
+[   29.1s] MJ: pitch program 10.35° | alt 1.8km Ap 3.6 Pe -598.2 stage 3 thrust 1639kN mass 75.7t
+[   30.1s] MJ: pitch program 9.48° | alt 2.2km Ap 4.4 Pe -598.1 stage 3 thrust 1652kN mass 74.1t
+[   31.1s] MJ: pitch program 8.61° | alt 2.7km Ap 5.4 Pe -598.0 stage 3 thrust 1666kN mass 72.5t
+[   32.2s] MJ: pitch program 7.72° | alt 3.2km Ap 6.5 Pe -597.9 stage 3 thrust 1680kN mass 70.9t
+[   33.2s] MJ: pitch program 6.86° | alt 3.7km Ap 7.8 Pe -597.7 stage 3 thrust 1695kN mass 69.3t
+[   34.2s] MJ: pitch program 5.99° | alt 4.3km Ap 9.2 Pe -597.5 stage 3 thrust 1709kN mass 67.7t
+[   35.2s] MJ: pitch program 5.11° | alt 4.9km Ap 10.7 Pe -597.3 stage 3 thrust 1724kN mass 66.1t
+[   36.2s] MJ: pitch program 4.20° | alt 5.7km Ap 12.5 Pe -597.1 stage 3 thrust 1738kN mass 64.5t
+[   37.3s] MJ: pitch program 3.29° | alt 6.4km Ap 14.4 Pe -596.8 stage 3 thrust 1752kN mass 62.8t
+[   38.3s] MJ: pitch program 2.36° | alt 7.3km Ap 16.6 Pe -596.4 stage 3 thrust 1766kN mass 61.2t
+[   39.4s] MJ: pitch program 1.67° | alt 8.1km Ap 19.0 Pe -596.0 stage 3 thrust 1779kN mass 59.6t
+[   40.4s] MJ: pitch program 1.03° | alt 9.0km Ap 21.0 Pe -595.6 stage 2 thrust 633kN mass 52.2t
+[   41.4s] MJ: pitch program 0.37° | alt 10.0km Ap 22.0 Pe -595.3 stage 2 thrust 636kN mass 51.7t
+[   42.4s] MJ: stable guidance | alt 10.9km Ap 23.1 Pe -595.0 stage 2 thrust 638kN mass 51.3t
+[   52.5s] MJ: stable guidance | alt 21.0km Ap 37.0 Pe -591.6 stage 2 thrust 648kN mass 47.1t
+[   62.7s] MJ: stable guidance | alt 32.6km Ap 56.0 Pe -585.4 stage 2 thrust 650kN mass 42.9t
+[   72.9s] MJ: stable guidance | alt 46.2km Ap 82.0 Pe -573.3 stage 2 thrust 650kN mass 38.7t
+[   83.1s] MJ: stable guidance | alt 62.1km Ap 116.3 Pe -546.4 stage 2 thrust 650kN mass 34.5t
+[   93.3s] MJ: stable guidance | alt 75.3km Ap 141.6 Pe -501.0 stage 2 thrust 650kN mass 31.3t
+[  103.5s] MJ: stable guidance | alt 83.5km Ap 148.3 Pe -452.5 stage 2 thrust 650kN mass 29.2t
+[  113.7s] MJ: stable guidance | alt 90.6km Ap 142.5 Pe -388.6 stage 2 thrust 650kN mass 27.1t
+[  124.3s] MJ: stable guidance | alt 96.0km Ap 127.2 Pe -307.7 stage 2 thrust 650kN mass 25.0t
+[  134.5s] MJ: stable guidance | alt 99.2km Ap 108.8 Pe -200.5 stage 2 thrust 650kN mass 22.8t
+[  144.7s] MJ: stable guidance | alt 100.0km Ap 100.0 Pe -3.1 stage 2 thrust 650kN mass 20.7t
+[  147.8s] MJ: coast to circularization burn point | alt 99.9km Ap 108.1 Pe 92.4 stage 2 thrust 650kN mass 20.1t
+[  147.8s] coast: rails warp 1408s to apoapsis
+[  184.5s] MJ: coast to circularization burn point | alt 108.1km Ap 108.1 Pe 92.4 stage 2 thrust 650kN mass 20.1t
+[  194.7s] MJ: coast to circularization burn point | alt 108.1km Ap 108.1 Pe 92.4 stage 2 thrust 650kN mass 20.1t
+[  204.9s] MJ: coast to circularization burn point | alt 108.1km Ap 108.1 Pe 92.4 stage 2 thrust 650kN mass 20.1t
+[  215.0s] MJ: coast to circularization burn point | alt 108.1km Ap 108.1 Pe 92.4 stage 2 thrust 650kN mass 20.1t
+[  225.2s] MJ: coast to circularization burn point | alt 108.1km Ap 108.1 Pe 92.4 stage 2 thrust 650kN mass 20.1t
+[  229.3s] MJ: circularize orbit | alt 108.1km Ap 108.1 Pe 92.2 stage 2 thrust 650kN mass 20.1t
+[  229.3s] coast: rails warp 1913s to apoapsis
+[  279.0s] orbit Ap=108.1km Pe=91.9km inc=6.000 (err Ap +8148m Pe -8148m)
+[  330.9s] node executor done
+[  330.9s] orbit Ap=108.1km Pe=108.0km inc=6.000 (err Ap +8149m Pe +8021m)
+[  399.9s] node executor done
+[  399.9s] orbit Ap=108.2km Pe=108.1km inc=6.000 (err Ap +8152m Pe +8143m)
+[  400.9s] node executor done
+[  401.0s] RESULT FAIL ascent

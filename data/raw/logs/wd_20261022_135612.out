@@ -1,0 +1,34 @@
+[    0.1s] loading checkpoint g5_mid
+[    5.0s] checkpoint g5_mid loaded and PAUSED 0.6 s after load: h=14499 m (unpaused right before the control loop)
+[    5.1s] grid fins: mounting inward, authority -100% (engine-first flight reverses control surfaces)
+[    5.1s] learned aim offset: +0 m (29 flights)
+[    5.1s] drag modulation: CdA out 28.7 in 12.55119397889175
+[    5.1s] unpaused: control loop starting at h=14494 m
+[    5.1s] frozen 0 leading control surfaces
+[    6.3s] heat: 0.33 of max temperature (Grid Fin Medium)
+[    6.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 14.6 kPa)
+[    6.5s] cross glide: cross -10 m (14 m per m/s) along +137 m (0) -> side 0.049 fwd 0.000 m/s^2, tilt 0.2 deg
+[    6.9s] hud: MAX-Q 14.5 kPa at T+21698 s
+[   10.3s] drag modulation: brakes IN (out -49m / in +2816m, k_out 1.08 k_in 1.00)
+[   13.3s] drag modulation: brakes OUT (out +48m / in +2265m, k_out 1.08 k_in 1.00)
+[   15.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 7.5 kPa)
+[   15.4s] range trim: retro pulse #1 (out +174m)
+[   17.4s] cross glide: cross -40 m (15 m per m/s) along +184 m (0) -> side 0.176 fwd 0.000 m/s^2, tilt 1.8 deg
+[   20.6s] range trim: retro pulse #6 (out +155m)
+[   25.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.1 kPa)
+[   26.7s] cross glide: cross -25 m (15 m per m/s) along +138 m (0) -> side 0.111 fwd 0.000 m/s^2, tilt 1.3 deg
+[   35.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.7 kPa)
+[   45.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.0 kPa)
+[   55.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.5 kPa)
+[   65.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.8 kPa)
+[   75.7s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.9 kPa)
+[   85.1s] pad cleared: clearpad 0
+[   85.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.9 kPa)
+[   92.7s] pad cleared: clearpad 0
+[   93.4s] landing burn: control surfaces released, gimbal only
+[   93.4s] IGNITION h=502m vz=-113.9 vh=0.3 offset=2m cda=25.38
+[   95.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 3.3 kPa)
+[  118.8s] RESULT PASS miss=1.0m v_td=0.13m/s upright=1.000 fuel_left=366 parts=26 VesselSituation.landed
+[  118.8s] event ('ignition', 502, np.float64(-113.9), 2)
+[  118.8s] smoothness (last 3 km): {'ap_err_rms': 0.62, 'py_rate_rms': 0.2, 'roll_rate_max': 0.1, 'roll_rate_rms': 0.02}
+shot: screenshots/20261022_135814_orbit_T-WorksFineGF.png

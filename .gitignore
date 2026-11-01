@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Local flight data, recordings and generated reports (never committed; root-anchored so that
+# data/raw/logs and data/raw/screenshots, the sanitized raw records of the report, are tracked)
+/logs/
+/videos/
+/screenshots/
+/backups/
+docs/EXPERIMENTS.md
+
+# Local configuration and secrets
+.obs_ws.json
+
+# .NET build output (game assemblies are referenced from KSP_DIR and never committed)
+plugins/*/bin/
+plugins/*/obj/
+tests/cs_recmath/bin/
+tests/cs_recmath/obj/
+tools/hud_perf_bench/bin/
+tools/hud_perf_bench/obj/
+*.dll
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local tool environments
+.tools/
+paper/.venv-fig/

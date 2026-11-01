@@ -1,0 +1,86 @@
+[    0.1s] loading checkpoint g5_orbit
+[   18.7s] flying core: T-WorksFineGF mass 21.6t fuel 918
+[   37.8s] drag calibration applied (43 flights)
+[   37.8s] drag table (brakes out) CdA@100m/s,10km=26.2  @2000m/s,40km=156.1
+[   37.8s] core CdA brakes in = 6.64 m^2
+[   37.8s] core CdA (brakes out, 10 km) = 27.52 m^2
+[   39.9s] deorbit plan needs 154 m/s normal (> 30): waiting one revolution
+[   89.1s] deorbit plan failed (no impact passes the target within the scan window); waiting one revolution
+[  139.3s] deorbit plan needs 160 m/s normal (> 30): waiting one revolution
+[  188.6s] deorbit plan: miss 0m dv 158.2 m/s (retro 149.8 normal 8.4) t_ign +4131s CdA 27.52
+[  188.6s] warping 3113s to node
+[  259.3s] burn: warping 30s (dv 8.4 m/s, 0.3 s burn)
+[  331.0s] burn done: 8.4 m/s planned, 0.08 m/s left
+[  331.0s] node done, remaining nodes 1
+[  331.0s] warping 834s to node
+[  355.0s] burn: warping 28s (dv 149.8 m/s, 4.8 s burn)
+[  432.1s] burn done: 149.8 m/s planned, 0.03 m/s left
+[  432.1s] node done, remaining nodes 0
+[  432.1s] learned cross-track offset: +0 m
+[  435.3s] vacuum correction 0: predicted miss 3502m (along +3502 cross +15) spread 0m, trim 0.643 m/s
+[  444.7s] burn done: 0.643 m/s timed pulse 0.60s at 3.4% thrust
+[  449.9s] trim effect 1.00x of prediction -> gain 0.54
+[  449.9s] vacuum correction 1: predicted miss 1401m (along +1401 cross +5) spread 0m, trim 0.245 m/s
+[  455.5s] burn done: 0.245 m/s timed pulse 0.60s at 1.3% thrust
+[  460.8s] trim effect 1.02x of prediction -> gain 0.48
+[  460.8s] vacuum correction 2: predicted miss 633m (along +633 cross +3) spread 0m, trim 0.102 m/s
+[  465.6s] burn done: 0.102 m/s timed pulse 0.32s at 1.0% thrust
+[  470.8s] trim effect 1.04x of prediction -> gain 0.41
+[  470.8s] vacuum correction 3: predicted miss 317m (along +317 cross +1) spread 1m, trim 0.046 m/s
+[  476.2s] burn done: 0.046 m/s timed pulse 0.14s at 1.0% thrust
+[  481.4s] trim effect 1.10x of prediction -> gain 0.34
+[  481.4s] vacuum correction 4: predicted miss 173m (along +173 cross +1) spread 1m, trim 0.021 m/s
+[  481.5s] warping to entry interface
+[  492.0s] checkpoint saved: g5_entry
+[  496.1s] CoM height above leg feet: 7.41 m, footprint radius 3.1 m, tip-over angle 23 deg
+[  496.2s] grid fins: orientation REVERSED (blades inward) -> authority -100%
+[  496.2s] learned aim offset: +0 m (29 flights)
+[  496.2s] drag modulation: CdA out 27.5 in 6.636276392998306
+[  496.2s] frozen 0 leading control surfaces
+[  496.5s] drag modulation: brakes IN (out -1327m / in +29973m, k_out 1.00 k_in 1.00)
+[  498.6s] grid fins: re-extended 4
+[  564.6s] ENTRY BURN start h=44823m v=2101m/s q=1.1kPa
+[  564.7s] entry guidance: cross +1 m, 590 m/s left -> tilt -0.00 deg
+[  565.2s] entry guidance: cross +2 m, 556 m/s left -> tilt -0.00 deg
+[  565.8s] entry guidance: cross +3 m, 524 m/s left -> tilt -0.01 deg
+[  566.2s] grid fins: re-extended 4
+[  566.4s] entry guidance: cross +5 m, 487 m/s left -> tilt -0.01 deg
+[  566.9s] entry guidance: cross +7 m, 452 m/s left -> tilt -0.01 deg
+[  567.5s] entry guidance: cross +9 m, 414 m/s left -> tilt -0.02 deg
+[  568.1s] entry guidance: cross +9 m, 379 m/s left -> tilt -0.02 deg
+[  568.6s] entry guidance: cross +10 m, 345 m/s left -> tilt -0.03 deg
+[  569.1s] entry guidance: cross +10 m, 311 m/s left -> tilt -0.03 deg
+[  569.6s] entry guidance: cross +10 m, 276 m/s left -> tilt -0.03 deg
+[  570.1s] entry guidance: cross +10 m, 238 m/s left -> tilt -0.04 deg
+[  570.7s] entry guidance: cross +10 m, 200 m/s left -> tilt -0.04 deg
+[  571.2s] entry guidance: cross +9 m, 164 m/s left -> tilt -0.05 deg
+[  571.7s] entry guidance: cross +8 m, 127 m/s left -> tilt -0.06 deg
+[  572.2s] entry guidance: cross +7 m, 91 m/s left -> tilt -0.07 deg
+[  572.8s] entry guidance: cross +5 m, 53 m/s left -> tilt -0.08 deg
+[  573.4s] ENTRY BURN end h=40381m v=1520m/s q=1.1kPa dv flown 591 m/s
+[  573.5s] vernier plan: cross +2 m (along -890), 65.0 m per m/s -> -0.03 m/s sideways
+[  573.7s] drag modulation: brakes IN (out -1782m / in +11109m, k_out 1.00 k_in 2.95)
+[  575.7s] grid fins: re-extended 4
+[  585.2s] cross glide: cross +1 m (44 m per m/s) -> side -0.001 m/s^2, tilt -0.0 deg
+[  590.2s] cross glide: cross +1 m (35 m per m/s) -> side -0.001 m/s^2, tilt -0.0 deg
+[  595.4s] grid fins: re-extended 4
+[  595.9s] cross glide: cross +0 m (28 m per m/s) -> side -0.000 m/s^2, tilt -0.0 deg
+[  603.6s] cross glide: cross -0 m (21 m per m/s) -> side 0.001 m/s^2, tilt +0.0 deg
+[  614.4s] cross glide: cross -2 m (17 m per m/s) -> side 0.006 m/s^2, tilt +0.0 deg
+[  631.6s] drag modulation: brakes IN (out -1894m / in +633m, k_out 1.16 k_in 2.29)
+[  633.7s] grid fins: re-extended 4
+[  634.8s] cross glide: cross +1 m (15 m per m/s) -> side -0.006 m/s^2, tilt -0.0 deg
+[  640.9s] drag modulation: brakes IN (out -711m / in +747m, k_out 0.81 k_in 1.69)
+[  645.5s] cross glide: cross -3 m (17 m per m/s) -> side 0.010 m/s^2, tilt +0.1 deg
+[  646.2s] grid fins: re-extended 4
+[  646.8s] drag modulation: brakes IN (out -141m / in +573m, k_out 0.60 k_in 1.67)
+[  652.5s] grid fins: re-extended 4
+[  702.8s] landing burn: control surfaces released, gimbal only
+[  702.8s] IGNITION h=2069m vz=-116.9 vh=8.2 offset=481m cda=29.86
+[  707.9s] pad cleared: clearpad 1
+[  717.6s] pad cleared: clearpad 0
+[  736.9s] below the expected ground level (off-pad terrain): cut thrust
+[  751.4s] RESULT FAIL miss=386.0m v_td=1.51m/s upright=0.311 fuel_left=0 parts=7 VesselSituation.landed
+[  751.4s] event ('ignition', 2069, np.float64(-116.9), 481)
+[  751.5s] smoothness (last 3 km): {'ap_err_rms': 12.96, 'py_rate_rms': 2.72, 'roll_rate_max': 0.1, 'roll_rate_rms': 0.02}
+shot: worktrees/baseline/screenshots/20261021_001906_orbit_T-WorksFineGF.png

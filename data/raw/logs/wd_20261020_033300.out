@@ -1,0 +1,9 @@
+[    0.4s] loading checkpoint g5_orbit
+[   23.2s] flying core: T-WorksFineGF mass 21.5t fuel 915
+[   57.7s] drag calibration applied (43 flights)
+[   57.7s] drag table (brakes out) CdA@100m/s,10km=28.5  @2000m/s,40km=165.3
+[   57.7s] core CdA brakes in = 20.19 m^2
+[   57.7s] core CdA (brakes out, 10 km) = 29.58 m^2
+[   63.6s] deorbit plan failed (no impact passes the target within the scan window); waiting one revolution
+[  141.9s] deorbit plan: miss 1m dv 310.0 m/s (retro 150.0 normal 160.0) t_ign +4456s CdA 29.58
+[  141.9s] warping 3464s to node

@@ -1,0 +1,49 @@
+[    0.1s] rcs-inspect: R1-Chaser (READ ONLY: no control / switch / game-state write)
+[    0.3s] rcs-inspect block 0 RV-105 RCS thruster at [-1.24  -0.379 -0.   ]: available_thrust 1000.0 N, max_thrust 1000.0 N, enabled True, active False, variant None, 9 transforms
+[    0.3s] rcs-inspect   b0 t0 [-] OK  dir [ 0.  0. -1.] pos [-1.347 -0.38   0.088]
+[    0.3s] rcs-inspect   b0 t1 [-] OK  dir [ 0. -0.  1.] pos [-1.346 -0.38  -0.082]
+[    0.3s] rcs-inspect   b0 t2 [-] OK  dir [ 0. -1. -0.] pos [-1.353 -0.298 -0.   ]
+[    0.3s] rcs-inspect   b0 t3 [-] OK  dir [-0.  1.  0.] pos [-1.353 -0.46  -0.   ]
+[    0.3s] rcs-inspect   b0 t4 [4Horn] OK  dir [ 0.  0. -1.] pos [-1.335 -0.379  0.106]
+[    0.3s] rcs-inspect   b0 t5 [4Horn] OK  dir [ 0. -0.  1.] pos [-1.335 -0.379 -0.089]
+[    0.3s] rcs-inspect   b0 t6 [4Horn] OK  dir [ 0. -1. -0.] pos [-1.335 -0.299 -0.   ]
+[    0.3s] rcs-inspect   b0 t7 [4Horn] OK  dir [-0.  1.  0.] pos [-1.335 -0.469 -0.   ]
+[    0.3s] rcs-inspect   b0 t8 [-] OK  dir [ 1.  0. -0.] pos [-1.407 -0.379  0.   ]
+[    0.3s] rcs-inspect block 1 RV-105 RCS thruster at [ 0.    -0.379  1.24 ]: available_thrust 1000.0 N, max_thrust 1000.0 N, enabled True, active False, variant None, 9 transforms
+[    0.3s] rcs-inspect   b1 t0 [-] OK  dir [-1. -0.  0.] pos [ 0.088 -0.38   1.347]
+[    0.3s] rcs-inspect   b1 t1 [-] OK  dir [ 1.  0. -0.] pos [-0.082 -0.38   1.346]
+[    0.3s] rcs-inspect   b1 t2 [-] OK  dir [ 0. -1. -0.] pos [-0.    -0.298  1.353]
+[    0.3s] rcs-inspect   b1 t3 [-] OK  dir [-0.  1.  0.] pos [-0.    -0.46   1.353]
+[    0.3s] rcs-inspect   b1 t4 [4Horn] OK  dir [-1. -0.  0.] pos [ 0.106 -0.379  1.335]
+[    0.3s] rcs-inspect   b1 t5 [4Horn] OK  dir [ 1.  0. -0.] pos [-0.089 -0.379  1.335]
+[    0.3s] rcs-inspect   b1 t6 [4Horn] OK  dir [ 0. -1. -0.] pos [ 0.    -0.299  1.335]
+[    0.3s] rcs-inspect   b1 t7 [4Horn] OK  dir [-0.  1.  0.] pos [-0.    -0.469  1.335]
+[    0.3s] rcs-inspect   b1 t8 [-] OK  dir [-0.  0. -1.] pos [ 0.    -0.379  1.407]
+[    0.3s] rcs-inspect block 2 RV-105 RCS thruster at [ 1.24  -0.379  0.   ]: available_thrust 1000.0 N, max_thrust 1000.0 N, enabled True, active False, variant None, 9 transforms
+[    0.3s] rcs-inspect   b2 t0 [-] OK  dir [ 0. -0.  1.] pos [ 1.347 -0.38  -0.088]
+[    0.3s] rcs-inspect   b2 t1 [-] OK  dir [ 0.  0. -1.] pos [ 1.346 -0.38   0.082]
+[    0.3s] rcs-inspect   b2 t2 [-] OK  dir [ 0. -1. -0.] pos [ 1.353 -0.298  0.   ]
+[    0.3s] rcs-inspect   b2 t3 [-] OK  dir [-0.  1.  0.] pos [ 1.353 -0.46   0.   ]
+[    0.3s] rcs-inspect   b2 t4 [4Horn] OK  dir [0. 0. 1.] pos [ 1.335 -0.379 -0.106]
+[    0.3s] rcs-inspect   b2 t5 [4Horn] OK  dir [ 0.  0. -1.] pos [ 1.335 -0.379  0.089]
+[    0.3s] rcs-inspect   b2 t6 [4Horn] OK  dir [ 0. -1. -0.] pos [ 1.335 -0.299  0.   ]
+[    0.3s] rcs-inspect   b2 t7 [4Horn] OK  dir [-0.  1.  0.] pos [ 1.335 -0.469  0.   ]
+[    0.3s] rcs-inspect   b2 t8 [-] OK  dir [-1. -0. -0.] pos [ 1.407 -0.379 -0.   ]
+[    0.3s] rcs-inspect block 3 RV-105 RCS thruster at [-0.    -0.379 -1.24 ]: available_thrust 1000.0 N, max_thrust 1000.0 N, enabled True, active False, variant None, 9 transforms
+[    0.3s] rcs-inspect   b3 t0 [-] OK  dir [ 1.  0. -0.] pos [-0.088 -0.38  -1.347]
+[    0.3s] rcs-inspect   b3 t1 [-] OK  dir [-1. -0. -0.] pos [ 0.082 -0.38  -1.346]
+[    0.3s] rcs-inspect   b3 t2 [-] OK  dir [ 0. -1. -0.] pos [-0.    -0.298 -1.353]
+[    0.3s] rcs-inspect   b3 t3 [-] OK  dir [-0.  1.  0.] pos [-0.    -0.46  -1.353]
+[    0.3s] rcs-inspect   b3 t4 [4Horn] OK  dir [ 1.  0. -0.] pos [-0.106 -0.379 -1.335]
+[    0.3s] rcs-inspect   b3 t5 [4Horn] OK  dir [-1. -0. -0.] pos [ 0.089 -0.379 -1.335]
+[    0.3s] rcs-inspect   b3 t6 [4Horn] OK  dir [ 0. -1. -0.] pos [-0.    -0.299 -1.335]
+[    0.3s] rcs-inspect   b3 t7 [4Horn] OK  dir [-0.  1.  0.] pos [-0.    -0.469 -1.335]
+[    0.3s] rcs-inspect   b3 t8 [-] OK  dir [ 0. -0.  1.] pos [-0.    -0.379 -1.407]
+[    0.3s] rcs-inspect model: 4Horn active 16 transforms +[2000. 4000. 2000.] / -[2000. 4000. 2000.] N; all read 36 transforms +[5000. 8000. 5000.] N (what kRPC's available_rcs_force sums with RCS on); pattern all_ok
+[    0.3s] gate rcs blocks                     OK   4 blocks (expected 4), transforms per block [9, 9, 9, 9] (expected 9)
+[    0.3s] gate variant field                  NA   ModulePartVariants.selectedVariant per block [None, None, None, None] (expected 4Horn; declared variant only, kRPC cannot see GameObject state)
+[    0.3s] gate transforms readable            OK   36 of 36 read, pattern all_ok
+[    0.3s] gate variant set readable           OK   4Horn transforms [4, 5, 6, 7] per block: 16 of 16 read
+[    0.3s] gate variant model                  OK   4Horn active set from the transforms that read: +[2000.0, 4000.0, 2000.0] / -[-2000.0, -4000.0, -2000.0] N, max deviation 0 % (<= 15 %, design [2000.0, 4000.0, 2000.0] N)
+[    0.3s] data: logs/rdv_r1_inspect_20261022_032739.json
+[    0.3s] RESULT PASS rcs-inspect gates 4 OK / 0 FAIL / 1 NA

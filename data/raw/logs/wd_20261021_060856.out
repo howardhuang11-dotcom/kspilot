@@ -1,0 +1,49 @@
+[   13.3s] stage 3: ΔV  888 m/s (vacuum 1045) TWR sea level 1.73 burn  42s mass 92.7→59.3t
+[   13.3s] stage 2: ΔV 3699 m/s (vacuum 4219) TWR sea level 1.09 burn 190s mass 53.1→13.8t
+[   13.3s] low-TWR gravity loss +190 m/s
+[   13.3s] ascent+insertion requirement ≈ 3677 m/s  (vacuum equivalent)
+[   13.3s] recovery stage: dry 11.4t wet 59.4t engines 1 landing legs 4 CdA≈9.67m² terminal velocity≈142m/s landing TWR≈4.6
+[   13.3s] recovery requirement ≈ 1064 m/s  (deorbit+entry burn+landing burn+margin)
+[   13.3s] recovery propellant 4.58t  (≈412 LF , for payload 2.48t  of the recovery stage after separation); expected remaining in orbit 7.97t , remaining after landing 3.39t  (≈305 LF )
+[   13.3s] ascent available ΔV 4208 m/s  (recovery propellant deducted, with payload), ascent required 3677 m/s , margin +530 m/s  (recovery side +605 m/s )
+[   13.3s] verdict: [ok] go
+[   13.3s] ascent (own): target Pe 100 km Ap 100 km i 45.0 deg -> launch heading 41.7 deg
+[   13.9s] ascent tel: rise alt 0.1 km v 3 m/s pitch 90.0 aoa -0.0 Ap 0.1 km stage 3 parts 49 thr 1567 kN
+[   16.0s] ascent tel: rise alt 0.1 km v 18 m/s pitch 90.0 aoa -0.0 Ap 0.1 km stage 3 parts 49 thr 1573 kN
+[   18.0s] ascent tel: rise alt 0.2 km v 34 m/s pitch 90.0 aoa -0.0 Ap 0.2 km stage 3 parts 49 thr 1576 kN
+[   20.1s] ascent tel: rise alt 0.3 km v 51 m/s pitch 89.9 aoa -0.0 Ap 0.4 km stage 3 parts 49 thr 1579 kN
+[   22.1s] ascent tel: rise alt 0.4 km v 68 m/s pitch 89.9 aoa -0.0 Ap 0.6 km stage 3 parts 49 thr 1584 kN
+[   24.1s] ascent tel: rise alt 0.5 km v 86 m/s pitch 89.9 aoa -0.0 Ap 0.9 km stage 3 parts 49 thr 1591 kN
+[   25.8s] ascent: pitch-over at 101 m/s, 683 m
+[   26.2s] ascent tel: turn alt 0.7 km v 104 m/s pitch 89.7 aoa -0.2 Ap 1.3 km stage 3 parts 49 thr 1599 kN
+[   28.2s] ascent tel: turn alt 1.0 km v 123 m/s pitch 84.2 aoa -3.4 Ap 1.7 km stage 3 parts 49 thr 1608 kN
+[   30.3s] ascent tel: turn alt 1.2 km v 142 m/s pitch 83.1 aoa -2.9 Ap 2.3 km stage 3 parts 49 thr 1618 kN
+[   32.3s] ascent tel: turn alt 1.5 km v 163 m/s pitch 82.0 aoa -2.5 Ap 2.9 km stage 3 parts 49 thr 1629 kN
+[   34.4s] ascent tel: turn alt 1.9 km v 184 m/s pitch 80.9 aoa -2.2 Ap 3.6 km stage 3 parts 49 thr 1641 kN
+[   36.5s] ascent tel: turn alt 2.3 km v 207 m/s pitch 79.7 aoa -2.1 Ap 4.5 km stage 3 parts 49 thr 1654 kN
+[   38.5s] ascent tel: turn alt 2.7 km v 230 m/s pitch 78.5 aoa -1.9 Ap 5.4 km stage 3 parts 49 thr 1668 kN
+[   40.6s] ascent tel: turn alt 3.2 km v 254 m/s pitch 77.2 aoa -1.9 Ap 6.5 km stage 3 parts 49 thr 1682 kN
+[   42.7s] ascent tel: turn alt 3.8 km v 281 m/s pitch 75.9 aoa -1.8 Ap 7.8 km stage 3 parts 49 thr 1696 kN
+[   44.8s] ascent tel: turn alt 4.4 km v 308 m/s pitch 74.6 aoa -1.9 Ap 9.2 km stage 3 parts 49 thr 1711 kN
+[   46.9s] ascent tel: turn alt 5.1 km v 337 m/s pitch 73.2 aoa -1.9 Ap 10.7 km stage 3 parts 49 thr 1726 kN
+[   49.0s] ascent tel: turn alt 5.8 km v 365 m/s pitch 71.8 aoa -2.0 Ap 12.3 km stage 3 parts 49 thr 1740 kN
+[   51.1s] ascent tel: turn alt 6.5 km v 395 m/s pitch 70.3 aoa -2.1 Ap 14.2 km stage 3 parts 49 thr 1754 kN
+[   53.1s] ascent tel: turn alt 7.3 km v 425 m/s pitch 68.9 aoa -2.3 Ap 16.1 km stage 3 parts 49 thr 1767 kN
+[   55.1s] ascent tel: turn alt 8.2 km v 458 m/s pitch 67.4 aoa -2.4 Ap 18.3 km stage 3 parts 49 thr 1779 kN
+[   57.2s] ascent tel: turn alt 9.1 km v 464 m/s pitch 65.6 aoa -2.8 Ap 19.4 km stage 3 parts 49 thr 633 kN
+[   57.4s] hud: MAX-Q 41.3 kPa at T+41 s
+[   59.3s] ascent tel: turn alt 10.0 km v 460 m/s pitch 64.1 aoa -3.0 Ap 20.0 km stage 3 parts 49 thr 636 kN
+[   61.4s] ascent tel: turn alt 10.9 km v 457 m/s pitch 62.8 aoa -3.2 Ap 20.6 km stage 3 parts 49 thr 638 kN
+[   63.4s] ascent tel: turn alt 11.7 km v 455 m/s pitch 61.5 aoa -3.3 Ap 21.2 km stage 3 parts 49 thr 640 kN
+[   64.2s] ascent: staging 3 -> 2 (4 dry engines dropped, 0 engines to light)
+[   66.9s] sep parts: 49 before, expected 37 after, now 37, thrust 641 -> 642 kN
+[   66.9s] ascent tel: turn alt 13.2 km v 460 m/s pitch 62.9 aoa -0.6 Ap 22.6 km stage 2 parts 37 thr 642 kN
+[   67.9s] sep metric: q 18.8 kPa roll 226.4 deg sideslip -3.5 deg aoa 4.8 deg explosions 0 [] booster offset 0.2 deg
+[   69.0s] ascent tel: turn alt 14.0 km v 467 m/s pitch 57.1 aoa -4.0 Ap 23.6 km stage 2 parts 37 thr 644 kN
+[   71.1s] ascent tel: turn alt 14.9 km v 474 m/s pitch 57.6 aoa -2.6 Ap 24.5 km stage 2 parts 37 thr 645 kN
+[   73.1s] ascent tel: turn alt 15.7 km v 481 m/s pitch 55.1 aoa -3.5 Ap 25.5 km stage 2 parts 37 thr 645 kN
+[   75.1s] ascent tel: turn alt 16.6 km v 490 m/s pitch 55.1 aoa -2.5 Ap 26.5 km stage 2 parts 37 thr 646 kN
+[   77.2s] ascent tel: turn alt 17.5 km v 500 m/s pitch 53.6 aoa -2.6 Ap 27.5 km stage 2 parts 37 thr 647 kN
+[   79.2s] ascent tel: turn alt 18.3 km v 510 m/s pitch 52.5 aoa -2.5 Ap 28.5 km stage 2 parts 37 thr 647 kN
+[   80.0s] ascent: separation test over 15 s after staging - engine off, no recovery
+[   80.0s] RESULT SEPTEST parts=37 thr=647 explosions=0 core_hit=0 q=18.8 roll=226.4 sideslip=-3.5 aoa=4.8 offset=0.2 explosions_15s=0 q_sep_max=20000

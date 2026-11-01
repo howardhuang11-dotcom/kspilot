@@ -1,0 +1,24 @@
+[    0.1s] measure: chaser R1-Chaser, target R1-Station (read only, 120 s at 10 Hz)
+[   30.5s] measure: 243/1200 samples
+[   60.5s] measure: 489/1200 samples
+[   90.6s] measure: 740/1200 samples
+[  120.7s] measure: 916/1200 samples
+[  150.7s] measure: 1115/1200 samples
+[  168.1s] gate A7 rcs rotation off            OK   0 of 4 blocks with rotation on
+[  168.1s] gate A2 thrust centre               OK   axial -0.38 m, lateral 0.00 m from CoM
+[  168.1s] gate rcs force                      NA   RCS master switch off (read-only measure; reads +[0.0): checked in R1-d (rendezvous --rcs-trim) after RCS on
+[  168.1s] gate monoprop                       OK   50.0 / 80 u
+[  168.1s] gate chaser port axis = vessel +y   OK   dir [7.165132576147926e-08, 1.0000000689321444, -5.307967407830461e-07], pos [6.182411844690705e-07, 9.7504189602281, 5.885319761311791e-06], DockingPortState.ready
+[  168.1s] gate chaser port ready              OK   DockingPortState.ready
+[  168.1s] gate target port ready              OK   DockingPortState.ready
+[  168.1s] gate A3 rpc latency p95             OK   0.021 s (p50 0.013, max 0.067)
+[  168.1s] gate A4 port noise                  OK   sigma pos 3.06e-05 m (target port frame, <= 0.02), vel 4.87e-08 m/s (<= 0.005); 322/1200 torn rows dropped (UT-bracketed); clipped 0 pos / 4 vel = 0.46 % (<= 2 %); raw nrf difference 6.8483 m / 0.0391 m/s | TARGET PACKED (on rails): rigid-body floor, not the docking regime
+[  168.1s] gate A5 target attitude hold        NA   target packed (on rails): attitude frozen by the game (inertial drift 0.0000 deg, LVLH 25.8 deg = orbital rate), SAS hold not observable; inside the unpack range only
+[  168.1s] relative (LVLH): rho [   49.  -1153.3     2.1] m, rhod [-0.027 -0.29  -0.008] m/s, distance 1154 m, phase 0.09 deg
+[  168.1s] sigma_pos_port_frame = 0.0543
+[  168.1s] target_axis_drift_inertial_deg = 0.0000
+[  168.1s] target_axis_drift_lvlh_deg = 25.7834
+[  168.1s] ec_rate = 0.1003
+[  168.1s] a4_clip_vel_norms (4) = [0.0, 0.0, 0.0, 0.0]
+[  168.1s] data: logs/rdv_r1_measure_20261022_024158.json
+[  168.1s] RESULT PASS measure gates 8 OK / 0 FAIL / 2 NA

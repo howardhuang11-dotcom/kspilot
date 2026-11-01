@@ -1,0 +1,20 @@
+[   15.1s] stage 3: ΔV  879 m/s (vacuum 1034) TWR sea level 1.71 burn  42s mass 93.5→60.1t
+[   15.1s] stage 2: ΔV 3586 m/s (vacuum 4090) TWR sea level 1.08 burn 190s mass 53.9→14.6t
+[   15.1s] low-TWR gravity loss +206 m/s
+[   15.1s] ascent+insertion requirement ≈ 3639 m/s  (vacuum equivalent)
+[   15.1s] recovery stage: dry 12.2t wet 60.2t engines 1 landing legs 4 CdA≈9.45m² terminal velocity≈149m/s landing TWR≈4.3
+[   15.1s] recovery requirement ≈ 1211 m/s  (deorbit+entry burn+landing burn+margin)
+[   15.1s] total available ΔV 4966 m/s , total required 4851 m/s , margin +115 m/s
+[   15.1s] verdict: [ok] go
+[   15.2s] ascent (own): target Pe 100 km Ap 100 km i 6.0 deg -> launch heading 83.5 deg
+[   15.8s] ascent tel: rise alt 0.1 km v 3 m/s pitch 90.0 aoa -0.0 Ap 0.1 km stage 3 parts 49 thr 1567 kN
+[   17.9s] ascent tel: rise alt 0.1 km v 18 m/s pitch 90.0 aoa -0.0 Ap 0.1 km stage 3 parts 49 thr 1573 kN
+[   19.9s] ascent tel: rise alt 0.2 km v 33 m/s pitch 90.0 aoa -0.0 Ap 0.2 km stage 3 parts 49 thr 1576 kN
+[   22.0s] ascent tel: rise alt 0.2 km v 50 m/s pitch 89.9 aoa -0.0 Ap 0.4 km stage 3 parts 49 thr 1579 kN
+[   24.0s] ascent tel: rise alt 0.4 km v 67 m/s pitch 89.9 aoa -0.0 Ap 0.6 km stage 3 parts 49 thr 1584 kN
+[   26.1s] ascent tel: rise alt 0.5 km v 84 m/s pitch 89.9 aoa -0.0 Ap 0.9 km stage 3 parts 49 thr 1590 kN
+[   28.0s] ascent: pitch-over at 101 m/s, 695 m
+[   28.1s] ascent tel: kick alt 0.7 km v 102 m/s pitch 89.9 aoa -0.0 Ap 1.2 km stage 3 parts 49 thr 1598 kN
+[   30.1s] ascent tel: turn alt 0.9 km v 121 m/s pitch 84.4 aoa -0.5 Ap 1.7 km stage 3 parts 49 thr 1607 kN
+[   32.2s] ascent tel: turn alt 1.2 km v 140 m/s pitch 83.2 aoa -0.5 Ap 2.2 km stage 3 parts 49 thr 1617 kN
+[   34.2s] ascent tel: turn alt 1.5 km v 160 m/s pitch 82.1 aoa -0.4 Ap 2.8 km stage 3 parts 49 thr 1628 kN

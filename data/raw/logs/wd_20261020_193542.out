@@ -1,0 +1,108 @@
+[    0.1s] loading checkpoint g5_orbit
+[   17.5s] flying core: T-WorksFineGF0T mass 21.7t fuel 896
+tools/orbit_recover.py:51: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  if mm.name == "ModuleAnimateGeneric" and mm.has_event(ev):
+[   38.6s] drag tables measured: CdA@10km belly 12 deg 17.6 / straight 13.8 m^2
+[   38.6s] drag table (brakes out) CdA@100m/s,10km=18.7  @2000m/s,40km=43.8
+[   38.6s] core CdA brakes in = 13.85 m^2
+[   38.6s] core CdA (brakes out, 10 km) = 17.55 m^2
+[   39.8s] deorbit plan needs 148 m/s normal (> 30): waiting one revolution
+[   87.5s] deorbit plan failed (no impact passes the target within the scan window); waiting one revolution
+[  135.5s] deorbit plan needs 154 m/s normal (> 30): waiting one revolution
+[  183.1s] deorbit plan: miss 0m dv 158.3 m/s (retro 149.8 normal 8.4) t_ign +4124s CdA 17.55
+[  183.1s] warping 3074s to node
+[  252.7s] burn: warping 30s (dv 8.4 m/s, 0.3 s burn)
+[  324.2s] burn done: 8.4 m/s planned, 0.08 m/s left
+[  324.2s] node done, remaining nodes 1
+[  324.2s] warping 867s to node
+[  348.4s] burn: warping 28s (dv 149.8 m/s, 4.9 s burn)
+[  425.3s] burn done: 149.8 m/s planned, 0.05 m/s left
+[  425.3s] node done, remaining nodes 0
+[  425.3s] learned cross-track offset: +0 m
+[  428.5s] vacuum correction 0: predicted miss 3606m (along +3606 cross +9) spread 1m, trim 0.670 m/s
+[  437.9s] burn done: 0.670 m/s timed pulse 0.60s at 3.5% thrust
+[  443.1s] trim effect 0.97x of prediction -> gain 0.56
+[  443.1s] vacuum correction 1: predicted miss 1504m (along +1504 cross +4) spread 1m, trim 0.273 m/s
+[  448.6s] burn done: 0.273 m/s timed pulse 0.60s at 1.4% thrust
+[  453.8s] trim effect 1.02x of prediction -> gain 0.49
+[  453.8s] vacuum correction 2: predicted miss 654m (along +654 cross +1) spread 2m, trim 0.110 m/s
+[  458.2s] burn done: 0.110 m/s timed pulse 0.35s at 1.0% thrust
+[  463.3s] trim effect 1.03x of prediction -> gain 0.43
+[  463.3s] vacuum correction 3: predicted miss 324m (along +324 cross +1) spread 1m, trim 0.049 m/s
+[  468.3s] burn done: 0.049 m/s timed pulse 0.16s at 1.0% thrust
+[  473.4s] trim effect 1.00x of prediction -> gain 0.39
+[  473.4s] vacuum correction 4: predicted miss 184m (along +184 cross +0) spread 2m, trim 0.025 m/s
+[  473.4s] warping to entry interface
+[  483.8s] checkpoint saved: g5_entry
+[  487.9s] CoM height above leg feet: 7.48 m, footprint radius 2.7 m, tip-over angle 20 deg
+[  488.0s] grid fins: mounting outward, authority -100% (engine-first flight reverses control surfaces)
+[  488.0s] learned aim offset: +0 m (29 flights)
+[  488.0s] drag modulation: CdA out 17.6 in 13.848250149380917
+[  488.0s] frozen 0 leading control surfaces
+[  488.9s] heat: 0.15 of max temperature (SP-L 1x6 solar panel)
+[  524.4s] heat: 0.20 of max temperature ([mod part name] Jumbo-64 fuel tank)
+[  534.6s] heat: 0.25 of max temperature ([mod part name] Jumbo-64 fuel tank)
+[  541.9s] heat: 0.30 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  547.3s] heat: 0.35 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  552.7s] heat: 0.41 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  556.0s] ENTRY BURN start h=44884m v=2101m/s q=1.1kPa heat 0.44
+[  556.1s] entry guidance: cross -1 m, 800 m/s left -> tilt +0.00 deg
+[  556.7s] entry guidance: cross -0 m, 765 m/s left -> tilt +0.00 deg
+[  557.2s] entry guidance: cross +2 m, 733 m/s left -> tilt -0.00 deg
+[  557.7s] entry guidance: cross +4 m, 698 m/s left -> tilt -0.01 deg
+[  557.9s] heat: 0.46 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  558.3s] entry guidance: cross +7 m, 661 m/s left -> tilt -0.01 deg
+[  558.8s] entry guidance: cross +9 m, 628 m/s left -> tilt -0.01 deg
+[  559.3s] entry guidance: cross +10 m, 592 m/s left -> tilt -0.01 deg
+[  559.9s] entry guidance: cross +11 m, 556 m/s left -> tilt -0.02 deg
+[  560.4s] entry guidance: cross +12 m, 521 m/s left -> tilt -0.02 deg
+[  561.0s] entry guidance: cross +12 m, 486 m/s left -> tilt -0.02 deg
+[  561.6s] entry guidance: cross +12 m, 448 m/s left -> tilt -0.02 deg
+[  562.1s] entry guidance: cross +12 m, 411 m/s left -> tilt -0.02 deg
+[  562.6s] entry guidance: cross +11 m, 374 m/s left -> tilt -0.02 deg
+[  563.2s] entry guidance: cross +10 m, 335 m/s left -> tilt -0.03 deg
+[  563.7s] entry guidance: cross +10 m, 298 m/s left -> tilt -0.03 deg
+[  564.2s] entry guidance: cross +9 m, 258 m/s left -> tilt -0.03 deg
+[  564.8s] entry guidance: cross +8 m, 219 m/s left -> tilt -0.03 deg
+[  565.3s] entry guidance: cross +7 m, 181 m/s left -> tilt -0.03 deg
+[  565.8s] entry guidance: cross +5 m, 142 m/s left -> tilt -0.03 deg
+[  566.3s] entry guidance: cross +4 m, 102 m/s left -> tilt -0.03 deg
+[  566.8s] entry guidance: cross +3 m, 62 m/s left -> tilt -0.03 deg
+[  567.6s] ENTRY BURN end h=39089m v=1329m/s q=1.0kPa dv flown 805 m/s
+[  567.7s] vernier plan: cross +0 m (along +7649), 77.8 m per m/s -> -0.00 m/s sideways
+[  567.7s] lift guidance: miss along +3415 cross +4 m -> u up -0.58 side +0.00 (c 4.5e-04 prior, k 0.47)
+[  570.3s] lift guidance: miss along -1072 cross +3 m -> u up -0.48 side +0.00 (c 4.5e-04 prior, k 0.79)
+[  572.9s] lift guidance: miss along -651 cross +3 m -> u up -0.23 side +0.00 (c 4.5e-04 prior, k 1.11)
+[  575.5s] lift guidance: miss along +349 cross +0 m -> u up -0.19 side +0.00 (c 4.5e-04 prior, k 1.12)
+[  578.3s] lift guidance: miss along +403 cross -0 m -> u up -0.32 side +0.00 (c 4.5e-04 prior, k 0.96)
+[  580.9s] lift guidance: miss along +25 cross +0 m -> u up -0.36 side +0.00 (c 4.5e-04 prior, k 0.92)
+[  583.5s] lift guidance: miss along -30 cross +1 m -> u up -0.36 side +0.00 (c 4.5e-04 prior, k 0.94)
+[  586.3s] lift guidance: miss along -15 cross +1 m -> u up -0.35 side +0.00 (c 4.5e-04 prior, k 0.96)
+[  589.0s] lift guidance: miss along -16 cross +1 m -> u up -0.34 side +0.01 (c 4.5e-04 prior, k 0.99)
+[  589.3s] glide sign learned: side force WITH the tilt (c -9.0e-03 at h=24491m q=15.7kPa)
+[  594.1s] lift guidance: miss along +272 cross +0 m -> u up -0.14 side +0.00 (c 2.0e-03, k 0.79)
+[  599.6s] lift guidance: miss along +4133 cross +21 m -> u up -0.48 side +0.01 (c 2.6e-04, k 0.76)
+[  600.0s] glide sign learned: side force AGAINST the tilt (c +2.1e-04 at h=19611m q=38.8kPa)
+[  600.7s] heat: 0.52 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  604.4s] glide sign learned: side force WITH the tilt (c -1.9e-04 at h=17475m q=56.1kPa)
+[  604.8s] lift guidance: miss along -578 cross -5 m -> u up -0.56 side +0.01 (c 5.4e-04, k 0.83)
+[  607.4s] glide sign learned: side force AGAINST the tilt (c +1.8e-04 at h=16035m q=70.7kPa)
+[  610.2s] lift guidance: miss along +1941 cross +19 m -> u up -1.00 side +0.02 (c 1.0e-04, k 0.86)
+[  610.7s] glide sign learned: side force WITH the tilt (c -1.5e-04 at h=14470m q=88.4kPa)
+[  615.5s] lift guidance: miss along +2125 cross +19 m -> u up -1.00 side +0.02 (c 1.0e-04, k 0.80)
+[  616.0s] glide sign learned: side force AGAINST the tilt (c +1.7e-04 at h=11927m q=121.1kPa)
+[  620.0s] ENTRY BURN start h=10079m v=1011m/s q=140.0kPa heat 0.29
+[  622.4s] ENTRY BURN end h=9077m v=861m/s q=122.8kPa dv flown 95 m/s
+[  622.4s] lift guidance: miss along +1825 cross +6 m -> u up -1.00 side +0.02 (c 2.5e-04, k 0.79)
+[  627.9s] lift guidance: miss along +2727 cross +5 m -> u up -1.00 side +0.01 (c 1.4e-04, k 0.82)
+[  633.2s] lift guidance: miss along +2972 cross +7 m -> u up -1.00 side +0.00 (c 1.4e-04, k 0.85)
+[  634.4s] landing burn: control surfaces released, gimbal only
+[  634.4s] IGNITION h=4949m vz=-300.4 vh=416.6 offset=989m cda=7.87
+[  638.3s] checkpoint saved: g5_term at 3995 m
+[  650.6s] pad cleared: clearpad 0
+[  657.5s] pad cleared: clearpad 0
+[  673.9s] below the expected ground level (off-pad terrain): cut thrust
+[  689.1s] RESULT FAIL miss=3317.0m v_td=1.48m/s upright=1.000 fuel_left=0 parts=0 VesselSituation.splashed
+[  689.1s] event ('ignition', 4949, np.float64(-300.4), 989)
+[  689.2s] smoothness (last 3 km): {'ap_err_rms': 31.22, 'py_rate_rms': 1.99, 'roll_rate_max': 0.6, 'roll_rate_rms': 0.15}
+shot: screenshots/20261020_194714_orbit_T-WorksFineGF0T.png

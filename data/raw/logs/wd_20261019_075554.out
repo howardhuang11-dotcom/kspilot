@@ -1,0 +1,89 @@
+[    0.1s] loading checkpoint g5_orbit
+[   23.2s] flying core: T-WorksFinePayload mass 19.9t fuel 836
+[   40.9s] drag calibration applied (5 flights)
+[   40.9s] drag table (brakes out) CdA@100m/s,10km=17.7  @2000m/s,40km=139.9
+[   40.9s] core CdA brakes in = 6.50 m^2
+[   40.9s] core CdA (brakes out, 10 km) = 19.34 m^2
+[   42.9s] deorbit plan: miss 0m dv 142.9 m/s (retro 138.4 normal 4.5) t_ign +2913s CdA 19.34
+[   42.9s] warping 1892s to node
+[  187.4s] node done, remaining nodes 1
+[  187.4s] warping 835s to node
+[  312.6s] node done, remaining nodes 0
+[  315.9s] vacuum correction 0: predicted miss 3664m (along +3664 cross -26) spread 1m, trim 0.708 m/s
+[  323.9s] burn done: 0.708 m/s timed pulse 0.60s at 3.4% thrust
+[  329.1s] trim effect 1.00x of prediction -> gain 0.54
+[  329.1s] vacuum correction 1: predicted miss 1468m (along +1468 cross -11) spread 1m, trim 0.273 m/s
+[  334.0s] burn done: 0.273 m/s timed pulse 0.60s at 1.3% thrust
+[  339.2s] trim effect 1.02x of prediction -> gain 0.48
+[  339.2s] vacuum correction 2: predicted miss 659m (along +659 cross -4) spread 1m, trim 0.112 m/s
+[  339.2s] warping to entry interface
+[  348.9s] checkpoint saved: g5_entry
+[  353.0s] CoM height above leg feet: 7.18 m
+[  353.0s] drag modulation: CdA out 19.3 in 6.496206954278348
+[  353.0s] frozen 0 leading control surfaces
+[  353.3s] drag modulation: brakes IN (out -841m / in +34739m, k_out 1.00 k_in 1.00)
+[  411.2s] drag modulation: brakes OUT (out -12m / in +39389m, k_out 1.00 k_in 0.66)
+[  414.3s] drag modulation: brakes IN (out -333m / in +39144m, k_out 1.02 k_in 0.66)
+[  419.6s] drag modulation: brakes OUT (out -13m / in +39592m, k_out 1.02 k_in 0.62)
+[  422.9s] drag modulation: brakes IN (out -481m / in +39224m, k_out 1.04 k_in 0.62)
+[  427.8s] drag modulation: brakes OUT (out -1m / in +39932m, k_out 1.04 k_in 0.55)
+[  436.4s] ENTRY BURN start h=44879m v=2069m/s q=1.0kPa
+[  444.5s] ENTRY BURN end h=41365m v=1474m/s q=0.9kPa dv flown 594 m/s
+[  445.2s] drag modulation: brakes IN (out -5724m / in +33889m, k_out 1.37 k_in 0.55)
+[  507.3s] range trim: retro pulse (out +3900m)
+[  508.3s] range trim: retro pulse (out +3679m)
+[  509.4s] range trim: retro pulse (out +3867m)
+[  510.4s] range trim: retro pulse (out +4121m)
+[  511.5s] range trim: retro pulse (out +4264m)
+[  512.5s] range trim: retro pulse (out +4279m)
+[  513.6s] range trim: retro pulse (out +4234m)
+[  514.6s] range trim: retro pulse (out +4164m)
+[  515.6s] range trim: retro pulse (out +4087m)
+[  516.7s] range trim: retro pulse (out +3993m)
+[  517.8s] range trim: retro pulse (out +3911m)
+[  518.9s] range trim: retro pulse (out +3816m)
+[  520.1s] range trim: retro pulse (out +3736m)
+[  521.2s] range trim: retro pulse (out +3678m)
+[  522.2s] range trim: retro pulse (out +3633m)
+[  523.3s] range trim: retro pulse (out +3586m)
+[  524.4s] range trim: retro pulse (out +3546m)
+[  525.4s] range trim: retro pulse (out +3507m)
+[  526.5s] range trim: retro pulse (out +3475m)
+[  527.6s] range trim: retro pulse (out +3439m)
+[  528.6s] range trim: retro pulse (out +3408m)
+[  529.6s] range trim: retro pulse (out +3380m)
+[  530.7s] range trim: retro pulse (out +3354m)
+[  531.8s] range trim: retro pulse (out +3335m)
+[  532.9s] range trim: retro pulse (out +3316m)
+[  533.9s] range trim: retro pulse (out +3302m)
+[  534.9s] range trim: retro pulse (out +3288m)
+[  536.0s] range trim: retro pulse (out +3276m)
+[  537.0s] range trim: retro pulse (out +3264m)
+[  538.1s] range trim: retro pulse (out +3251m)
+[  539.2s] range trim: retro pulse (out +3239m)
+[  540.2s] range trim: retro pulse (out +3228m)
+[  541.3s] range trim: retro pulse (out +3219m)
+[  542.4s] range trim: retro pulse (out +3207m)
+[  543.5s] range trim: retro pulse (out +3202m)
+[  544.6s] range trim: retro pulse (out +3191m)
+[  545.6s] range trim: retro pulse (out +3182m)
+[  546.7s] range trim: retro pulse (out +3175m)
+[  547.7s] range trim: retro pulse (out +3165m)
+[  548.8s] range trim: retro pulse (out +3159m)
+[  549.8s] range trim: retro pulse (out +3152m)
+[  550.9s] range trim: retro pulse (out +3145m)
+[  551.9s] range trim: retro pulse (out +3139m)
+[  553.0s] range trim: retro pulse (out +3132m)
+[  554.1s] range trim: retro pulse (out +3126m)
+[  555.2s] range trim: retro pulse (out +3121m)
+[  556.3s] range trim: retro pulse (out +3117m)
+[  557.3s] range trim: retro pulse (out +3112m)
+[  558.4s] range trim: retro pulse (out +3107m)
+[  559.5s] range trim: retro pulse (out +3103m)
+[  592.9s] pad cleared: clearpad 0
+[  599.8s] pad cleared: clearpad 0
+[  601.8s] IGNITION h=359m vz=-126.8 vh=0.7 offset=3098m cda=17.37
+[  663.0s] RESULT FAIL miss=3091.9m v_td=1.47m/s upright=0.996 fuel_left=59 parts=22 VesselSituation.splashed
+[  663.0s] event ('ignition', 359, np.float64(-126.8), 3098)
+drag calibration (6 flights): 2km:0.98 6km:1.00 10km:0.82 14km:0.86 18km:0.97 22km:0.98 26km:0.99 30km:0.76 34km:0.77 38km:0.77 42km:0.78 46km:0.99 50km:0.80 54km:0.71 58km:0.65 62km:0.63 66km:0.64 70km:0.95
+shot: screenshots/20261019_080659_orbit_T-WorksFinePayload.png

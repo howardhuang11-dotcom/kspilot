@@ -1,0 +1,29 @@
+[    0.1s] loading checkpoint g5_mid
+[    4.8s] checkpoint g5_mid loaded and PAUSED 0.6 s after load: h=14499 m (unpaused right before the control loop)
+[    4.9s] grid fins: mounting inward, authority -100% (engine-first flight reverses control surfaces)
+[    4.9s] learned aim offset: +0 m (29 flights)
+[    4.9s] drag modulation: CdA out 28.7 in 12.55119397889175
+[    4.9s] unpaused: control loop starting at h=14494 m
+[    4.9s] frozen 0 leading control surfaces
+[    6.1s] heat: 0.33 of max temperature (Grid Fin Medium)
+[    6.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 14.6 kPa)
+[    6.7s] hud: MAX-Q 14.5 kPa at T+21698 s
+[   14.9s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.8 kPa)
+[   16.5s] cross glide: cross -32 m (16 m per m/s) along +95 m (0) -> side 0.129 fwd 0.000 m/s^2, tilt 1.5 deg
+[   25.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.6 kPa)
+[   26.6s] cross glide: cross -13 m (15 m per m/s) along +112 m (0) -> side 0.056 fwd 0.000 m/s^2, tilt 0.6 deg
+[   35.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.0 kPa)
+[   45.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.3 kPa)
+[   55.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.8 kPa)
+[   65.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 7.0 kPa)
+[   75.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 7.0 kPa)
+[   83.8s] pad cleared: clearpad 0
+[   85.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 7.0 kPa)
+[   91.2s] pad cleared: clearpad 0
+[   91.8s] landing burn: control surfaces released, gimbal only
+[   91.8s] IGNITION h=527m vz=-114.5 vh=0.2 offset=1m cda=25.44
+[   95.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 2.3 kPa)
+[  117.7s] RESULT PASS miss=1.3m v_td=0.32m/s upright=1.000 fuel_left=381 parts=26 VesselSituation.landed
+[  117.7s] event ('ignition', 527, np.float64(-114.5), 1)
+[  117.8s] smoothness (last 3 km): {'ap_err_rms': 0.62, 'py_rate_rms': 0.16, 'roll_rate_max': 0.1, 'roll_rate_rms': 0.02}
+shot: screenshots/20261022_133858_orbit_T-WorksFineGF.png

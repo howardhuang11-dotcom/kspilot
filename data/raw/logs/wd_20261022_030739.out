@@ -1,0 +1,36 @@
+[    0.0s] divert hook (H2): ignition offset along -50 m cross +0 m commanded (target stays the pad)
+[    0.1s] loading checkpoint g5_mid
+[    4.9s] checkpoint g5_mid loaded and PAUSED 0.6 s after load: h=14505 m (unpaused right before the control loop)
+[    4.9s] grid fins: mounting inward, authority -100% (engine-first flight reverses control surfaces)
+[    4.9s] learned aim offset: +0 m (29 flights)
+[    4.9s] drag modulation: CdA out 28.7 in 12.55119397889175
+[    4.9s] unpaused: control loop starting at h=14499 m
+[    4.9s] frozen 0 leading control surfaces
+[    4.9s] DIVERT armed: decoy along -50 m cross +0 m of the pad (heading 83.4 deg, E -50 N -6 m): guidance aims at it until landing-burn ignition
+[    6.2s] heat: 0.33 of max temperature (Grid Fin Medium)
+[    6.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 14.6 kPa)
+[    6.4s] cross glide: cross -10 m (14 m per m/s) along +187 m (0) -> side 0.051 fwd 0.000 m/s^2, tilt 0.2 deg
+[    6.8s] hud: MAX-Q 14.5 kPa at T+21698 s
+[    9.1s] range trim: retro pulse #1 (out +153m)
+[   15.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.3 kPa)
+[   16.7s] cross glide: cross -34 m (17 m per m/s) along +130 m (0) -> side 0.128 fwd 0.000 m/s^2, tilt 1.6 deg
+[   25.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.2 kPa)
+[   26.8s] cross glide: cross -15 m (16 m per m/s) along +49 m (0) -> side 0.065 fwd 0.000 m/s^2, tilt 0.8 deg
+[   35.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.0 kPa)
+[   45.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.5 kPa)
+[   55.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.8 kPa)
+[   65.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.9 kPa)
+[   75.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.9 kPa)
+[   84.3s] pad cleared: clearpad 0
+[   85.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.9 kPa)
+[   88.9s] landing burn: control surfaces released, gimbal only
+[   88.9s] DIVERT switch: ignition offset along -50.3 m cross +0.4 m (commanded -50 / +0), v_h 0.5 m/s (E +0.4 N +0.4), h 943 m -> target = pad
+[   88.9s] IGNITION h=943m vz=-116.7 vh=0.5 offset=50m cda=25.72
+[   92.7s] pad cleared: clearpad 0
+[   95.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.4 kPa)
+[  105.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.0 kPa)
+[  115.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.2 kPa)
+[  134.8s] RESULT PASS miss=3.1m v_td=0.19m/s upright=1.000 fuel_left=281 parts=26 VesselSituation.landed
+[  134.8s] event ('ignition', 943, np.float64(-116.7), 50)
+[  134.9s] smoothness (last 3 km): {'ap_err_rms': 5.55, 'py_rate_rms': 2.18, 'roll_rate_max': 0.1, 'roll_rate_rms': 0.02}
+shot: worktrees/gnc2/screenshots/20261022_030957_orbit_T-WorksFineGF.png

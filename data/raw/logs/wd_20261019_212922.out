@@ -1,0 +1,56 @@
+[    0.1s] loading checkpoint g5_entry
+[   19.2s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   19.2s] learned aim offset: +103 m (24 flights)
+[   19.2s] drag modulation: CdA out 21.6 in 7.022900071911554
+[   19.3s] frozen 0 leading control surfaces
+[   19.5s] drag modulation: brakes IN (out -1863m / in +28514m, k_out 1.00 k_in 1.00)
+[   80.0s] ENTRY BURN start h=44882m v=2104m/s q=1.1kPa
+[   87.1s] ENTRY BURN end h=41296m v=1507m/s q=0.9kPa dv flown 596 m/s
+[   87.2s] drag modulation: brakes IN (out -1765m / in +27499m, k_out 1.00 k_in 0.82)
+[  102.5s] drag modulation: brakes OUT (out -125m / in +28847m, k_out 1.00 k_in 0.71)
+[  105.1s] drag modulation: brakes IN (out -213m / in +27843m, k_out 1.00 k_in 0.71)
+[  107.2s] drag modulation: brakes OUT (out -99m / in +27257m, k_out 1.00 k_in 0.71)
+[  108.2s] range trim: retro pulse #1 (out +164m)
+[  142.9s] drag modulation: brakes IN (out -325m / in +5191m, k_out 1.03 k_in 0.71)
+[  146.0s] drag modulation: brakes OUT (out -112m / in +4461m, k_out 1.03 k_in 0.71)
+[  155.4s] range trim: retro pulse #6 (out +57m)
+[  157.2s] fin steering: 8 trailing surfaces enabled at 11994 m
+[  207.2s] SYSID h 3457 beta E 3deg  a_lat +0.099 -0.003 m/s^2  q 7949  c_model 0.00197
+[  207.6s] SYSID h 3404 beta E 3deg  a_lat +0.096 -0.003 m/s^2  q 7952  c_model 0.00197
+[  207.9s] SYSID h 3358 beta E 3deg  a_lat +0.091 -0.003 m/s^2  q 7955  c_model 0.00195
+[  208.2s] SYSID h 3302 beta E 3deg  a_lat +0.083 -0.002 m/s^2  q 7951  c_model 0.00179
+[  208.6s] SYSID h 3253 beta E 3deg  a_lat +0.070 +0.001 m/s^2  q 7945  c_model 0.00153
+[  208.9s] SYSID h 3204 beta E 3deg  a_lat +0.058 +0.005 m/s^2  q 7942  c_model 0.00132
+[  209.3s] SYSID h 3152 beta E 3deg  a_lat +0.055 +0.007 m/s^2  q 7942  c_model 0.00115
+[  209.7s] SYSID h 3103 beta E 3deg  a_lat +0.062 +0.006 m/s^2  q 7944  c_model 0.00105
+[  210.0s] SYSID h 3054 beta E 3deg  a_lat +0.073 +0.004 m/s^2  q 7951  c_model 0.00103
+[  210.3s] SYSID h 3000 beta E 3deg  a_lat +0.081 +0.002 m/s^2  q 7961  c_model 0.00102
+[  210.7s] SYSID h 2957 beta E 3deg  a_lat +0.084 +0.001 m/s^2  q 7968  c_model 0.00101
+[  211.0s] SYSID h 2903 beta E 3deg  a_lat +0.084 +0.001 m/s^2  q 7978  c_model 0.00101
+[  211.4s] SYSID h 2858 beta E 3deg  a_lat +0.083 +0.000 m/s^2  q 7986  c_model 0.00099
+[  212.1s] SYSID h 2756 beta E 3deg  a_lat +0.073 +0.001 m/s^2  q 7994  c_model 0.00083
+[  212.8s] SYSID h 2652 beta E 3deg  a_lat +0.063 +0.004 m/s^2  q 7995  c_model 0.00066
+[  213.5s] SYSID h 2552 beta E 3deg  a_lat +0.074 +0.002 m/s^2  q 8003  c_model 0.00058
+[  213.9s] SYSID h 2507 beta E 3deg  a_lat +0.079 +0.001 m/s^2  q 8009  c_model 0.00056
+[  214.6s] SYSID h 2408 beta N 3deg  a_lat +0.084 -0.001 m/s^2  q 8023  c_model 0.00054
+[  215.3s] SYSID h 2306 beta N 3deg  a_lat +0.084 -0.006 m/s^2  q 8030  c_model 0.00052
+[  216.0s] SYSID h 2207 beta N 3deg  a_lat +0.082 -0.010 m/s^2  q 8034  c_model 0.00050
+[  216.5s] SYSID h 2150 beta N 3deg  a_lat +0.081 -0.010 m/s^2  q 8037  c_model 0.00048
+[  216.8s] SYSID h 2107 beta N 3deg  a_lat +0.082 -0.009 m/s^2  q 8040  c_model 0.00048
+[  217.2s] SYSID h 2055 beta N 3deg  a_lat +0.082 -0.007 m/s^2  q 8045  c_model 0.00047
+[  217.9s] SYSID h 1958 beta N 3deg  a_lat +0.084 -0.006 m/s^2  q 8053  c_model 0.00047
+[  218.3s] SYSID h 1904 beta N 3deg  a_lat +0.084 -0.006 m/s^2  q 8058  c_model 0.00047
+[  219.0s] SYSID h 1808 beta N 3deg  a_lat +0.082 -0.009 m/s^2  q 8066  c_model 0.00045
+[  219.4s] SYSID h 1755 beta N 3deg  a_lat +0.080 -0.010 m/s^2  q 8070  c_model 0.00044
+[  219.8s] SYSID h 1701 beta N 3deg  a_lat +0.079 -0.010 m/s^2  q 8074  c_model 0.00044
+[  220.2s] SYSID h 1651 beta N 3deg  a_lat +0.079 -0.009 m/s^2  q 8078  c_model 0.00043
+[  220.5s] SYSID h 1604 beta N 3deg  a_lat +0.079 -0.008 m/s^2  q 8081  c_model 0.00042
+[  221.3s] SYSID h 1504 beta N 3deg  a_lat +0.080 -0.006 m/s^2  q 8089  c_model 0.00042
+[  221.5s] pad cleared: clearpad 0
+[  226.1s] IGNITION h=887m vz=-126.7 vh=2.8 offset=50m cda=17.77
+[  229.0s] pad cleared: clearpad 0
+[  259.3s] RESULT PASS miss=0.9m v_td=0.29m/s upright=0.999 fuel_left=159 parts=22 VesselSituation.landed
+[  259.3s] event ('ignition', 887, np.float64(-126.7), 50)
+[  259.3s] aim offset updated: ignition along -49 m cross -8 m -> offsets +69 / +15 m
+drag calibration (35 flights): 2km:0.88 6km:0.88 10km:0.89 14km:0.79 18km:0.91 22km:0.91 26km:0.92 30km:0.52 34km:0.43 38km:0.45 42km:0.74 46km:0.43 50km:0.38 54km:0.40 58km:0.41 62km:0.43 66km:0.45 70km:0.95
+shot: screenshots/20261019_213343_orbit_T-WorksFinePayload.png

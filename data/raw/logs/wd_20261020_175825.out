@@ -1,0 +1,58 @@
+[    0.1s] loading checkpoint g5_entry
+tools/orbit_recover.py:51: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  if mm.name == "ModuleAnimateGeneric" and mm.has_event(ev):
+tools/orbit_recover.py:52: DeprecationWarning: SpaceCenter.Module.trigger_event is deprecated: Filter Module.event_list by PartEvent.gui_name and call PartEvent.trigger instead.
+  mm.trigger_event(ev)
+[   51.8s] drag tables measured: CdA@10km out 28.6 / in 13.4 m^2 (airbrake angle)
+[   55.9s] CoM height above leg feet: 7.59 m, footprint radius 3.1 m, tip-over angle 22 deg
+[   55.9s] grid fins: mounting outward, authority -100% (engine-first flight reverses control surfaces)
+[   55.9s] learned aim offset: +0 m (29 flights)
+[   55.9s] drag modulation: CdA out 28.6 in 13.395416502131889
+[   56.0s] frozen 0 leading control surfaces
+[   56.3s] drag modulation: airbrakes  70% (out -9604m / in +22717m, k_out 1.00 k_in 1.00)
+[   61.1s] drag modulation: airbrakes  70% (out -9684m / in +22570m, k_out 1.00 k_in 1.00)
+[   71.3s] drag modulation: airbrakes  70% (out -9643m / in +22298m, k_out 1.00 k_in 1.00)
+[   76.5s] drag modulation: airbrakes  70% (out -9589m / in +22072m, k_out 1.00 k_in 1.00)
+[   81.3s] drag modulation: airbrakes  70% (out -9519m / in +21793m, k_out 1.00 k_in 1.00)
+[   86.4s] drag modulation: airbrakes  69% (out -9423m / in +21392m, k_out 1.00 k_in 1.00)
+[   91.5s] drag modulation: airbrakes  69% (out -9296m / in +20852m, k_out 1.00 k_in 1.00)
+[   98.9s] ENTRY BURN start h=44886m v=2081m/s q=1.0kPa
+[   99.0s] entry guidance: cross -0 m, 590 m/s left -> tilt +0.00 deg
+[   99.5s] entry guidance: cross +0 m, 557 m/s left -> tilt -0.00 deg
+[  100.1s] entry guidance: cross +1 m, 526 m/s left -> tilt -0.00 deg
+[  100.5s] entry guidance: cross +1 m, 493 m/s left -> tilt -0.00 deg
+[  101.1s] entry guidance: cross +2 m, 461 m/s left -> tilt -0.00 deg
+[  101.6s] entry guidance: cross +2 m, 427 m/s left -> tilt -0.00 deg
+[  102.1s] entry guidance: cross +2 m, 392 m/s left -> tilt -0.01 deg
+[  102.6s] entry guidance: cross +3 m, 359 m/s left -> tilt -0.01 deg
+[  103.1s] entry guidance: cross +3 m, 325 m/s left -> tilt -0.01 deg
+[  103.6s] entry guidance: cross +3 m, 288 m/s left -> tilt -0.01 deg
+[  104.2s] entry guidance: cross +3 m, 249 m/s left -> tilt -0.01 deg
+[  104.7s] entry guidance: cross +4 m, 213 m/s left -> tilt -0.02 deg
+[  105.3s] entry guidance: cross +4 m, 175 m/s left -> tilt -0.02 deg
+[  105.8s] entry guidance: cross +4 m, 137 m/s left -> tilt -0.03 deg
+[  106.3s] entry guidance: cross +4 m, 99 m/s left -> tilt -0.04 deg
+[  106.8s] entry guidance: cross +4 m, 63 m/s left -> tilt -0.06 deg
+[  107.6s] ENTRY BURN end h=40370m v=1495m/s q=1.0kPa dv flown 590 m/s
+[  107.7s] vernier plan: cross +3 m (along -9497), 61.3 m per m/s -> -0.05 m/s sideways
+[  107.8s] drag modulation: airbrakes  62% (out -9929m / in +16492m, k_out 1.00 k_in 1.00)
+[  111.6s] drag modulation: airbrakes  62% (out -9773m / in +15931m, k_out 1.00 k_in 1.00)
+[  116.9s] drag modulation: airbrakes  61% (out -9492m / in +15019m, k_out 1.00 k_in 1.00)
+[  121.8s] drag modulation: airbrakes  60% (out -9181m / in +13929m, k_out 1.00 k_in 1.00)
+[  121.8s] cross glide: cross +2 m (37 m per m/s) -> side -0.003 m/s^2, tilt -0.0 deg
+[  132.4s] cross glide: cross -2 m (23 m per m/s) -> side 0.006 m/s^2, tilt +0.0 deg
+[  142.9s] cross glide: cross -4 m (18 m per m/s) -> side 0.015 m/s^2, tilt +0.0 deg
+[  152.4s] cross glide: cross -5 m (15 m per m/s) -> side 0.022 m/s^2, tilt +0.1 deg
+[  162.9s] cross glide: cross -4 m (15 m per m/s) -> side 0.020 m/s^2, tilt +0.1 deg
+[  164.1s] drag modulation: airbrakes   0% (out -8092m / in -4970m, k_out 0.92 k_in 1.00)
+[  172.4s] cross glide: cross -4 m (14 m per m/s) -> side 0.020 m/s^2, tilt +0.1 deg
+[  173.5s] drag modulation: airbrakes   0% (out -7458m / in -5580m, k_out 0.92 k_in 0.91)
+[  178.8s] drag modulation: airbrakes   0% (out -7183m / in -5852m, k_out 0.92 k_in 0.91)
+[  237.0s] pad cleared: clearpad 0
+[  245.9s] pad cleared: clearpad 0
+[  246.4s] landing burn: control surfaces released, gimbal only
+[  246.4s] IGNITION h=519m vz=-109.6 vh=5.4 offset=6872m cda=28.14
+[  274.6s] RESULT FAIL miss=6853.6m v_td=0.18m/s upright=-0.107 fuel_left=341 parts=23 VesselSituation.landed
+[  274.6s] event ('ignition', 519, np.float64(-109.6), 6872)
+[  274.6s] smoothness (last 3 km): {'ap_err_rms': 2.16, 'py_rate_rms': 1.43, 'roll_rate_max': 32.4, 'roll_rate_rms': 5.66}
+shot: screenshots/20261020_180302_orbit_T-WorksFineGF2T.png

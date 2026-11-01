@@ -1,0 +1,100 @@
+[    0.1s] loading checkpoint g5_orbit
+[   15.2s] director: on (whole-mission recording, docs/DIRECTOR_SCRIPT.md)
+[   15.2s] flying core: T-WorksFineGF mass 21.6t fuel 918
+[   21.1s] director: dead air, recording paused (UT 149607)
+tools/orbit_recover.py:93: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  if mm.has_event(ev):
+tools/orbit_recover.py:102: DeprecationWarning: SpaceCenter.Module.fields is deprecated: Use Module.field_list instead, filtering by PartField.visible.
+  if any("moving" in str(x).lower() for x in mm.fields.values()):
+tools/orbit_recover.py:104: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  elif mm.has_event("Retract Fins"):
+[   40.8s] drag table out: brakes True, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[   50.8s] drag table out: CdA@10km 27.01 / 27.08 m^2 (repeatability 0.2 %)
+tools/orbit_recover.py:106: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  elif mm.has_event("Extend Fins"):
+[   56.8s] drag table in: read-back mismatch (fins in): re-commanding
+tools/orbit_recover.py:94: DeprecationWarning: SpaceCenter.Module.trigger_event is deprecated: Filter Module.event_list by PartEvent.gui_name and call PartEvent.trigger instead.
+  mm.trigger_event(ev)
+[   61.8s] drag table in: brakes False, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[   70.2s] drag table in: CdA@10km 11.85 / 11.92 m^2 (repeatability 0.6 %)
+[   76.3s] drag table out (restored): read-back mismatch (fins in): re-commanding
+[   81.3s] drag table out (restored): brakes True, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[   88.3s] drag table out: CdA@10km 27.01 before / 27.09 after the IN cycle (re-deploy repeatability 0.3 %)
+[   88.3s] drag tables measured: CdA@10km out 27.0 / in 11.9 m^2 (brakes; repeatability 0.6 %: out 0.2 / in 0.6 / re-deploy 0.3 %)
+[   88.3s] drag calibration applied (3 flights, CA-4 deterministic pre-entry measurement (d8de707), fins out both states; k = measured/raw table)
+[   88.3s] drag table (brakes out) CdA@100m/s,10km=25.6  @2000m/s,40km=156.2
+[   88.3s] core CdA brakes in = 11.85 m^2
+[   88.3s] core CdA (brakes out, 10 km) = 27.01 m^2
+[   90.4s] deorbit plan needs 157 m/s normal (> 30): waiting one revolution
+[   90.6s] director: S6 ORBIT · WIDE (WARP) (UT 149676)
+[   91.2s] director: capture resumed (UT 149676)
+[  176.6s] director: dead air, recording paused (UT 151631)
+[  180.8s] deorbit plan failed (no impact passes the target within the scan window); waiting one revolution
+[  180.8s] director: S6 ORBIT · WIDE (WARP) (UT 151636)
+[  181.0s] director: capture resumed (UT 151636)
+[  265.8s] director: dead air, recording paused (UT 153591)
+[  269.8s] deorbit plan failed (no impact passes the target within the scan window); waiting one revolution
+[  269.8s] director: S6 ORBIT · WIDE (WARP) (UT 153595)
+[  270.1s] director: capture resumed (UT 153595)
+[  353.8s] director: dead air, recording paused (UT 155551)
+[  358.1s] deorbit plan: miss 1m dv 158.2 m/s (retro 149.8 normal 8.4) t_ign +4084s CdA 27.01
+[  360.1s] predicted sun elevation at landing: -78 deg
+[  360.2s] director: S6 ORBIT · WIDE (WARP) (UT 155557)
+[  360.4s] director: capture resumed (UT 155557)
+[  443.5s] director: dead air, recording paused (UT 157512)
+[  449.9s] predicted sun elevation at landing: -77 deg
+[  450.0s] director: S6 ORBIT · WIDE (WARP) (UT 157519)
+[  450.2s] director: capture resumed (UT 157519)
+[  533.0s] director: dead air, recording paused (UT 159475)
+[  537.3s] deorbit re-plan needs 147 m/s normal (> 30); next revolution
+[  537.3s] director: S6 ORBIT · WIDE (WARP) (UT 159479)
+[  537.6s] director: capture resumed (UT 159479)
+[  620.6s] director: dead air, recording paused (UT 161435)
+[  624.7s] deorbit re-plan failed (no impact passes the target within the scan window (dv too s); next revolution
+[  624.9s] director: S6 ORBIT · WIDE (WARP) (UT 161439)
+[  625.2s] director: capture resumed (UT 161439)
+[  707.1s] director: dead air, recording paused (UT 163395)
+[  711.3s] deorbit re-plan needs 154 m/s normal (> 30); next revolution
+[  711.6s] director: S6 ORBIT · WIDE (WARP) (UT 163399)
+[  711.9s] director: capture resumed (UT 163399)
+[  793.7s] director: dead air, recording paused (UT 165355)
+[  799.9s] predicted sun elevation at landing: 77 deg
+[  800.0s] warping 4035s to node
+[  800.2s] director: S6 ORBIT · WIDE (WARP) (UT 165361)
+[  800.4s] director: capture resumed (UT 165361)
+[  966.7s] director: dead air, recording paused (UT 169394)
+[  969.1s] director: S6 ORBIT · WIDE (WARP) (UT 169396)
+[  969.3s] director: capture resumed (UT 169396)
+[  982.3s] director: dead air, recording paused (UT 169454)
+[ 1029.7s] burn skipped: could not align
+[ 1029.7s] node done, remaining nodes 1
+[ 1029.7s] warping 816s to node
+[ 1029.7s] director: S6 ORBIT · WIDE (WARP) (UT 169501)
+[ 1030.0s] director: capture resumed (UT 169501)
+[ 1068.6s] director: dead air, recording paused (UT 170314)
+[ 1071.1s] burn: warping 28s (dv 149.8 m/s, 4.9 s burn)
+[ 1071.2s] director: S6 ORBIT · WIDE (WARP) (UT 170317)
+[ 1071.4s] director: capture resumed (UT 170317)
+[ 1078.0s] director: dead air, recording paused (UT 170342)
+[ 1132.8s] director: S4 ENGINE BURN · SIDE (UT 170397)
+[ 1133.1s] director: capture resumed (UT 170397)
+[ 1160.2s] director: dead air, recording paused (UT 170412)
+[ 1190.4s] burn: no progress for 20 s, 149.8 m/s left - stopping
+[ 1190.5s] burn done: 149.8 m/s planned, 149.84 m/s left
+[ 1190.5s] node done, remaining nodes 0
+[ 1190.5s] learned cross-track offset: +0 m
+[ 1193.7s] vacuum correction 0: predicted miss 906230m (along -898707 cross -116524) spread 1911m, trim 385.899 m/s
+[ 1193.7s] prediction too noisy, no burn
+[ 1197.0s] vacuum correction 1: predicted miss 900730m (along -893111 cross -116908) spread 1816m, trim 381.790 m/s
+[ 1197.0s] prediction too noisy, no burn
+[ 1200.2s] vacuum correction 2: predicted miss 895316m (along -887602 cross -117275) spread 1821m, trim 378.148 m/s
+[ 1200.2s] prediction too noisy, no burn
+[ 1203.5s] vacuum correction 3: predicted miss 889805m (along -881994 cross -117639) spread 1838m, trim 373.750 m/s
+[ 1203.5s] prediction too noisy, no burn
+[ 1206.8s] vacuum correction 4: predicted miss 884400m (along -876495 cross -117985) spread 1819m, trim 370.161 m/s
+[ 1206.8s] prediction too noisy, no burn
+[ 1210.0s] vacuum correction 5: predicted miss 878989m (along -870989 cross -118320) spread 1844m, trim 366.435 m/s
+[ 1210.0s] prediction too noisy, no burn
+[ 1210.1s] warping to entry interface
+[ 1210.1s] director: S6 ORBIT · WIDE (WARP) (UT 170462)
+[ 1210.7s] director: capture resumed (UT 170462)

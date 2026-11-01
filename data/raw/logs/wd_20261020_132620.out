@@ -1,0 +1,13 @@
+[    0.1s] loading checkpoint g5_term
+[   22.1s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   22.1s] learned aim offset: +0 m (29 flights)
+[   22.2s] drag modulation: CdA out 29.5 in 8.012617189052376
+[   22.2s] frozen 0 leading control surfaces
+[   27.3s] pad cleared: clearpad 1
+[   36.5s] landing burn: control surfaces released, gimbal only
+[   36.5s] IGNITION h=606m vz=-94.1 vh=2.6 offset=36m cda=28.23
+[   36.7s] pad cleared: clearpad 0
+[   67.2s] RESULT PASS miss=5.2m v_td=0.06m/s upright=1.000 fuel_left=54 parts=26 VesselSituation.landed
+[   67.2s] event ('ignition', 606, np.float64(-94.1), 36)
+[   67.3s] smoothness (last 3 km): {'ap_err_rms': 4.17, 'py_rate_rms': 2.27, 'roll_rate_max': 3.6, 'roll_rate_rms': 0.21}
+shot: screenshots/20261020_132730_orbit_T-WorksFineGF.png

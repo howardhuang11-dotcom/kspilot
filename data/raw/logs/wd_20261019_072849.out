@@ -1,0 +1,14 @@
+[    0.1s] loading checkpoint g5_orbit
+[   22.6s] flying core: T-WorksFinePayload mass 19.9t fuel 836
+[   40.4s] drag calibration applied (3 flights)
+[   40.4s] drag table (brakes out) CdA@100m/s,10km=17.7  @2000m/s,40km=139.9
+[   40.4s] core CdA brakes in = 6.36 m^2
+[   40.4s] core CdA (brakes out, 10 km) = 19.34 m^2
+[   42.6s] deorbit plan: miss 1m dv 142.8 m/s (retro 138.4 normal 4.4) t_ign +2882s CdA 19.34
+[   42.6s] warping 1872s to node
+[  186.7s] node done, remaining nodes 1
+[  186.7s] warping 823s to node
+[  311.1s] node done, remaining nodes 0
+[  314.3s] vacuum correction 0: predicted miss 52577m (along -52577 cross -23) spread 0m, trim 10.196 m/s
+[  314.3s] warping to entry interface
+[  324.9s] checkpoint saved: g5_entry

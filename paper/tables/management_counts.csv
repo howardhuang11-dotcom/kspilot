@@ -1,0 +1,42 @@
+key,value,method
+dispatches_total,138,agent-*.meta.json in the session's sub-agent index
+dispatches_depth2,5,sub-agents spawned by sub-agents
+dispatches_model_explicit,28,model named at dispatch
+decision_log_entries,80,level-2 headings in DECISIONS.md
+decision_log_numbered_dr,20,headings naming a DR-nnn record
+decision_log_distinct_dr,16,distinct DR-nnn identifiers anywhere in DECISIONS.md
+lessons_total,78,numbered entries in LESSONS.md
+lessons_citing_earlier_repeat,8,entries that say they repeat or vary an earlier lesson (keyword count)
+secretary_audits_dispatched,8,dispatches whose description names the secretary
+secretary_gaps_hours,2.28;1.95;1.98;4.67;12.73;3.27;1.35,hours between consecutive secretary dispatches
+andons_recorded,6,EVENTS kind andon
+mishap_investigations,4,EVENTS kind mishap
+gate_events_listed,16,EVENTS kind gate (listed in the decision record headings)
+role:Andon panel,3,dispatch role
+role:Direction audit,3,dispatch role
+role:Investigator,12,dispatch role
+role:Responsible engineer,84,dispatch role
+"role:Review, red team, QA",28,dispatch role
+role:Secretary,8,dispatch role
+"workstream:Ascent, orbit and flight operations",23,dispatch workstream
+workstream:Docking and rendezvous,11,dispatch workstream
+"workstream:Landing, entry and aerodynamics",29,dispatch workstream
+workstream:Process oversight,11,dispatch workstream
+"workstream:Recording, HUD and video",28,dispatch workstream
+workstream:Report and release,36,dispatch workstream
+decision_class:andon or mishap,9,decision-log class
+decision_class:gate or flight result,20,decision-log class
+decision_class:numbered decision (DR),16,decision-log class
+"decision_class:other decision, correction or status",27,decision-log class
+decision_class:secretary or direction audit,8,decision-log class
+lesson_category:Physical insight,4,single coder
+lesson_category:Model and measurement validity,17,single coder
+lesson_category:Operations and infrastructure,12,single coder
+lesson_category:Reporting and conduct,8,single coder
+lesson_category:Control-software logic,23,single coder
+lesson_category:Vehicle and actuator configuration,4,single coder
+lesson_category:Experiment and verification discipline,10,single coder
+lesson_finder:Sub-agent or audit,6,single coder
+lesson_finder:Orchestrator inspection,9,single coder
+lesson_finder:Flight or test outcome,57,single coder
+lesson_finder:Human lead (H.H.),6,single coder

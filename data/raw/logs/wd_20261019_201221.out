@@ -1,0 +1,27 @@
+[    0.1s] loading checkpoint g5_entry
+[   19.3s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   19.3s] learned aim offset: +84 m (21 flights)
+[   19.3s] drag modulation: CdA out 21.6 in 7.022900071911554
+[   19.3s] frozen 0 leading control surfaces
+[   19.6s] drag modulation: brakes IN (out -1059m / in +28671m, k_out 1.00 k_in 1.00)
+[   71.9s] drag modulation: brakes OUT (out -94m / in +29019m, k_out 1.00 k_in 0.98)
+[   72.5s] drag modulation: brakes IN (out -131m / in +28942m, k_out 1.00 k_in 0.98)
+[   72.9s] drag modulation: brakes OUT (out -35m / in +29014m, k_out 1.00 k_in 0.98)
+[   75.5s] drag modulation: brakes IN (out -132m / in +28640m, k_out 1.00 k_in 0.98)
+[   78.2s] drag modulation: brakes OUT (out -81m / in +28417m, k_out 1.00 k_in 0.98)
+[   80.3s] ENTRY BURN start h=44892m v=2097m/s q=1.1kPa
+[   87.2s] ENTRY BURN end h=41339m v=1501m/s q=0.9kPa dv flown 595 m/s
+[   87.4s] drag modulation: brakes IN (out -1749m / in +24725m, k_out 1.00 k_in 0.98)
+[  107.2s] drag modulation: brakes OUT (out -30m / in +25975m, k_out 1.00 k_in 0.86)
+[  107.7s] range trim: retro pulse #1 (out +88m)
+[  143.2s] drag modulation: brakes IN (out -330m / in +4648m, k_out 1.00 k_in 0.86)
+[  146.3s] drag modulation: brakes OUT (out -109m / in +3981m, k_out 1.00 k_in 0.86)
+[  154.6s] range trim: retro pulse #6 (out +99m)
+[  221.5s] pad cleared: clearpad 0
+[  228.7s] pad cleared: clearpad 0
+[  229.3s] IGNITION h=479m vz=-124.0 vh=2.5 offset=45m cda=17.63
+[  253.3s] RESULT PASS miss=8.9m v_td=0.31m/s upright=1.000 fuel_left=187 parts=22 VesselSituation.landed
+[  253.3s] event ('ignition', 479, np.float64(-124.0), 45)
+[  253.3s] aim offset updated: ignition along -39 m cross +23 m -> offsets +57 / +0 m
+drag calibration (32 flights): 2km:0.88 6km:0.88 10km:0.88 14km:0.82 18km:0.91 22km:0.91 26km:0.92 30km:0.37 34km:0.35 38km:0.36 42km:0.73 46km:0.63 50km:0.38 54km:0.40 58km:0.41 62km:0.43 66km:0.45 70km:0.95
+shot: screenshots/20261019_201637_orbit_T-WorksFinePayload.png

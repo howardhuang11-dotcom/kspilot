@@ -1,0 +1,14 @@
+[   39.9s] daylight: sun elevation 24.3 deg (target 25)
+[   43.0s] stage 3: ΔV  888 m/s (vacuum 1044) TWR sea level 1.73 burn  42s mass 92.7→59.4t
+[   43.0s] stage 2: ΔV 3693 m/s (vacuum 4213) TWR sea level 1.09 burn 190s mass 53.1→13.9t
+[   43.0s] low-TWR gravity loss +187 m/s
+[   43.0s] ascent+insertion requirement ≈ 3620 m/s  (vacuum equivalent)
+[   43.0s] recovery stage: dry 11.4t wet 59.4t engines 1 landing legs 4 CdA≈9.76m² terminal velocity≈142m/s landing TWR≈4.6
+[   43.0s] recovery requirement ≈ 1063 m/s  (deorbit+entry burn+landing burn+margin)
+[   43.0s] recovery propellant 4.60t  (≈414 LF , for payload 2.48t  of the recovery stage after separation); expected remaining in orbit 8.35t , remaining after landing 3.75t  (≈338 LF )
+[   43.0s] ascent available ΔV 4201 m/s  (recovery propellant deducted, with payload), ascent required 3620 m/s , margin +580 m/s  (recovery side +661 m/s )
+[   43.0s] verdict: [ok] go
+[   43.0s] director: on (whole-mission recording, docs/DIRECTOR_SCRIPT.md)
+[   43.1s] director: S1 PAD TRACKING CAMERA (UT 167927)
+[   45.5s] obsrec: time map -> videos/obs/orbit_T-WorksFineGF-LIT_20261021-222246.timemap.csv
+[   45.9s] RESULT REFUSED (OBS recording failed: RecError('KSP window not found by OBS (is KSP running and on screen?); refusing to record'))

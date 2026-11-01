@@ -1,0 +1,7 @@
+[   15.6s] stage 0: ΔV 1269 m/s (vacuum 1355) TWR sea level 3.56 burn  28s mass 16.3→10.6t
+[   15.6s] ascent+insertion requirement ≈ 3434 m/s  (vacuum equivalent)
+[   15.6s] recovery stage: dry 20.0t wet 22.0t engines 1 landing legs 4 CdA≈4.17m² terminal velocity≈287m/s landing TWR≈2.6
+[   15.6s] recovery requirement ≈ 1418 m/s  (deorbit+entry burn+landing burn+margin)
+[   15.6s] total available ΔV 1186 m/s , total required 4852 m/s , margin -3666 m/s
+[   15.6s] verdict: [no] launch refused — ΔV short 3666 m/s
+[   15.6s] RESULT REFUSED (pre-launch check)

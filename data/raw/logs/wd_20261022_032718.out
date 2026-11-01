@@ -1,0 +1,20 @@
+[    0.1s] load: r1_hold_1km
+[   17.4s]   id 2      #autoLOC_501232                    orbiting     ship     Kerbin Ap     80.1 km Pe     79.8 km inc    0.00 deg
+[   17.4s]   id 4      Ariane 5                           orbiting     ship     Kerbin Ap    150.3 km Pe    149.6 km inc   10.00 deg
+[   17.4s] * id 1      R1-Chaser                          orbiting     probe    Kerbin Ap    100.4 km Pe    100.2 km inc    0.11 deg
+[   17.4s]   id 17     R1-Station                         orbiting     probe    Kerbin Ap    100.3 km Pe    100.2 km inc    0.11 deg
+[   17.4s]   id 3      T-TinCanAsparagus                  orbiting     probe    Kerbin Ap    100.6 km Pe     99.4 km inc    6.00 deg
+[   17.4s]   id 11     T-WorksFineGF relay satellite                 orbiting     relay    Kerbin Ap    100.1 km Pe     99.3 km inc    6.00 deg
+[   17.4s]   id 12     T-WorksFineGF relay satellite                 orbiting     relay    Kerbin Ap    100.6 km Pe     99.9 km inc    6.07 deg
+[   17.4s]   id 15     T-WorksFineGF-DOCK probe             orbiting     probe    Kerbin Ap    100.8 km Pe     99.9 km inc    6.05 deg
+[   17.4s]   id 16     T-WorksFineGF-DOCK probe             orbiting     probe    Kerbin Ap    100.7 km Pe     99.9 km inc    6.07 deg
+[   17.4s]   id 13     T-WorksFineGF-LIT relay satellite             orbiting     relay    Kerbin Ap    100.6 km Pe     99.9 km inc    6.01 deg
+[   17.4s]   id 14     T-WorksFineGF-LIT relay satellite             orbiting     relay    Kerbin Ap    100.5 km Pe    100.0 km inc    6.05 deg
+[   17.4s]   id 5      T-WorksFinePayload                 sub_orbital  relay    Kerbin Ap     80.0 km Pe     63.8 km inc    1.10 deg
+[   17.4s]   id 9      T-WorksFinePayload                 orbiting     relay    Kerbin Ap    108.2 km Pe    108.1 km inc    6.00 deg
+[   17.4s]   id 6      T-WorksFinePayload relay satellite            orbiting     relay    Kerbin Ap     84.8 km Pe     79.3 km inc    0.01 deg
+[   17.4s]   id 7      T-WorksFinePayload relay satellite            orbiting     relay    Kerbin Ap     85.5 km Pe     84.8 km inc    0.01 deg
+[   17.4s]   id 8      T-WorksFinePayload relay satellite            orbiting     relay    Kerbin Ap     85.5 km Pe     84.8 km inc    0.01 deg
+[   17.4s]   id 10     T-WorksFinePayload relay satellite            orbiting     relay    Kerbin Ap     99.9 km Pe     99.4 km inc    6.00 deg
+[   17.5s] load: active R1-Chaser, target R1-Station (id 17): distance 1153 m, rho [   49.2 -1151.8     2.2] m, |rhod| 0.292 m/s, MonoPropellant 50.0 u, RCS False
+[   17.5s] RESULT PASS load r1_hold_1km (active R1-Chaser)

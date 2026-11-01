@@ -1,0 +1,13 @@
+[    0.1s] loading checkpoint g5_entry
+[   19.5s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   19.5s] learned aim offset: +69 m (29 flights)
+[   19.5s] drag modulation: CdA out 21.6 in 7.022900071911554
+[   19.5s] frozen 0 leading control surfaces
+[   19.8s] drag modulation: brakes IN (out -1957m / in +28428m, k_out 1.00 k_in 1.00)
+[   80.7s] ENTRY BURN start h=44859m v=2104m/s q=1.1kPa
+[   87.6s] ENTRY BURN end h=41308m v=1515m/s q=0.9kPa dv flown 591 m/s
+[   87.8s] drag modulation: brakes IN (out -1320m / in +26663m, k_out 1.00 k_in 0.94)
+[  102.6s] drag modulation: brakes OUT (out -60m / in +26863m, k_out 1.00 k_in 0.91)
+[  105.8s] drag modulation: brakes IN (out -361m / in +25651m, k_out 1.02 k_in 0.91)
+[  107.8s] drag modulation: brakes OUT (out -91m / in +25172m, k_out 1.02 k_in 0.91)
+[  108.8s] range trim: retro pulse #1 (out +237m)

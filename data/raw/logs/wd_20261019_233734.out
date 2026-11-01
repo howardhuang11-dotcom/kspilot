@@ -1,0 +1,27 @@
+[    0.1s] loading checkpoint g5_entry
+[   21.3s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   21.4s] learned aim offset: +0 m (29 flights)
+[   21.4s] drag modulation: CdA out 21.6 in 7.023654314293449
+[   21.5s] frozen 0 leading control surfaces
+[   21.8s] drag modulation: brakes IN (out -953m / in +29030m, k_out 1.00 k_in 1.00)
+[   74.0s] drag modulation: brakes OUT (out +5m / in +28859m, k_out 1.00 k_in 1.01)
+[   76.2s] drag modulation: brakes IN (out -61m / in +28651m, k_out 1.00 k_in 1.01)
+[   79.7s] drag modulation: brakes OUT (out +2m / in +28414m, k_out 1.00 k_in 1.01)
+[   81.9s] drag modulation: brakes IN (out -49m / in +28101m, k_out 1.00 k_in 1.01)
+[   82.7s] ENTRY BURN start h=44917m v=2096m/s q=1.1kPa
+[   82.8s] entry guidance: cross +2 m, 590 m/s left -> tilt -0.00 deg
+[   83.3s] entry guidance: cross +3 m, 551 m/s left -> tilt -0.01 deg
+[   83.8s] entry guidance: cross +1 m, 510 m/s left -> tilt -0.00 deg
+[   84.3s] entry guidance: cross -0 m, 470 m/s left -> tilt +0.00 deg
+[   84.9s] entry guidance: cross -2 m, 426 m/s left -> tilt +0.01 deg
+[   85.4s] entry guidance: cross -2 m, 385 m/s left -> tilt +0.00 deg
+[   85.9s] entry guidance: cross -1 m, 341 m/s left -> tilt +0.00 deg
+[   86.4s] entry guidance: cross -2 m, 295 m/s left -> tilt +0.01 deg
+[   86.9s] entry guidance: cross -3 m, 251 m/s left -> tilt +0.01 deg
+[   87.5s] entry guidance: cross -4 m, 204 m/s left -> tilt +0.02 deg
+[   88.0s] entry guidance: cross -5 m, 156 m/s left -> tilt +0.03 deg
+[   88.6s] entry guidance: cross -5 m, 107 m/s left -> tilt +0.04 deg
+[   89.1s] entry guidance: cross -4 m, 58 m/s left -> tilt +0.07 deg
+[   89.7s] ENTRY BURN end h=41337m v=1510m/s q=0.9kPa dv flown 595 m/s
+[   89.8s] vernier plan: cross -4 m (along -695), 66.2 m per m/s -> 0.06 m/s sideways
+[   90.0s] drag modulation: brakes IN (out -1683m / in +24520m, k_out 1.00 k_in 1.01)

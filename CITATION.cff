@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "kspilot: an autonomous launch-and-booster-return controller for Kerbal Space Program: system and development report"
+type: software
+authors:
+  - family-names: Huang
+    given-names: Howard
+    email: howardhuang11@outlook.com
+    affiliation: "Independent researcher, Adelaide, Australia"
+  - given-names: "Claude"
+    affiliation: "Claude (AI system developed by Anthropic)"
+version: 1.0.0
+license: GPL-3.0-or-later
+repository-code: "https://github.com/howardhuang11-dotcom/kspilot"
+abstract: >-
+  kspilot is an autonomous flight system for the spaceflight game Kerbal Space
+  Program. Through the kRPC interface it launches a vehicle to a commanded
+  orbit, releases the payload, and returns the core stage to a powered
+  vertical landing on the launch pad. The release includes the flight
+  software, an in-game helper plugin, offline tests and simulators, vehicle
+  definitions, and a technical report with the analysis script that
+  regenerates its statistics from the raw flight records.
+keywords:
+  - autonomous landing
+  - powered descent guidance
+  - return to launch site
+  - reusable launch vehicle
+  - Kerbal Space Program
+  - kRPC
+preferred-citation:
+  type: report
+  title: "kspilot: an autonomous launch-and-booster-return controller for Kerbal Space Program: system and development report"
+  authors:
+    - family-names: Huang
+      given-names: Howard
+      email: howardhuang11@outlook.com
+      affiliation: "Independent researcher, Adelaide, Australia"
+    - given-names: "Claude"
+      affiliation: "Claude (AI system developed by Anthropic)"
+  year: 2026
+  month: 10
+  notes: "System and development report distributed with the software (paper/kspilot_report.md, version 2.3). The results are from development flights in a simulation game. Licensed under CC BY-SA 4.0 (the code is GPL-3.0-or-later). Claude is listed for transparency."

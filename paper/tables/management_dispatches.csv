@@ -1,0 +1,139 @@
+index,dispatch_local_acdt,role,workstream,spawn_depth,model_setting
+1,2026-10-19 01:01,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+2,2026-10-19 01:01,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+3,2026-10-19 01:31,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+4,2026-10-19 01:31,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+5,2026-10-20 15:04,"Review, red team, QA","Recording, HUD and video",1,inherited
+6,2026-10-20 15:04,"Review, red team, QA","Recording, HUD and video",1,inherited
+7,2026-10-20 15:04,"Review, red team, QA","Recording, HUD and video",1,inherited
+8,2026-10-20 16:21,"Review, red team, QA","Recording, HUD and video",1,inherited
+9,2026-10-20 19:14,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+10,2026-10-20 20:56,"Review, red team, QA","Landing, entry and aerodynamics",1,inherited
+11,2026-10-20 20:56,Direction audit,Process oversight,1,inherited
+12,2026-10-20 21:01,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+13,2026-10-20 21:35,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+14,2026-10-20 22:18,"Review, red team, QA","Landing, entry and aerodynamics",1,inherited
+15,2026-10-20 22:34,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+16,2026-10-20 23:04,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+17,2026-10-20 23:15,Direction audit,Process oversight,1,inherited
+18,2026-10-20 23:16,Secretary,Process oversight,1,inherited
+19,2026-10-20 23:36,Investigator,"Landing, entry and aerodynamics",1,inherited
+20,2026-10-20 23:43,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+21,2026-10-20 23:51,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+22,2026-10-21 00:03,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+23,2026-10-21 00:03,Investigator,"Landing, entry and aerodynamics",1,inherited
+24,2026-10-21 00:07,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+25,2026-10-21 00:19,Investigator,"Landing, entry and aerodynamics",1,inherited
+26,2026-10-21 00:25,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+27,2026-10-21 00:54,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+28,2026-10-21 01:32,Secretary,Process oversight,1,inherited
+29,2026-10-21 01:34,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+30,2026-10-21 01:34,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+31,2026-10-21 01:34,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+32,2026-10-21 01:36,Responsible engineer,"Recording, HUD and video",1,inherited
+33,2026-10-21 01:53,Responsible engineer,"Recording, HUD and video",1,inherited
+34,2026-10-21 02:12,Responsible engineer,"Recording, HUD and video",1,inherited
+35,2026-10-21 02:57,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+36,2026-10-21 03:08,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+37,2026-10-21 03:17,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+38,2026-10-21 03:17,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+39,2026-10-21 03:22,Responsible engineer,"Recording, HUD and video",1,inherited
+40,2026-10-21 03:29,Secretary,Process oversight,1,inherited
+41,2026-10-21 03:47,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+42,2026-10-21 03:56,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+43,2026-10-21 04:03,Responsible engineer,"Recording, HUD and video",1,inherited
+44,2026-10-21 04:21,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+45,2026-10-21 04:32,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+46,2026-10-21 05:28,Secretary,Process oversight,1,sonnet
+47,2026-10-21 05:30,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+48,2026-10-21 05:30,Responsible engineer,"Ascent, orbit and flight operations",1,sonnet
+49,2026-10-21 05:46,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+50,2026-10-21 05:50,Investigator,"Ascent, orbit and flight operations",1,inherited
+51,2026-10-21 05:50,"Review, red team, QA","Ascent, orbit and flight operations",1,sonnet
+52,2026-10-21 05:56,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+53,2026-10-21 07:19,Responsible engineer,Docking and rendezvous,1,inherited
+54,2026-10-21 07:54,Responsible engineer,"Ascent, orbit and flight operations",1,sonnet
+55,2026-10-21 09:26,Responsible engineer,"Recording, HUD and video",1,inherited
+56,2026-10-21 09:26,Responsible engineer,"Recording, HUD and video",1,inherited
+57,2026-10-21 10:08,Responsible engineer,"Recording, HUD and video",1,inherited
+58,2026-10-21 10:08,Secretary,Process oversight,1,sonnet
+59,2026-10-21 10:09,Investigator,"Ascent, orbit and flight operations",1,sonnet
+60,2026-10-21 11:04,Investigator,"Recording, HUD and video",1,sonnet
+61,2026-10-21 11:27,"Review, red team, QA","Recording, HUD and video",1,inherited
+62,2026-10-21 11:27,Investigator,"Recording, HUD and video",1,inherited
+63,2026-10-21 11:37,Responsible engineer,"Recording, HUD and video",1,inherited
+64,2026-10-21 12:50,"Review, red team, QA","Recording, HUD and video",1,inherited
+65,2026-10-21 12:59,Responsible engineer,"Recording, HUD and video",1,inherited
+66,2026-10-21 13:12,Direction audit,Process oversight,1,sonnet
+67,2026-10-21 13:13,Responsible engineer,Docking and rendezvous,1,inherited
+68,2026-10-21 14:32,Investigator,"Recording, HUD and video",1,inherited
+69,2026-10-21 14:42,Responsible engineer,"Recording, HUD and video",1,inherited
+70,2026-10-21 15:04,Responsible engineer,"Recording, HUD and video",1,inherited
+71,2026-10-21 15:15,Responsible engineer,"Recording, HUD and video",1,inherited
+72,2026-10-21 16:37,"Review, red team, QA","Recording, HUD and video",1,inherited
+73,2026-10-21 17:01,Responsible engineer,"Recording, HUD and video",1,inherited
+74,2026-10-21 17:26,Responsible engineer,Docking and rendezvous,1,inherited
+75,2026-10-21 19:59,Responsible engineer,"Recording, HUD and video",1,inherited
+76,2026-10-21 20:16,Responsible engineer,"Recording, HUD and video",1,inherited
+77,2026-10-21 20:41,"Review, red team, QA","Ascent, orbit and flight operations",1,inherited
+78,2026-10-21 22:52,Secretary,Process oversight,1,sonnet
+79,2026-10-21 22:54,Responsible engineer,Docking and rendezvous,1,inherited
+80,2026-10-21 23:13,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+81,2026-10-21 23:46,"Review, red team, QA","Recording, HUD and video",1,inherited
+82,2026-10-21 23:47,Responsible engineer,"Recording, HUD and video",1,inherited
+83,2026-10-21 23:47,"Review, red team, QA",Report and release,1,inherited
+84,2026-10-21 23:53,Responsible engineer,Report and release,1,inherited
+85,2026-10-21 23:53,Responsible engineer,Report and release,1,opus
+86,2026-10-22 00:10,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+87,2026-10-22 00:17,"Review, red team, QA",Report and release,1,inherited
+88,2026-10-22 00:17,"Review, red team, QA",Report and release,1,inherited
+89,2026-10-22 00:17,"Review, red team, QA",Report and release,1,inherited
+90,2026-10-22 00:29,Responsible engineer,Report and release,1,inherited
+91,2026-10-22 00:29,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+92,2026-10-22 00:43,"Review, red team, QA",Report and release,1,inherited
+93,2026-10-22 01:08,Responsible engineer,Docking and rendezvous,1,inherited
+94,2026-10-22 01:23,Investigator,Docking and rendezvous,1,sonnet
+95,2026-10-22 01:37,Responsible engineer,Report and release,1,opus
+96,2026-10-22 01:38,Responsible engineer,Report and release,1,inherited
+97,2026-10-22 01:41,"Review, red team, QA","Landing, entry and aerodynamics",1,inherited
+98,2026-10-22 01:59,Responsible engineer,Report and release,1,opus
+99,2026-10-22 02:01,"Review, red team, QA",Report and release,1,opus
+100,2026-10-22 02:04,Responsible engineer,Report and release,2,sonnet
+101,2026-10-22 02:06,"Review, red team, QA",Docking and rendezvous,1,inherited
+102,2026-10-22 02:08,Secretary,Process oversight,1,inherited
+103,2026-10-22 02:10,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+104,2026-10-22 02:14,Responsible engineer,"Ascent, orbit and flight operations",1,inherited
+105,2026-10-22 02:20,Responsible engineer,Docking and rendezvous,1,inherited
+106,2026-10-22 02:27,Responsible engineer,Report and release,1,inherited
+107,2026-10-22 02:27,"Review, red team, QA",Report and release,1,inherited
+108,2026-10-22 02:28,Responsible engineer,"Landing, entry and aerodynamics",1,inherited
+109,2026-10-22 02:43,Investigator,Docking and rendezvous,1,inherited
+110,2026-10-22 02:59,Andon panel,"Landing, entry and aerodynamics",1,inherited
+111,2026-10-22 02:59,Andon panel,"Landing, entry and aerodynamics",1,inherited
+112,2026-10-22 02:59,Andon panel,"Landing, entry and aerodynamics",1,inherited
+113,2026-10-22 03:02,Investigator,Docking and rendezvous,1,inherited
+114,2026-10-22 03:29,Responsible engineer,Docking and rendezvous,1,inherited
+115,2026-10-22 03:29,Secretary,Process oversight,1,inherited
+116,2026-10-22 03:29,Responsible engineer,Report and release,1,inherited
+117,2026-10-22 03:32,Responsible engineer,"Landing, entry and aerodynamics",2,inherited
+118,2026-10-22 03:32,Responsible engineer,Report and release,2,inherited
+119,2026-10-22 03:33,Investigator,"Ascent, orbit and flight operations",1,inherited
+120,2026-10-22 03:33,Responsible engineer,Report and release,1,inherited
+121,2026-10-22 03:40,Responsible engineer,Report and release,1,inherited
+122,2026-10-22 03:40,Responsible engineer,Report and release,1,inherited
+123,2026-10-22 13:18,Responsible engineer,Report and release,1,inherited
+124,2026-10-22 13:18,Responsible engineer,Report and release,1,sonnet
+125,2026-10-22 13:59,"Review, red team, QA",Report and release,1,sonnet
+126,2026-10-22 14:02,"Review, red team, QA",Report and release,1,sonnet
+127,2026-10-22 14:37,Responsible engineer,Report and release,1,sonnet
+128,2026-10-22 15:09,Responsible engineer,Report and release,1,sonnet
+129,2026-10-22 17:51,"Review, red team, QA",Report and release,1,sonnet
+130,2026-10-22 17:51,"Review, red team, QA",Report and release,1,sonnet
+131,2026-10-22 18:03,Responsible engineer,Report and release,1,sonnet
+132,2026-10-22 18:05,Responsible engineer,Report and release,2,inherited
+133,2026-10-22 18:05,Responsible engineer,Report and release,2,inherited
+134,2026-10-22 18:34,"Review, red team, QA",Report and release,1,sonnet
+135,2026-10-22 18:44,Responsible engineer,Report and release,1,sonnet
+136,2026-10-22 19:04,"Review, red team, QA",Report and release,1,sonnet
+137,2026-10-22 19:24,"Review, red team, QA",Report and release,1,sonnet
+138,2026-10-22 19:24,Responsible engineer,Report and release,1,sonnet

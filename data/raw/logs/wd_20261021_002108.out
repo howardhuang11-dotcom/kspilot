@@ -1,0 +1,18 @@
+[    0.1s] loading checkpoint g5_term_GF
+[   23.6s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   23.7s] grid fins: mounting inward, authority -100% (engine-first flight reverses control surfaces)
+[   23.7s] learned aim offset: +0 m (29 flights)
+[   23.7s] drag modulation: CdA out 29.3 in 5.008001110556928
+[   23.7s] frozen 0 leading control surfaces
+[   25.0s] heat: 0.39 of max temperature (Grid Fin Medium)
+[   25.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.4 kPa)
+[   29.0s] pad cleared: clearpad 1
+[   33.9s] airflow check: drag vector 0.0 deg off the velocity axis (q 4.8 kPa)
+[   37.5s] landing burn: control surfaces released, gimbal only
+[   37.5s] IGNITION h=645m vz=-94.7 vh=2.7 offset=45m cda=29.22
+[   38.3s] pad cleared: clearpad 0
+[   44.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.1 kPa)
+[   71.3s] RESULT PASS miss=3.6m v_td=0.08m/s upright=1.000 fuel_left=52 parts=26 VesselSituation.landed
+[   71.3s] event ('ignition', 645, np.float64(-94.7), 45)
+[   71.4s] smoothness (last 3 km): {'ap_err_rms': 6.94, 'py_rate_rms': 3.18, 'roll_rate_max': 2.7, 'roll_rate_rms': 0.19}
+shot: screenshots/20261021_002222_orbit_T-WorksFineGF.png

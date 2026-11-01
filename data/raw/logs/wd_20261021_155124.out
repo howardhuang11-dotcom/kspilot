@@ -1,0 +1,121 @@
+[obs_rec] recording 'orbit_T-WorksFineGF' after 0.1s window='[KSP] KSP' (id 7742) brightness=117 free=12.2GB dir=videos/obs
+[    0.6s] obsrec: OBS recording (v3, real time) videos/obs/orbit_T-WorksFineGF_20261021-155126
+[    0.6s] loading checkpoint g5_entry
+[   16.4s] obsrec: time map -> videos/obs/orbit_T-WorksFineGF_20261021-155126.timemap.csv
+tools/orbit_recover.py:95: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  if mm.has_event(ev):
+tools/orbit_recover.py:104: DeprecationWarning: SpaceCenter.Module.fields is deprecated: Use Module.field_list instead, filtering by PartField.visible.
+  if any("moving" in str(x).lower() for x in mm.fields.values()):
+tools/orbit_recover.py:106: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  elif mm.has_event("Retract Fins"):
+[   22.8s] drag table out: brakes True, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[   48.1s] drag table out: CdA@10km 28.52 / 28.70 m^2 (repeatability 0.6 %)
+tools/orbit_recover.py:108: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  elif mm.has_event("Extend Fins"):
+[   54.1s] drag table in: read-back mismatch (fins in): re-commanding
+tools/orbit_recover.py:96: DeprecationWarning: SpaceCenter.Module.trigger_event is deprecated: Filter Module.event_list by PartEvent.gui_name and call PartEvent.trigger instead.
+  mm.trigger_event(ev)
+[   59.1s] drag table in: brakes False, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[   67.0s] drag table in: CdA@10km 11.94 / 12.25 m^2 (repeatability 2.6 %)
+[   67.0s] drag table in: samples 2.6 % apart (> 2 %): re-measuring once
+[   75.2s] drag table in: CdA@10km 12.40 / 12.40 m^2 (repeatability 0.1 %)
+[   81.3s] drag table out (restored): read-back mismatch (fins in): re-commanding
+[   86.3s] drag table out (restored): brakes True, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[   91.8s] WARNING drag table out (restored): attitude not settled after 5 s (error 0.24 deg, rate 0.43 deg/s): sampling anyway
+[   91.8s] drag table out: CdA@10km 28.52 before / 27.54 after the IN cycle (re-deploy repeatability 3.4 %)
+[   91.8s] WARNING drag table out: re-deploy differs 3.4 % but the time budget is spent: no re-measure
+[   91.8s] drag tables measured: CdA@10km out 28.5 / in 12.4 m^2 (brakes; repeatability 3.4 %: out 0.6 / in 0.1 / re-deploy 3.4 %)
+[   91.8s] sun elevation at KSC: 23 deg
+[   95.9s] CoM height above leg feet: 7.41 m, footprint radius 3.1 m, tip-over angle 23 deg
+[   95.9s] grid fins: mounting inward, authority -100% (engine-first flight reverses control surfaces)
+[   95.9s] learned aim offset: +0 m (29 flights)
+[   95.9s] drag modulation: CdA out 28.5 in 12.39866355336883
+[   96.0s] frozen 0 leading control surfaces
+[   97.2s] heat: 0.41 of max temperature (Grid Fin Medium)
+[   97.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.1 kPa)
+[   97.4s] drag modulation: brakes IN (out -3179m / in +31542m, k_out 1.00 k_in 1.00)
+[   97.5s] camera: S8 sun angle 57 -> 91 deg (el 10 -> 10, az 50 -> 85)
+[  100.1s] grid fins: re-extended 4
+[  100.7s] heat: 0.47 of max temperature (Grid Fin Medium)
+[  106.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.2 kPa)
+[  116.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.3 kPa)
+[  126.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.5 kPa)
+[  136.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.8 kPa)
+[  142.4s] ENTRY BURN start h=44901m v=2099m/s q=1.1kPa heat 0.41 (m 20313 kg, Isp 320.0 s)
+[  142.6s] entry guidance: cross -17 m, 590 m/s left -> tilt +0.03 deg
+[  143.6s] entry guidance: cross -18 m, 564 m/s left -> tilt +0.03 deg
+[  144.6s] entry guidance: cross -16 m, 530 m/s left -> tilt +0.03 deg
+[  144.9s] grid fins: re-extended 4
+[  145.7s] entry guidance: cross -13 m, 496 m/s left -> tilt +0.03 deg
+[  146.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.1 kPa)
+[  146.7s] entry guidance: cross -10 m, 462 m/s left -> tilt +0.02 deg
+[  147.7s] entry guidance: cross -8 m, 428 m/s left -> tilt +0.02 deg
+[  148.8s] entry guidance: cross -5 m, 392 m/s left -> tilt +0.01 deg
+[  149.9s] entry guidance: cross -3 m, 357 m/s left -> tilt +0.01 deg
+[  150.9s] entry guidance: cross -2 m, 320 m/s left -> tilt +0.00 deg
+[  151.9s] entry guidance: cross -0 m, 285 m/s left -> tilt +0.00 deg
+[  153.0s] entry guidance: cross +1 m, 248 m/s left -> tilt -0.00 deg
+[  154.0s] entry guidance: cross +2 m, 210 m/s left -> tilt -0.01 deg
+[  155.0s] entry guidance: cross +3 m, 174 m/s left -> tilt -0.01 deg
+[  156.0s] entry guidance: cross +3 m, 137 m/s left -> tilt -0.02 deg
+[  156.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.1 kPa)
+[  157.0s] entry guidance: cross +3 m, 100 m/s left -> tilt -0.03 deg
+[  158.0s] entry guidance: cross +3 m, 62 m/s left -> tilt -0.05 deg
+[  159.6s] ENTRY BURN end h=40498m v=1502m/s q=1.0kPa dv flown 594 m/s (propellant 3500 kg, Isp 320.0 s; thrust-sample sum 594 m/s)
+[  159.8s] vernier plan: cross +2 m (along -2023), 62.4 m per m/s -> -0.04 m/s sideways
+[  159.9s] drag modulation: brakes IN (out -2391m / in +27170m, k_out 1.00 k_in 0.98)
+[  163.2s] grid fins: re-extended 4
+[  166.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.4 kPa)
+[  176.7s] airflow check: drag vector 0.0 deg off the velocity axis (q 2.3 kPa)
+[  181.0s] camera: SIDE sun angle 96 deg (nominal kept)
+[  186.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 4.3 kPa)
+[  187.7s] drag modulation: brakes OUT (out -3m / in +26656m, k_out 1.00 k_in 1.00)
+[  189.8s] range trim: retro pulse #1 (out +242m)
+[  190.0s] grid fins: re-extended 4
+[  193.2s] camera: FRONT sun angle 153 deg (nominal kept)
+[  196.1s] cross glide: cross -1 m (32 m per m/s) along +146 m (0) -> side 0.001 fwd 0.000 m/s^2, tilt 0.0 deg
+[  196.9s] airflow check: drag vector 0.0 deg off the velocity axis (q 7.8 kPa)
+[  203.4s] heat: 0.53 of max temperature (A.I.R.B.R.A.K.E.S)
+[  206.3s] cross glide: cross -0 m (25 m per m/s) along +61 m (0) -> side 0.001 fwd 0.000 m/s^2, tilt 0.0 deg
+[  207.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 13.6 kPa)
+[  207.4s] camera: S8 sun angle 63 -> 90 deg (el 10 -> 10, az 50 -> 80)
+[  216.7s] cross glide: cross +0 m (20 m per m/s) along +47 m (0) -> side -0.000 fwd 0.000 m/s^2, tilt 0.0 deg
+[  217.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 19.2 kPa)
+[  223.2s] camera: SIDE sun angle 96 deg (nominal kept)
+[  227.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 19.5 kPa)
+[  230.0s] hud: MAX-Q 19.9 kPa at T+21693 s
+[  236.2s] cross glide: cross -0 m (15 m per m/s) along -109 m (0) -> side 0.001 fwd 0.000 m/s^2, tilt 0.0 deg
+[  237.3s] camera: D3 sun angle 95 deg (nominal kept)
+[  237.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 12.5 kPa)
+[  240.1s] drag modulation: brakes IN (out -128m / in +3691m, k_out 0.98 k_in 1.00)
+[  243.1s] drag modulation: brakes OUT (out -7m / in +3002m, k_out 0.98 k_in 1.00)
+[  246.2s] cross glide: cross -3 m (16 m per m/s) along +112 m (0) -> side 0.014 fwd 0.000 m/s^2, tilt 0.1 deg
+[  247.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.6 kPa)
+[  252.3s] range trim: retro pulse #6 (out +178m)
+[  256.4s] cross glide: cross -7 m (17 m per m/s) along +100 m (0) -> side 0.029 fwd 0.000 m/s^2, tilt 0.4 deg
+[  257.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.1 kPa)
+[  267.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.9 kPa)
+[  277.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.4 kPa)
+[  287.7s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.6 kPa)
+[  297.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.8 kPa)
+[  307.9s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.8 kPa)
+[  318.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.7 kPa)
+[  318.9s] pad cleared: clearpad 0
+[  323.4s] landing burn: control surfaces released, gimbal only
+[  323.4s] IGNITION h=952m vz=-116.2 vh=0.2 offset=1m cda=25.45
+[  326.0s] camera: S10 drone pre-positioned on the sun side (sun az 91 deg): fixed -0.0973619 -74.5509903 104.5 -0.0972079 -74.5576730 83.1 50
+[  327.3s] pad cleared: clearpad 0
+[  328.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 2.7 kPa)
+[  338.0s] camera: S10 drone view at h_gnd 59.7 m (h 59.7 m, vz -23.3 m/s)
+[  338.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.3 kPa)
+[  358.3s] RESULT PASS miss=1.5m v_td=0.28m/s upright=1.000 fuel_left=331 parts=26 VesselSituation.landed
+[  358.3s] event ('ignition', 952, np.float64(-116.2), 1)
+[  358.4s] smoothness (last 3 km): {'ap_err_rms': 0.76, 'py_rate_rms': 0.19, 'roll_rate_max': 0.1, 'roll_rate_rms': 0.02}
+shot: screenshots/20261021_155725_orbit_T-WorksFineGF.png
+Traceback (most recent call last):
+  File "tools/orbit_recover.py", line 670, in <module>
+    while sc.ut < _td[0] + showrun.TD_TAIL and time.time() - _w0 < 120.0:
+                           ^^^^^^^
+NameError: name 'showrun' is not defined
+[  359.0s] obsrec: flight ended while recording: stopping OBS
+[  360.6s] obsrec: stopped -> videos/obs/orbit_T-WorksFineGF_20261021-155127.mp4 (time map 3318 rows)

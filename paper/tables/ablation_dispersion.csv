@@ -1,0 +1,9 @@
+arm,label,kind,element,save,n,n_crash,n_upright,n_pass,miss_td_median_m,miss_td_max_m,miss_post_settle_median_m,miss_post_settle_max_m,offset_ign_median_m,v_td_median_m_s,v_td_max_m_s,propellant_left_median_kg,propellant_left_min_kg,d_miss_td_median_vs_base_m,d_propellant_median_vs_base_kg,status
+base_mid,baseline,baseline,none,g5_mid,3,0,3,3,0.99,1.04,1.03,1.11,1.80,0.14,0.15,4071.11,4067.78,0.00,0.00,EXPLORATORY
+a_nobrakes,A1 no airbrakes,ablation,airbrakes never deployed in the descent,g5_mid,2,2,0,0,4587.44,4604.51,4574.41,4591.61,4492.41,1.70,1.71,0.00,0.00,4586.45,-4071.11,EXPLORATORY
+b_noglide,A2 no glide,ablation,no glide / ZEM-ZEV below 10 km,g5_mid,2,2,1,0,40.64,63.37,43.77,55.78,81.99,2.94,4.99,1869.44,0.00,39.65,-2201.67,EXPLORATORY
+d_nodraglearn,A3 no drag learning,ablation,in-flight drag scale fixed at nominal,g5_mid,3,0,3,3,1.18,1.20,1.26,1.27,1.06,0.29,0.32,4233.33,4226.67,0.19,162.22,EXPLORATORY
+n_navnoise,D1 nav noise,dispersion,"nav noise: position 5 m, velocity 0.5 m/s (1 sigma, per tick)",g5_mid,3,0,3,3,0.74,0.80,0.80,0.81,14.07,0.60,1.49,4067.78,3911.11,-0.25,-3.33,EXPLORATORY
+k_dragbias,D2 drag bias +20 %,dispersion,guidance drag model x 1.2,g5_mid,3,0,3,3,1.37,1.38,1.44,1.46,1.80,0.14,0.14,4120.00,4047.78,0.38,48.89,EXPLORATORY
+base_entry,baseline (entry),baseline,none,g5_entry,3,0,3,3,1.59,1.61,1.67,1.70,,0.16,0.31,3632.22,3614.44,0.00,0.00,EXPLORATORY
+c_noxrange,A4 no entry x-range,ablation,no entry-burn cross-range steering / vernier,g5_entry,3,0,3,3,1.43,1.63,1.51,1.70,,0.16,0.28,3655.56,3642.22,-0.16,23.33,EXPLORATORY

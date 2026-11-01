@@ -1,0 +1,105 @@
+[    0.1s] loading checkpoint g5_entry
+tools/orbit_recover.py:126: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  if mm.has_event(ev):
+tools/orbit_recover.py:135: DeprecationWarning: SpaceCenter.Module.fields is deprecated: Use Module.field_list instead, filtering by PartField.visible.
+  if any("moving" in str(x).lower() for x in mm.fields.values()):
+tools/orbit_recover.py:137: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  elif mm.has_event("Retract Fins"):
+[   21.5s] drag table out: brakes True, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[   48.3s] drag table out: CdA@10km 28.65 / 28.79 m^2 (repeatability 0.5 %)
+tools/orbit_recover.py:139: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  elif mm.has_event("Extend Fins"):
+[   54.4s] drag table in: read-back mismatch (fins in): re-commanding
+tools/orbit_recover.py:127: DeprecationWarning: SpaceCenter.Module.trigger_event is deprecated: Filter Module.event_list by PartEvent.gui_name and call PartEvent.trigger instead.
+  mm.trigger_event(ev)
+[   59.4s] drag table in: brakes False, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[   67.1s] drag table in: CdA@10km 11.98 / 12.22 m^2 (repeatability 2.0 %)
+[   67.1s] drag table in: samples 2.0 % apart (> 2 %): re-measuring once
+[   76.3s] drag table in: CdA@10km 12.55 / 12.60 m^2 (repeatability 0.4 %)
+[   82.4s] drag table out (restored): read-back mismatch (fins in): re-commanding
+[   87.5s] drag table out (restored): brakes True, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[   90.7s] WARNING drag table out (restored): attitude not settled after 3 s (error 0.51 deg, rate 1.11 deg/s): sampling anyway
+[   90.7s] drag table out: CdA@10km 28.65 before / 27.86 after the IN cycle (re-deploy repeatability 2.8 %)
+[   90.7s] WARNING drag table out: re-deploy differs 2.8 % but the time budget is spent: no re-measure
+[   90.7s] drag tables measured: CdA@10km out 28.7 / in 12.6 m^2 (brakes; repeatability 2.8 %: out 0.5 / in 0.4 / re-deploy 2.8 %)
+[   94.8s] CoM height above leg feet: 7.41 m, footprint radius 3.1 m, tip-over angle 23 deg
+[   94.8s] grid fins: mounting inward, authority -100% (engine-first flight reverses control surfaces)
+[   94.8s] learned aim offset: +0 m (29 flights)
+[   94.8s] drag modulation: CdA out 28.7 in 12.55119397889175
+[   94.9s] frozen 0 leading control surfaces
+[   96.4s] heat: 0.40 of max temperature (Grid Fin Medium)
+[   96.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.1 kPa)
+[   96.7s] drag modulation: brakes IN (out -2340m / in +31368m, k_out 1.00 k_in 1.00)
+[   98.1s] grid fins: re-extended 4
+[   98.4s] heat: 0.45 of max temperature (Grid Fin Medium)
+[  101.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.2 kPa)
+[  106.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.3 kPa)
+[  111.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.5 kPa)
+[  116.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.8 kPa)
+[  119.6s] ENTRY BURN start h=44896m v=2096m/s q=1.1kPa heat 0.40 (m 20326 kg, Isp 320.0 s)
+[  119.7s] entry guidance: cross +12 m, 590 m/s left -> tilt -0.02 deg
+[  120.1s] entry guidance: cross +12 m, 580 m/s left -> tilt -0.02 deg
+[  120.6s] entry guidance: cross +12 m, 546 m/s left -> tilt -0.02 deg
+[  121.2s] entry guidance: cross +13 m, 514 m/s left -> tilt -0.02 deg
+[  121.3s] grid fins: re-extended 4
+[  121.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.2 kPa)
+[  121.7s] entry guidance: cross +13 m, 477 m/s left -> tilt -0.03 deg
+[  122.2s] entry guidance: cross +14 m, 442 m/s left -> tilt -0.03 deg
+[  122.8s] entry guidance: cross +14 m, 406 m/s left -> tilt -0.03 deg
+[  123.3s] entry guidance: cross +14 m, 370 m/s left -> tilt -0.04 deg
+[  123.8s] entry guidance: cross +14 m, 336 m/s left -> tilt -0.04 deg
+[  124.3s] entry guidance: cross +14 m, 301 m/s left -> tilt -0.05 deg
+[  124.8s] entry guidance: cross +14 m, 264 m/s left -> tilt -0.05 deg
+[  125.4s] entry guidance: cross +13 m, 227 m/s left -> tilt -0.06 deg
+[  125.9s] entry guidance: cross +12 m, 188 m/s left -> tilt -0.06 deg
+[  126.4s] entry guidance: cross +11 m, 151 m/s left -> tilt -0.07 deg
+[  126.7s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.1 kPa)
+[  127.0s] entry guidance: cross +10 m, 113 m/s left -> tilt -0.08 deg
+[  127.6s] entry guidance: cross +8 m, 72 m/s left -> tilt -0.11 deg
+[  128.1s] entry guidance: cross +6 m, 31 m/s left -> tilt -0.19 deg
+[  128.3s] ENTRY BURN end h=40289m v=1500m/s q=1.1kPa dv flown 592 m/s (propellant 3496 kg, Isp 320.0 s; thrust-sample sum 594 m/s)
+[  128.5s] vernier plan: cross +4 m (along -938), 61.4 m per m/s -> -0.07 m/s sideways
+[  128.7s] drag modulation: brakes IN (out -1653m / in +26682m, k_out 1.00 k_in 1.00)
+[  129.8s] grid fins: re-extended 4
+[  132.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.4 kPa)
+[  137.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 2.4 kPa)
+[  139.4s] drag modulation: brakes OUT (out -2m / in +26247m, k_out 1.00 k_in 1.02)
+[  140.5s] range trim: retro pulse #1 (out +213m)
+[  140.6s] cross glide: cross +4 m (41 m per m/s) along +227 m (0) -> side -0.007 fwd 0.000 m/s^2, tilt 0.1 deg
+[  140.7s] grid fins: re-extended 4
+[  142.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 4.4 kPa)
+[  145.9s] cross glide: cross +3 m (33 m per m/s) along +140 m (0) -> side -0.007 fwd 0.000 m/s^2, tilt 0.1 deg
+[  147.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 8.0 kPa)
+[  148.2s] heat: 0.51 of max temperature (A.I.R.B.R.A.K.E.S)
+[  150.4s] cross glide: cross +2 m (26 m per m/s) along +91 m (0) -> side -0.004 fwd 0.000 m/s^2, tilt 0.0 deg
+[  152.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 13.6 kPa)
+[  158.9s] cross glide: cross -1 m (21 m per m/s) along +54 m (0) -> side 0.003 fwd 0.000 m/s^2, tilt 0.0 deg
+[  163.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 18.9 kPa)
+[  169.7s] cross glide: cross -3 m (17 m per m/s) along -15 m (0) -> side 0.012 fwd 0.000 m/s^2, tilt 0.0 deg
+[  173.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 18.4 kPa)
+[  175.2s] hud: MAX-Q 19.2 kPa at T+108069 s
+[  179.3s] cross glide: cross -3 m (15 m per m/s) along -128 m (0) -> side 0.014 fwd 0.000 m/s^2, tilt 0.1 deg
+[  183.7s] airflow check: drag vector 0.0 deg off the velocity axis (q 11.0 kPa)
+[  184.8s] drag modulation: brakes IN (out -80m / in +3608m, k_out 0.97 k_in 1.02)
+[  187.4s] grid fins: re-extended 4
+[  187.9s] drag modulation: brakes OUT (out +50m / in +2950m, k_out 0.97 k_in 1.02)
+[  189.1s] cross glide: cross -2 m (15 m per m/s) along +170 m (0) -> side 0.008 fwd 0.000 m/s^2, tilt 0.1 deg
+[  193.3s] range trim: retro pulse #6 (out +195m)
+[  193.9s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.9 kPa)
+[  199.8s] cross glide: cross -2 m (17 m per m/s) along +140 m (0) -> side 0.009 fwd 0.000 m/s^2, tilt 0.1 deg
+[  204.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.3 kPa)
+[  214.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.9 kPa)
+[  224.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.3 kPa)
+[  234.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.7 kPa)
+[  244.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.8 kPa)
+[  254.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.9 kPa)
+[  263.8s] pad cleared: clearpad 0
+[  264.7s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.8 kPa)
+[  271.6s] pad cleared: clearpad 0
+[  272.3s] landing burn: control surfaces released, gimbal only
+[  272.3s] IGNITION h=496m vz=-112.9 vh=0.2 offset=2m cda=25.58
+[  274.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 3.1 kPa)
+[  297.5s] RESULT PASS miss=1.6m v_td=0.16m/s upright=1.000 fuel_left=361 parts=34 VesselSituation.landed
+[  297.5s] event ('ignition', 496, np.float64(-112.9), 2)
+[  297.6s] smoothness (last 3 km): {'ap_err_rms': 0.84, 'py_rate_rms': 0.25, 'roll_rate_max': 0.1, 'roll_rate_rms': 0.02}
+shot: screenshots/20261022_001436_orbit_T-WorksFineGF.png

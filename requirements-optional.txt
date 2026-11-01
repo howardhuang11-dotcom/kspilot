@@ -1,0 +1,6 @@
+# Optional recording and video post-production tools (tools/obs_rec.py, tools/edit_obs.py, tools/edit_video.py).
+# Not needed for guidance, simulation or the test suite.
+# NOTE: obsws-python is licensed GPL-3.0-only. It is not distributed with this project; installing it is the
+# user's choice. External programs used by these tools: OBS Studio with obs-websocket 5, and ffmpeg/ffprobe.
+obsws-python==1.8.0
+Pillow>=10

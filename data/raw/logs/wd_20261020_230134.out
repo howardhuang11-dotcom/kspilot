@@ -1,0 +1,31 @@
+[    0.1s] loading checkpoint g5_mid
+[    7.6s] checkpoint g5_mid loaded and PAUSED 0.6 s after load: h=14021 m (unpaused right before the control loop)
+[    7.7s] grid fins: mounting outward, authority -100% (engine-first flight reverses control surfaces)
+[    7.7s] IDENT mode: steps [6.0, 9.0, 3.0] deg (hold 8 s, gap 3 s), top up, bands ['60-90', '110-140'] kPa (band steps {75.0: [6.0], 125.0: [10.0]}), floor 6000 m, time_to_peak in window 1.5; no belly / drag modulation / cross glide / vernier / q-safety burn
+[    7.7s] learned aim offset: +0 m (29 flights)
+[    7.7s] drag modulation: CdA out 18.0 in 13.726068534287206
+[    7.7s] unpaused: control loop starting at h=14012 m
+[    7.7s] frozen 0 leading control surfaces
+[    8.7s] heat: 0.42 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[    8.7s] airflow check: drag vector 0.0 deg off the velocity axis (q 90.2 kPa)
+[    8.7s] IDENT window open h=13922m q=85.8kPa
+[    8.7s] IDENT step 6 deg (band 75 kPa) h=13922m q=85.8kPa aoa now nan deg
+[    8.7s] IDENT: autopilot time_to_peak 1.5 s at h=13922m
+[   18.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 121.0 kPa)
+[   27.8s] IDENT window closed h=5993m q=87.2kPa: normal glide / landing
+[   27.8s] IDENT: autopilot time_to_peak 5.0 s at h=5993m
+[   28.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 82.5 kPa)
+[   31.8s] landing burn: control surfaces released, gimbal only
+[   31.8s] IGNITION h=4877m vz=-276.1 vh=368.7 offset=996m cda=8.06
+[   39.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 26.1 kPa)
+[   49.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 9.6 kPa)
+[   51.2s] pad cleared: clearpad 0
+[   59.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 3.5 kPa)
+[   60.5s] pad cleared: clearpad 0
+[   69.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.6 kPa)
+[   78.9s] below the expected ground level (off-pad terrain): cut thrust
+[   94.0s] RESULT FAIL miss=2524.3m v_td=1.48m/s upright=1.000 fuel_left=0 parts=0 VesselSituation.splashed
+[   94.0s] event ('ignition', 4877, np.float64(-276.1), 996)
+[   94.0s] IDENT step 6 deg (8.0 s) q 116.5 kPa h 10.9 km: aoa 5.80 (max 9.07, base nan) deg  CdA 4.85 (base nan) m^2  ctl sat 0.76  max |ctl p/y| 1.00 |r| 0.90  t90 1.1 s (of achieved), None s (of command)
+[   94.1s] smoothness (last 3 km): {'ap_err_rms': 13.62, 'py_rate_rms': 1.5, 'roll_rate_max': 0.2, 'roll_rate_rms': 0.04}
+shot: screenshots/20261020_230310_orbit_T-WorksFineGF0T.png

@@ -1,0 +1,9 @@
+2026-10-21 04:54:13 110km T-WorksFineGF 110/110/6  RESULT PASS miss=1.4m fuel=367 orbit=[orbit Ap=110.0km Pe=110.0km inc=6.125 (err Ap -1m Pe -47m)] wd=logs/wd_20261021_043543.out
+2026-10-21 05:08:41 inc0 T-WorksFineGF 100/100/0  RESULT PASS miss=1.6m fuel=375 orbit=[orbit Ap=100.0km Pe=99.9km inc=0.113 (err Ap -11m Pe -63m)] wd=logs/wd_20261021_045413.out
+2026-10-21 05:28:01 inc28 T-WorksFineGF 100/100/28 KSP_MAX_DVN=60 RESULT PASS miss=1.2m fuel=359 orbit=[orbit Ap=100.0km Pe=100.0km inc=28.226 (err Ap +4m Pe -32m)] wd=logs/wd_20261021_050841.out
+2026-10-21 05:46:41 80km T-WorksFineGF 80/80/6 KSP_MAX_DVN=60 RESULT PASS miss=1.9m fuel=389 orbit=[orbit Ap=80.1km Pe=79.8km inc=5.979 (err Ap +84m Pe -151m)] wd=logs/wd_20261021_052801.out
+2026-10-21 05:50:03 inc45 T-WorksFineGF 100/100/45 KSP_MAX_DVN=100 RESULT FAIL miss=- fuel=- orbit=[-] wd=logs/wd_20261021_054641.out
+2026-10-21 06:56:01 inc45 T-WorksFineGF 100/100/45 KSP_MAX_DVN=100 RESULT PASS miss=1.8m fuel=340 orbit=[orbit Ap=100.0km Pe=99.9km inc=45.356 (err Ap -18m Pe -51m)] wd=logs/wd_20261021_063640.out
+2026-10-21 07:15:22 p45 T-WorksFineGF-P45 100/100/6  RESULT PASS miss=1.2m fuel=279 orbit=[orbit Ap=100.0km Pe=99.9km inc=6.184 (err Ap -9m Pe -53m)] wd=logs/wd_20261021_065601.out
+2026-10-21 07:34:13 inc90 T-WorksFineGF 100/100/90 KSP_MAX_DVN=130 RESULT PASS miss=2.3m fuel=292 orbit=[orbit Ap=100.0km Pe=100.0km inc=90.354 (err Ap +6m Pe -19m)] wd=logs/wd_20261021_071522.out
+2026-10-21 07:52:44 p60 T-WorksFineGF-P60 100/100/6  RESULT PASS miss=1.4m fuel=228 orbit=[orbit Ap=100.0km Pe=99.9km inc=5.970 (err Ap -42m Pe -103m)] wd=logs/wd_20261021_073413.out

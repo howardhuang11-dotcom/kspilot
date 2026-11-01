@@ -1,0 +1,20 @@
+[    0.1s] loading checkpoint g5_term
+[   20.0s] CoM height above leg feet: 7.09 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   20.0s] learned aim offset: +0 m (29 flights)
+[   20.0s] drag modulation: CdA out 29.3 in 7.970333153147449
+[   20.0s] frozen 0 leading control surfaces
+[   20.4s] SYSID h 2007 beta N 5deg  a_lat +0.179 -0.136 m/s^2  c_model -0.00770
+[   21.4s] SYSID h 1903 beta N 5deg  a_lat +0.594 -0.607 m/s^2  c_model -0.00572
+[   22.3s] SYSID h 1805 beta N 5deg  a_lat +0.150 +0.015 m/s^2  c_model -0.00572
+[   23.3s] SYSID h 1705 beta N 5deg  a_lat -0.157 -0.368 m/s^2  c_model -0.00353
+[   24.2s] SYSID h 1608 beta N 5deg  a_lat +0.104 -0.675 m/s^2  c_model -0.00193
+[   24.3s] SYSID h 1602 beta N 5deg  a_lat +0.133 -0.684 m/s^2  c_model -0.00193
+[   25.2s] SYSID h 1503 beta N 5deg  a_lat +0.074 -0.462 m/s^2  c_model -0.00111
+[   25.4s] pad cleared: clearpad 1
+[   25.4s] fin steering: 12 trailing surfaces enabled at 1495 m
+[   25.9s] IGNITION h=1442m vz=-100.3 vh=2.5 offset=425m cda=29.22
+[   35.5s] pad cleared: clearpad 0
+[   54.2s] below the expected ground level (off-pad terrain): cut thrust
+[   67.3s] RESULT FAIL miss=513.0m v_td=1.48m/s upright=0.020 fuel_left=65 parts=25 VesselSituation.landed
+[   67.3s] event ('ignition', 1442, np.float64(-100.3), 425)
+shot: screenshots/20261020_002806_orbit_T-WorksFineGF.png

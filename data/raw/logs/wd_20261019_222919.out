@@ -1,0 +1,6 @@
+[    0.1s] loading checkpoint g5_entry
+[   19.1s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   19.1s] learned aim offset: +69 m (29 flights)
+[   19.1s] drag modulation: CdA out 21.6 in 7.022900071911554
+[   19.1s] frozen 0 leading control surfaces
+[   19.4s] drag modulation: brakes IN (out -1956m / in +28429m, k_out 1.00 k_in 1.00)

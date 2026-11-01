@@ -1,0 +1,39 @@
+%% Pandoc template: plain single-column technical report (article class).
+%% Generated document; edit paper/kspilot_report.md, not the .tex output.
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\setmainfont{STIXTwoText}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\newfontfamily\snsym{STIXTwoMath-Regular.otf}% for ≤ ≥ etc., absent from STIX Two Text
+\usepackage{graphicx}
+\usepackage{booktabs,longtable,array,calc}
+\usepackage{needspace}
+\usepackage{xurl}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\setcounter{secnumdepth}{0}% section numbers are written in the headings
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1.6ex plus .5ex}{0.8ex}
+\titlespacing*{\subsection}{0pt}{1.2ex plus .4ex}{0.5ex}
+\newcommand{\snrefsize}{\footnotesize}% reference lists
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setlist[itemize]{itemsep=2pt,topsep=3pt}
+\raggedbottom
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt plus 1pt}
+\emergencystretch=1em
+\newcommand{\snjust}{\leftskip0pt\rightskip0pt\parfillskip0pt plus 1fil\parindent0pt\relax}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\Large\bfseries $title$\par}
+\vspace{1.2em}
+{\small $rfront$\par}
+\end{center}
+\vspace{0.5em}
+$body$
+\end{document}

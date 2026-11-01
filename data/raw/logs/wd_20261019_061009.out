@@ -1,0 +1,14 @@
+[    0.1s] loading checkpoint g5_orbit
+[   20.7s] flying core: T-WorksFinePayload mass 19.9t fuel 836
+[   38.7s] drag table (brakes out) CdA@100m/s,10km=17.7  @2000m/s,40km=140.0
+[   38.7s] core CdA brakes in = 6.35 m^2
+[   38.7s] core CdA (brakes out, 10 km) = 19.36 m^2
+[   40.2s] deorbit plan: miss 1m dv 52.1 m/s (retro 47.8 normal 4.3) t_ign +2549s CdA 19.36
+[   40.2s] warping 1858s to node
+[  184.8s] node done, remaining nodes 1
+[  184.8s] warping 502s to node
+[  302.3s] node done, remaining nodes 0
+[  305.6s] vacuum correction 0: predicted miss 4162m (along +4162 cross -9) spread 6m, trim 0.147 m/s
+[  310.9s] burn done: 0.147 m/s timed pulse 0.44s at 1.0% thrust
+[  316.1s] trim effect 9.95x of prediction -> gain 0.60
+[  316.1s] vacuum correction 1: predicted miss 20678m (along -20678 cross +38) spread 1m, trim 0.783 m/s

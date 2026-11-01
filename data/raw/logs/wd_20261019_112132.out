@@ -1,0 +1,114 @@
+[   15.3s] stage 3: ΔV  898 m/s (vacuum 1056) TWR sea level 1.74 burn  42s mass 91.9→58.5t
+[   15.3s] stage 2: ΔV 3821 m/s (vacuum 4358) TWR sea level 1.11 burn 190s mass 52.3→13.0t
+[   15.3s] ascent+insertion requirement ≈ 3434 m/s  (vacuum equivalent)
+[   15.3s] recovery stage: dry 10.6t wet 58.6t engines 1 landing legs 4 CdA≈9.28m² terminal velocity≈140m/s landing TWR≈5.0
+[   15.3s] recovery requirement ≈ 591 m/s  (deorbit+landing burn+margin)
+[   15.3s] total available ΔV 5415 m/s , total required 4025 m/s , margin +1390 m/s
+[   15.3s] verdict: [ok] go
+[   15.4s] ascent: PVG target Pe=100km Ap=100km inc=6.00 autostage_limit=2
+[   18.1s] MJ: vertical ascent 46.54m/s | alt 0.1km Ap 0.1 Pe -598.4 stage 3 thrust 1572kN mass 91.4t
+[   19.1s] MJ: vertical ascent 34.76m/s | alt 0.1km Ap 0.1 Pe -598.4 stage 3 thrust 1573kN mass 90.2t
+[   20.1s] MJ: vertical ascent 18.79m/s | alt 0.2km Ap 0.2 Pe -598.4 stage 3 thrust 1575kN mass 88.6t
+[   21.1s] MJ: vertical ascent 2.16m/s | alt 0.2km Ap 0.3 Pe -598.4 stage 3 thrust 1579kN mass 87.0t
+[   22.2s] MJ: pitch program 15.61° | alt 0.3km Ap 0.6 Pe -598.4 stage 3 thrust 1583kN mass 85.4t
+[   23.2s] MJ: pitch program 14.73° | alt 0.5km Ap 0.9 Pe -598.4 stage 3 thrust 1590kN mass 83.8t
+[   24.2s] MJ: pitch program 13.85° | alt 0.7km Ap 1.2 Pe -598.4 stage 3 thrust 1597kN mass 82.2t
+[   25.2s] MJ: pitch program 12.98° | alt 0.9km Ap 1.7 Pe -598.4 stage 3 thrust 1606kN mass 80.6t
+[   26.2s] MJ: pitch program 12.11° | alt 1.2km Ap 2.2 Pe -598.4 stage 3 thrust 1616kN mass 79.0t
+[   27.3s] MJ: pitch program 11.22° | alt 1.5km Ap 2.8 Pe -598.3 stage 3 thrust 1627kN mass 77.3t
+[   28.3s] MJ: pitch program 10.33° | alt 1.9km Ap 3.6 Pe -598.2 stage 3 thrust 1640kN mass 75.7t
+[   29.4s] MJ: pitch program 9.45° | alt 2.3km Ap 4.5 Pe -598.1 stage 3 thrust 1653kN mass 74.0t
+[   30.4s] MJ: pitch program 8.58° | alt 2.7km Ap 5.5 Pe -598.0 stage 3 thrust 1667kN mass 72.4t
+[   31.4s] MJ: pitch program 7.69° | alt 3.2km Ap 6.6 Pe -597.9 stage 3 thrust 1681kN mass 70.8t
+[   32.5s] MJ: pitch program 6.81° | alt 3.8km Ap 7.8 Pe -597.7 stage 3 thrust 1696kN mass 69.2t
+[   33.5s] MJ: pitch program 5.94° | alt 4.4km Ap 9.3 Pe -597.5 stage 3 thrust 1710kN mass 67.6t
+[   34.5s] MJ: pitch program 5.05° | alt 5.0km Ap 10.8 Pe -597.3 stage 3 thrust 1725kN mass 66.0t
+[   35.5s] MJ: pitch program 4.15° | alt 5.7km Ap 12.6 Pe -597.0 stage 3 thrust 1739kN mass 64.3t
+[   36.5s] MJ: pitch program 3.25° | alt 6.5km Ap 14.4 Pe -596.7 stage 3 thrust 1753kN mass 62.7t
+[   37.5s] MJ: pitch program 2.33° | alt 7.3km Ap 16.6 Pe -596.4 stage 3 thrust 1766kN mass 61.1t
+[   38.6s] MJ: pitch program 1.68° | alt 8.1km Ap 18.8 Pe -596.0 stage 3 thrust 1778kN mass 59.6t
+[   39.6s] MJ: pitch program 1.06° | alt 9.0km Ap 20.9 Pe -595.6 stage 2 thrust 633kN mass 52.2t
+[   40.6s] MJ: pitch program 0.39° | alt 9.9km Ap 21.9 Pe -595.3 stage 2 thrust 636kN mass 51.8t
+[   41.6s] MJ: stable guidance | alt 10.9km Ap 23.0 Pe -595.1 stage 2 thrust 638kN mass 51.3t
+[   51.8s] MJ: stable guidance | alt 20.9km Ap 36.9 Pe -591.6 stage 2 thrust 648kN mass 47.1t
+[   61.9s] MJ: stable guidance | alt 32.5km Ap 55.9 Pe -585.4 stage 2 thrust 650kN mass 42.9t
+[   72.2s] MJ: stable guidance | alt 46.2km Ap 82.0 Pe -573.4 stage 2 thrust 650kN mass 38.7t
+[   82.3s] MJ: stable guidance | alt 62.0km Ap 116.0 Pe -546.7 stage 2 thrust 650kN mass 34.5t
+[   92.5s] MJ: stable guidance | alt 75.1km Ap 141.3 Pe -502.1 stage 2 thrust 650kN mass 31.3t
+[  103.5s] MJ: stable guidance | alt 83.1km Ap 148.3 Pe -455.8 stage 2 thrust 650kN mass 29.3t
+[  113.7s] MJ: stable guidance | alt 90.2km Ap 143.4 Pe -393.7 stage 2 thrust 650kN mass 27.2t
+[  124.4s] MJ: stable guidance | alt 95.7km Ap 128.2 Pe -312.9 stage 2 thrust 650kN mass 25.1t
+[  135.3s] MJ: stable guidance | alt 99.2km Ap 108.8 Pe -200.4 stage 2 thrust 650kN mass 22.8t
+[  146.2s] MJ: stable guidance | alt 100.0km Ap 100.1 Pe 15.6 stage 2 thrust 650kN mass 20.6t
+[  149.4s] MJ: coast to circularization burn point | alt 99.9km Ap 107.7 Pe 92.1 stage 2 thrust 650kN mass 20.1t
+[  159.7s] MJ: coast to circularization burn point | alt 99.7km Ap 107.7 Pe 92.1 stage 2 thrust 650kN mass 20.1t
+[  170.8s] MJ: coast to circularization burn point | alt 99.4km Ap 107.7 Pe 92.1 stage 2 thrust 650kN mass 20.1t
+[  180.8s] MJ: coast to circularization burn point | alt 99.1km Ap 107.7 Pe 92.1 stage 2 thrust 650kN mass 20.1t
+[  191.0s] MJ: coast to circularization burn point | alt 92.5km Ap 107.7 Pe 92.1 stage 2 thrust 650kN mass 20.1t
+[  201.8s] MJ: coast to circularization burn point | alt 97.9km Ap 107.7 Pe 92.1 stage 2 thrust 650kN mass 20.1t
+[  201.8s] coast: rails warp 528s to apoapsis
+[  249.0s] MJ: coast to circularization burn point | alt 107.6km Ap 107.7 Pe 92.1 stage 2 thrust 650kN mass 20.1t
+[  260.2s] MJ: circularize orbit | alt 107.7km Ap 107.7 Pe 92.1 stage 2 thrust 650kN mass 20.1t
+[  262.4s] orbit Ap=107.7km Pe=92.2km inc=6.000 (err Ap +7697m Pe -7774m)
+[  359.3s] node executor done
+[  359.3s] maneuver planner failed: Brent's rootfinding method: guess does not bracket the root
+[  359.3s] orbit Ap=107.7km Pe=99.9km inc=6.000 (err Ap +7697m Pe -121m)
+[  407.1s] node executor done
+[  407.1s] orbit Ap=100.1km Pe=99.9km inc=6.000 (err Ap +122m Pe -122m)
+[  407.1s] orbit reached in 392s
+[  407.3s] pad cleared: clearpad 0
+[  409.9s] payload released (stage 1)
+[  413.0s] checkpoint saved: g5_orbit
+[  413.1s] flying core: T-WorksFinePayload mass 17.6t fuel 630
+[  432.3s] drag calibration applied (22 flights)
+[  432.3s] drag table (brakes out) CdA@100m/s,10km=19.8  @2000m/s,40km=149.9
+[  432.3s] core CdA brakes in = 6.66 m^2
+[  432.3s] core CdA (brakes out, 10 km) = 21.52 m^2
+[  437.6s] deorbit plan: miss 1m dv 159.4 m/s (retro 150.1 normal 9.3) t_ign +5844s CdA 21.52
+[  437.7s] warping 4827s to node
+[  641.9s] node done, remaining nodes 1
+[  641.9s] warping 824s to node
+[  765.4s] node done, remaining nodes 0
+[  765.4s] learned cross-track offset: -14 m
+[  769.1s] vacuum correction 0: predicted miss 3634m (along +3634 cross -14) spread 23m, trim 0.677 m/s
+[  776.1s] burn done: 0.677 m/s timed pulse 0.60s at 2.9% thrust
+[  781.9s] trim effect 0.95x of prediction -> gain 0.57
+[  781.9s] vacuum correction 1: predicted miss 1561m (along +1561 cross -7) spread 1m, trim 0.289 m/s
+[  786.8s] burn done: 0.289 m/s timed pulse 0.60s at 1.2% thrust
+[  792.8s] trim effect 1.02x of prediction -> gain 0.50
+[  792.9s] vacuum correction 2: predicted miss 654m (along +654 cross -2) spread 21m, trim 0.111 m/s
+[  792.9s] warping to entry interface
+[  803.2s] checkpoint saved: g5_entry
+[  807.3s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[  807.4s] learned aim offset: +134 m (16 flights)
+[  807.4s] drag modulation: CdA out 21.5 in 6.655368581454513
+[  807.4s] frozen 0 leading control surfaces
+[  810.2s] drag modulation: brakes IN (out -867m / in +32947m, k_out 1.00 k_in 1.00)
+[  857.6s] drag modulation: brakes OUT (out -158m / in +35223m, k_out 1.00 k_in 0.85)
+[  861.0s] drag modulation: brakes IN (out -928m / in +34938m, k_out 1.04 k_in 0.85)
+[  871.0s] drag modulation: brakes OUT (out -99m / in +37779m, k_out 1.04 k_in 0.66)
+[  874.7s] drag modulation: brakes IN (out -477m / in +36984m, k_out 1.07 k_in 0.66)
+[  875.4s] ENTRY BURN start h=44910m v=2094m/s q=1.1kPa
+[  882.4s] ENTRY BURN end h=41347m v=1496m/s q=0.9kPa dv flown 597 m/s
+[  882.9s] drag modulation: brakes IN (out -1776m / in +32886m, k_out 1.07 k_in 0.66)
+[  897.0s] drag modulation: brakes OUT (out -95m / in +32648m, k_out 1.07 k_in 0.66)
+[  897.4s] range trim: retro pulse #1 (out +32m)
+[  903.3s] range trim: retro pulse #6 (out +30m)
+[  940.7s] range trim: retro pulse #11 (out +1148m)
+[  946.0s] range trim: retro pulse #16 (out +967m)
+[  951.4s] range trim: retro pulse #21 (out +843m)
+[  956.8s] range trim: retro pulse #26 (out +645m)
+[  962.3s] range trim: retro pulse #31 (out +438m)
+[  967.7s] range trim: retro pulse #36 (out +311m)
+[  973.1s] range trim: retro pulse #41 (out +203m)
+[  978.5s] range trim: retro pulse #46 (out +128m)
+[  984.0s] range trim: retro pulse #51 (out +70m)
+[  989.5s] range trim: retro pulse #56 (out +31m)
+[ 1035.2s] pad cleared: clearpad 0
+[ 1042.6s] pad cleared: clearpad 0
+[ 1044.0s] IGNITION h=386m vz=-117.1 vh=1.0 offset=12m cda=17.32
+[ 1067.1s] RESULT PASS miss=11.1m v_td=0.25m/s upright=1.000 fuel_left=68 parts=22 VesselSituation.landed
+[ 1067.1s] event ('ignition', 386, np.float64(-117.1), 12)
+[ 1067.1s] aim offset updated: ignition along +10 m cross +6 m -> offsets +141 / -10 m
+drag calibration (23 flights): 2km:0.93 6km:0.94 10km:0.95 14km:0.88 18km:0.95 22km:0.95 26km:0.96 30km:0.96 34km:0.61 38km:0.45 42km:0.65 46km:0.82 50km:0.54 54km:0.63 58km:0.49 62km:0.51 66km:0.53 70km:0.95
+shot: screenshots/20261019_113921_orbit_T-WorksFinePayload.png

@@ -1,0 +1,121 @@
+[    0.1s] loading checkpoint g5_orbit
+[   17.8s] flying core: T-WorksFineGF0T mass 21.7t fuel 896
+tools/orbit_recover.py:51: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  if mm.name == "ModuleAnimateGeneric" and mm.has_event(ev):
+[   39.5s] drag tables measured: CdA@10km belly 12 deg 15.5 / straight 11.6 m^2
+[   39.5s] drag table (brakes out) CdA@100m/s,10km=16.0  @2000m/s,40km=40.9
+[   39.5s] core CdA brakes in = 11.62 m^2
+[   39.5s] core CdA (brakes out, 10 km) = 15.54 m^2
+[   40.6s] deorbit plan needs 147 m/s normal (> 30): waiting one revolution
+[   88.2s] deorbit plan failed (no impact passes the target within the scan window); waiting one revolution
+[  136.2s] deorbit plan needs 153 m/s normal (> 30): waiting one revolution
+[  183.7s] deorbit plan: miss 1m dv 158.3 m/s (retro 149.8 normal 8.4) t_ign +4123s CdA 15.54
+[  183.7s] warping 3068s to node
+[  252.8s] burn: warping 30s (dv 8.4 m/s, 0.3 s burn)
+[  324.4s] burn done: 8.4 m/s planned, 0.08 m/s left
+[  324.4s] node done, remaining nodes 1
+[  324.4s] warping 871s to node
+[  348.6s] burn: warping 28s (dv 149.8 m/s, 4.9 s burn)
+[  425.9s] burn done: 149.8 m/s planned, 0.04 m/s left
+[  425.9s] node done, remaining nodes 0
+[  425.9s] learned cross-track offset: +0 m
+[  429.1s] vacuum correction 0: predicted miss 3553m (along +3553 cross +14) spread 0m, trim 0.662 m/s
+[  438.8s] burn done: 0.662 m/s timed pulse 0.60s at 3.5% thrust
+[  444.0s] trim effect 1.01x of prediction -> gain 0.54
+[  444.0s] vacuum correction 1: predicted miss 1404m (along +1404 cross +5) spread 0m, trim 0.246 m/s
+[  449.4s] burn done: 0.246 m/s timed pulse 0.60s at 1.3% thrust
+[  454.6s] trim effect 1.01x of prediction -> gain 0.48
+[  454.6s] vacuum correction 2: predicted miss 642m (along +642 cross +2) spread 1m, trim 0.104 m/s
+[  459.0s] burn done: 0.104 m/s timed pulse 0.33s at 1.0% thrust
+[  464.3s] trim effect 1.02x of prediction -> gain 0.42
+[  464.3s] vacuum correction 3: predicted miss 331m (along +331 cross +1) spread 3m, trim 0.049 m/s
+[  470.0s] burn done: 0.049 m/s timed pulse 0.16s at 1.0% thrust
+[  475.2s] trim effect 1.02x of prediction -> gain 0.37
+[  475.2s] vacuum correction 4: predicted miss 190m (along +190 cross +1) spread 1m, trim 0.026 m/s
+[  475.2s] warping to entry interface
+[  485.5s] checkpoint saved: g5_entry
+[  489.6s] CoM height above leg feet: 7.48 m, footprint radius 2.7 m, tip-over angle 20 deg
+[  489.6s] grid fins: mounting outward, authority -100% (engine-first flight reverses control surfaces)
+[  489.6s] learned aim offset: +0 m (29 flights)
+[  489.6s] drag modulation: CdA out 15.5 in 11.618280363875803
+[  489.6s] frozen 0 leading control surfaces
+[  490.6s] heat: 0.15 of max temperature (SP-L 1x6 solar panel)
+[  524.3s] heat: 0.20 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  534.4s] heat: 0.25 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  540.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.2 kPa)
+[  542.3s] heat: 0.30 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  545.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.4 kPa)
+[  548.8s] heat: 0.36 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  550.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.6 kPa)
+[  554.1s] heat: 0.41 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  555.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.9 kPa)
+[  557.7s] ENTRY BURN start h=44895m v=2101m/s q=1.1kPa heat 0.44
+[  557.8s] entry guidance: cross -0 m, 800 m/s left -> tilt +0.00 deg
+[  558.3s] entry guidance: cross -0 m, 777 m/s left -> tilt +0.00 deg
+[  558.8s] entry guidance: cross +1 m, 744 m/s left -> tilt -0.00 deg
+[  559.4s] entry guidance: cross +4 m, 709 m/s left -> tilt -0.00 deg
+[  559.9s] entry guidance: cross +6 m, 677 m/s left -> tilt -0.01 deg
+[  560.4s] entry guidance: cross +8 m, 644 m/s left -> tilt -0.01 deg
+[  560.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.2 kPa)
+[  560.9s] entry guidance: cross +10 m, 608 m/s left -> tilt -0.01 deg
+[  561.4s] entry guidance: cross +11 m, 573 m/s left -> tilt -0.02 deg
+[  562.0s] entry guidance: cross +12 m, 539 m/s left -> tilt -0.02 deg
+[  562.5s] entry guidance: cross +13 m, 503 m/s left -> tilt -0.02 deg
+[  563.0s] entry guidance: cross +14 m, 468 m/s left -> tilt -0.03 deg
+[  563.6s] entry guidance: cross +14 m, 430 m/s left -> tilt -0.03 deg
+[  564.1s] entry guidance: cross +15 m, 390 m/s left -> tilt -0.03 deg
+[  564.6s] entry guidance: cross +15 m, 352 m/s left -> tilt -0.03 deg
+[  565.2s] entry guidance: cross +15 m, 316 m/s left -> tilt -0.04 deg
+[  565.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.1 kPa)
+[  565.7s] entry guidance: cross +14 m, 276 m/s left -> tilt -0.04 deg
+[  566.3s] entry guidance: cross +14 m, 234 m/s left -> tilt -0.05 deg
+[  566.8s] entry guidance: cross +13 m, 194 m/s left -> tilt -0.05 deg
+[  567.3s] entry guidance: cross +12 m, 156 m/s left -> tilt -0.06 deg
+[  567.9s] entry guidance: cross +10 m, 112 m/s left -> tilt -0.07 deg
+[  568.4s] entry guidance: cross +9 m, 71 m/s left -> tilt -0.09 deg
+[  568.9s] entry guidance: cross +6 m, 31 m/s left -> tilt -0.15 deg
+[  569.3s] ENTRY BURN end h=39062m v=1326m/s q=1.0kPa dv flown 801 m/s
+[  569.3s] vernier plan: cross +4 m (along +5084), 77.0 m per m/s -> -0.05 m/s sideways
+[  569.3s] lift guidance: miss along +3648 cross +6 m -> u up -0.66 side +0.00 (c 4.5e-04 prior, k 0.57)
+[  570.7s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.1 kPa)
+[  571.9s] lift guidance: miss along -1665 cross +6 m -> u up -0.47 side +0.00 (c 4.5e-04 prior, k 0.91)
+[  574.6s] lift guidance: miss along -538 cross +2 m -> u up -0.09 side +0.01 (c 4.5e-04 prior, k 1.28)
+[  575.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.9 kPa)
+[  577.3s] lift guidance: miss along +420 cross +1 m -> u up -0.22 side +0.01 (c 4.5e-04 prior, k 1.10)
+[  579.9s] lift guidance: miss along +261 cross +1 m -> u up -0.31 side +0.01 (c 4.5e-04 prior, k 1.01)
+[  580.9s] airflow check: drag vector 0.0 deg off the velocity axis (q 3.5 kPa)
+[  582.6s] lift guidance: miss along -6 cross +1 m -> u up -0.35 side +0.01 (c 4.5e-04 prior, k 0.99)
+[  585.2s] lift guidance: miss along -34 cross +1 m -> u up -0.34 side +0.01 (c 4.5e-04 prior, k 1.01)
+[  586.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 7.3 kPa)
+[  588.0s] lift guidance: miss along -33 cross +1 m -> u up -0.33 side +0.01 (c 4.5e-04 prior, k 1.03)
+[  590.8s] lift guidance: miss along -23 cross +2 m -> u up -0.32 side +0.01 (c 4.5e-04 prior, k 1.05)
+[  591.9s] airflow check: drag vector 0.0 deg off the velocity axis (q 16.7 kPa)
+[  594.8s] heat: 0.46 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  596.4s] lift guidance: miss along -8 cross +2 m -> u up -0.30 side +0.01 (c 4.5e-04, k 1.08)
+[  601.6s] lift guidance: miss along +8 cross +3 m -> u up -0.30 side +0.01 (c 4.5e-04, k 1.11)
+[  602.2s] heat: 0.52 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[  602.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 39.4 kPa)
+[  607.0s] lift guidance: miss along +27 cross +5 m -> u up -0.30 side +0.02 (c 4.5e-04, k 1.16)
+[  612.3s] lift guidance: miss along +250 cross +6 m -> u up -0.40 side +0.03 (c 4.5e-04, k 1.14)
+[  613.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 85.3 kPa)
+[  617.7s] lift guidance: miss along +404 cross +9 m -> u up -0.74 side +0.05 (c 4.5e-04, k 1.02)
+[  622.9s] lift guidance: miss along +134 cross +11 m -> u up -1.00 side +0.08 (c 4.5e-04, k 1.01)
+[  623.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 137.0 kPa)
+[  628.5s] lift guidance: miss along +489 cross +30 m -> u up -0.99 side +0.10 (c 4.5e-04, k 1.03)
+[  633.7s] airflow check: drag vector 0.0 deg off the velocity axis (q 112.7 kPa)
+[  633.8s] lift guidance: miss along +973 cross +66 m -> u up -0.99 side +0.11 (c 4.5e-04, k 0.99)
+[  639.2s] lift guidance: miss along +1373 cross +111 m -> u up -1.00 side +0.09 (c 4.5e-04, k 1.00)
+[  639.7s] checkpoint saved: g5_term at 3992 m
+[  641.5s] landing burn: control surfaces released, gimbal only
+[  641.5s] IGNITION h=3532m vz=-255.7 vh=319.8 offset=985m cda=9.18
+[  644.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 40.3 kPa)
+[  653.3s] pad cleared: clearpad 1
+[  654.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 8.5 kPa)
+[  662.4s] pad cleared: clearpad 0
+[  664.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 2.3 kPa)
+[  675.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.1 kPa)
+[  680.9s] below the expected ground level (off-pad terrain): cut thrust
+[  696.1s] RESULT FAIL miss=1545.4m v_td=1.48m/s upright=-0.061 fuel_left=145 parts=18 VesselSituation.landed
+[  696.1s] event ('ignition', 3532, np.float64(-255.7), 985)
+[  696.1s] smoothness (last 3 km): {'ap_err_rms': 15.14, 'py_rate_rms': 1.86, 'roll_rate_max': 1.9, 'roll_rate_rms': 0.39}
+shot: screenshots/20261020_205003_orbit_T-WorksFineGF0T.png

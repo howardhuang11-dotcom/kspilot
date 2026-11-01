@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <AssemblyName>AutoLab</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <!-- Game assemblies are referenced from the local KSP install and never copied or shipped.
+       Set KSP_DIR (environment variable or -p:KSP_DIR=...) to the game root; KSPManaged may also be set directly. -->
+  <PropertyGroup Condition="'$(KSP_DIR)' == ''">
+    <KSP_DIR Condition="$([MSBuild]::IsOSPlatform('OSX'))">$(HOME)/Library/Application Support/Steam/steamapps/common/Kerbal Space Program</KSP_DIR>
+    <KSP_DIR Condition="$([MSBuild]::IsOSPlatform('Windows'))">C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program</KSP_DIR>
+    <KSP_DIR Condition="$([MSBuild]::IsOSPlatform('Linux'))">$(HOME)/.steam/steam/steamapps/common/Kerbal Space Program</KSP_DIR>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(KSPManaged)' == ''">
+    <KSPManaged Condition="Exists('$(KSP_DIR)/KSP.app/Contents/Resources/Data/Managed')">$(KSP_DIR)/KSP.app/Contents/Resources/Data/Managed</KSPManaged>
+    <KSPManaged Condition="'$(KSPManaged)' == '' And Exists('$(KSP_DIR)/KSP_x64_Data/Managed')">$(KSP_DIR)/KSP_x64_Data/Managed</KSPManaged>
+    <KSPManaged Condition="'$(KSPManaged)' == '' And Exists('$(KSP_DIR)/KSP_Data/Managed')">$(KSP_DIR)/KSP_Data/Managed</KSPManaged>
+    <KSPManaged Condition="'$(KSPManaged)' == ''">$(KSP_DIR)/KSP_x64_Data/Managed</KSPManaged>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <Reference Include="Assembly-CSharp"><HintPath>$(KSPManaged)/Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(KSPManaged)/UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule"><HintPath>$(KSPManaged)/UnityEngine.ScreenCaptureModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ImageConversionModule"><HintPath>$(KSPManaged)/UnityEngine.ImageConversionModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(KSPManaged)/UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(KSPManaged)/UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(KSPManaged)/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

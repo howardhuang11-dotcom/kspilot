@@ -1,0 +1,40 @@
+[    0.1s] measure: chaser R1-Chaser, target R1-Station (read only, 600 s at 10 Hz)
+[   30.3s] measure: 254/6000 samples
+[   60.4s] measure: 508/6000 samples
+[   90.4s] measure: 762/6000 samples
+[  120.5s] measure: 1013/6000 samples
+[  150.6s] measure: 1265/6000 samples
+[  180.7s] measure: 1520/6000 samples
+[  210.7s] measure: 1774/6000 samples
+[  240.8s] measure: 2029/6000 samples
+[  270.9s] measure: 2285/6000 samples
+[  300.9s] measure: 2536/6000 samples
+[  331.0s] measure: 2791/6000 samples
+[  361.1s] measure: 3045/6000 samples
+[  391.1s] measure: 3299/6000 samples
+[  421.1s] measure: 3553/6000 samples
+[  451.2s] measure: 3805/6000 samples
+[  481.3s] measure: 4057/6000 samples
+[  511.4s] measure: 4310/6000 samples
+[  541.4s] measure: 4563/6000 samples
+[  571.4s] measure: 4816/6000 samples
+[  601.5s] measure: 5071/6000 samples
+[  631.6s] measure: 5326/6000 samples
+[  661.6s] measure: 5580/6000 samples
+[  691.6s] measure: 5833/6000 samples
+[  711.6s] gate A7 rcs rotation off            OK   0 of 4 blocks with rotation on
+[  711.6s] gate A2 thrust centre               OK   axial -0.38 m, lateral 0.00 m from CoM
+[  711.6s] gate rcs force                      FAIL +[0.0, 0.0, 0.0] / -[0.0, 0.0, 0.0] N, max deviation 100 %
+[  711.6s] gate monoprop                       OK   50.0 / 80 u
+[  711.6s] gate chaser port axis = vessel +y   OK   dir [2.4484698990523412e-08, 1.0000000628088346, -4.929356470784185e-07], pos [4.0534067871078605e-06, 9.75041205923206, -2.194051485382431e-06], DockingPortState.ready
+[  711.6s] gate chaser port ready              OK   DockingPortState.ready
+[  711.6s] gate target port ready              OK   DockingPortState.ready
+[  711.6s] gate A3 rpc latency p95             OK   0.020 s (p50 0.013, max 0.307)
+[  711.6s] gate A4 port noise                  FAIL sigma pos 1.2897 m (<= 0.02), vel 0.0048 m/s (<= 0.005), 24 segments
+[  711.6s] relative (LVLH): rho [   48.6 -1157.6     2. ] m, rhod [-0.031 -0.288 -0.008] m/s, distance 1159 m, phase 0.09 deg
+[  711.6s] sigma_pos_port_frame = 0.0071
+[  711.6s] target_axis_drift_inertial_deg = 0.0000
+[  711.6s] target_axis_drift_lvlh_deg = 101.1577
+[  711.6s] ec_rate = 0.1000
+[  711.6s] data: logs/rdv_r1_measure_20261022_015611.json
+[  711.6s] RESULT FAIL measure gates 7 OK / 2 FAIL / 0 NA (rcs force, A4 port noise)

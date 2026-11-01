@@ -1,0 +1,50 @@
+[    0.1s] loading checkpoint g5_orbit
+[   20.2s] flying core: T-WorksFinePayload mass 19.9t fuel 836
+[   38.0s] drag table (brakes out) CdA@100m/s,10km=17.6  @2000m/s,40km=139.9
+[   38.0s] core CdA brakes in = 6.26 m^2
+[   38.0s] core CdA (brakes out, 10 km) = 19.34 m^2
+[   39.6s] deorbit plan: miss 0m dv 52.1 m/s (retro 47.8 normal 4.3) t_ign +2549s CdA 19.34
+[   39.6s] warping 1858s to node
+[  183.1s] node done, remaining nodes 1
+[  183.1s] warping 503s to node
+[  300.7s] node done, remaining nodes 0
+[  303.9s] vacuum correction 0: predicted miss 2682m (along +2682 cross -8) spread 10m, fix dv 0.16 m/s
+[  309.6s] burn done: 0.16 m/s requested, 0.21 m/s achieved
+[  314.8s] vacuum correction 1: predicted miss 274m (along +274 cross -1) spread 11m, fix dv 0.02 m/s
+[  320.0s] vacuum correction 2: predicted miss 274m (along +274 cross -1) spread 10m, fix dv 0.02 m/s
+[  325.1s] vacuum correction 3: predicted miss 269m (along +269 cross -1) spread 2m, fix dv 0.02 m/s
+[  330.3s] vacuum correction 4: predicted miss 271m (along +271 cross -1) spread 3m, fix dv 0.02 m/s
+[  332.4s] warping to entry interface
+[  344.6s] checkpoint saved: g5_entry
+[  348.8s] CoM height above leg feet: 7.20 m
+[  348.8s] drag modulation: CdA out 19.3 in 6.2554009259650245
+[  348.8s] frozen 0 leading control surfaces
+Traceback (most recent call last):
+  File ".venv/lib/python3.12/site-packages/krpc/client.py", line 255, in _build_call
+    value = self._types.coerce_to(value, typ)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ".venv/lib/python3.12/site-packages/krpc/types.py", line 321, in coerce_to
+    raise ValueError(
+ValueError: Failed to coerce value False of type <class 'numpy.bool'> to type <type: bool>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "tools/orbit_recover.py", line 124, in <module>
+    res = lander.run(timeout=1500)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "kspilot/landing.py", line 345, in run
+    self.drag_modulation(ut)
+  File "kspilot/landing.py", line 223, in drag_modulation
+    self.v.control.brakes = want
+    ^^^^^^^^^^^^^^^^^^^^^
+  File ".venv/lib/python3.12/site-packages/krpc/services/spacecenter.py", line 9198, in brakes
+    return self._client._invoke(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ".venv/lib/python3.12/site-packages/krpc/client.py", line 206, in _invoke
+    call = self._build_call(
+           ^^^^^^^^^^^^^^^^^
+  File ".venv/lib/python3.12/site-packages/krpc/client.py", line 257, in _build_call
+    raise TypeError(
+TypeError: SpaceCenter.Control_set_Brakes() argument 1 must be a <class 'bool'>, got a <class 'numpy.bool'>
+[    0.1s] loading checkpoint g5_orbit

@@ -1,0 +1,40 @@
+time_local_acdt,kind,label,source
+2026-10-20 21:04,andon,Stop after nine failed fins-only flights (retrospective),LESSONS 57
+2026-10-20 21:13,gate,Regression gate 3/3 (DR-001),DECISIONS DR-001
+2026-10-20 21:40,gate,Regression gate after C-mode deletion,DECISIONS
+2026-10-20 22:55,gate,"Readiness review, identification flight (DR-003)",DECISIONS DR-003
+2026-10-20 23:36,mishap,Investigation: Block 1 mission 1 (CA-1 to CA-4),dispatch index
+2026-10-21 00:05,andon,"Second consecutive failure, verification block",DECISIONS
+2026-10-21 00:23,gate,Regression gate 3/3 (CA-3),DECISIONS
+2026-10-21 05:50,andon,Vehicle lost at booster separation (matrix case),DECISIONS MISHAP
+2026-10-21 05:50,mishap,Investigation: separation loss,MISHAP_inc45
+2026-10-21 06:20,gate,Separation test B 3/3 (DR-007),DECISIONS DR-007
+2026-10-21 07:53,gate,Robustness matrix 8/8,DECISIONS
+2026-10-21 10:52,gate,Regression gate (rec v2),DECISIONS
+2026-10-21 12:12,gate,Regression gate (rec v2 fix 2),DECISIONS
+2026-10-21 14:00,gate,Regression gate (fix round 3),DECISIONS
+2026-10-21 14:32,mishap,Investigation: recording-mode stalls,dispatch index
+2026-10-21 14:35,andon,Recording flight 3.8 km short,DECISIONS MISHAP
+2026-10-21 15:52,gate,Entry gates (DR-010),DECISIONS
+2026-10-21 16:15,gate,Entry gate (rec v3),DECISIONS
+2026-10-21 18:00,gate,Reliability block 3/3,DECISIONS
+2026-10-21 21:05,gate,Pad night check (lights),DECISIONS
+2026-10-22 00:30,gate,Offset-aim merge gates,DECISIONS
+2026-10-22 02:19,gate,R1-c review accepted,DECISIONS
+2026-10-22 02:28,andon,Divert plant refuted by flight,DECISIONS
+2026-10-22 02:43,mishap,Investigation: R1-d force-gate abort,MISHAP_R1D
+2026-10-22 03:02,andon,R1-d second consecutive failure,DECISIONS ANDON
+2026-10-22 03:05,exit_rule,Divert: option O4 chosen with automatic O1 fallback,DECISIONS
+2026-10-22 03:25,exit_rule,Exit rule triggered: O1 (flown law frozen),DECISIONS
+2026-10-22 03:28,gate,R1-d power-on gates (third attempt),DECISIONS
+2026-10-20 20:56,audit,Independent direction audit dispatched,dispatch index
+2026-10-20 23:15,audit,Independent direction audit dispatched,dispatch index
+2026-10-20 23:16,secretary,Secretary audit dispatched,dispatch index
+2026-10-21 01:32,secretary,Secretary audit dispatched,dispatch index
+2026-10-21 03:29,secretary,Secretary audit dispatched,dispatch index
+2026-10-21 05:28,secretary,Secretary audit dispatched,dispatch index
+2026-10-21 10:08,secretary,Secretary audit dispatched,dispatch index
+2026-10-21 13:12,audit,Independent direction audit dispatched,dispatch index
+2026-10-21 22:52,secretary,Secretary audit dispatched,dispatch index
+2026-10-22 02:08,secretary,Secretary audit dispatched,dispatch index
+2026-10-22 03:29,secretary,Secretary audit dispatched,dispatch index

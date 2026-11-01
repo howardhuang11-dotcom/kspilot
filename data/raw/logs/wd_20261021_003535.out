@@ -1,0 +1,244 @@
+[   17.8s] stage 3: ΔV  888 m/s (vacuum 1045) TWR sea level 1.73 burn  42s mass 92.7→59.3t
+[   17.8s] stage 2: ΔV 3699 m/s (vacuum 4219) TWR sea level 1.09 burn 190s mass 53.1→13.8t
+[   17.8s] low-TWR gravity loss +186 m/s
+[   17.8s] ascent+insertion requirement ≈ 3620 m/s  (vacuum equivalent)
+[   17.8s] recovery stage: dry 11.4t wet 59.4t engines 1 landing legs 4 CdA≈9.49m² terminal velocity≈144m/s landing TWR≈4.6
+[   17.8s] recovery requirement ≈ 1065 m/s  (deorbit+entry burn+landing burn+margin)
+[   17.8s] total available ΔV 5105 m/s , total required 4685 m/s , margin +420 m/s
+[   17.8s] verdict: [ok] go
+[   17.9s] ascent (own): target Pe 100 km Ap 100 km i 6.0 deg -> launch heading 83.5 deg
+[   18.6s] ascent tel: rise alt 0.1 km v 3 m/s pitch 90.0 aoa 0.0 Ap 0.1 km stage 3 parts 49 thr 1567 kN
+[   20.6s] ascent tel: rise alt 0.1 km v 18 m/s pitch 90.0 aoa 0.0 Ap 0.1 km stage 3 parts 49 thr 1573 kN
+[   22.7s] ascent tel: rise alt 0.2 km v 34 m/s pitch 90.0 aoa 0.0 Ap 0.2 km stage 3 parts 49 thr 1576 kN
+[   24.7s] ascent tel: rise alt 0.2 km v 50 m/s pitch 89.9 aoa 0.0 Ap 0.4 km stage 3 parts 49 thr 1579 kN
+[   26.8s] ascent tel: rise alt 0.4 km v 68 m/s pitch 89.9 aoa 0.0 Ap 0.6 km stage 3 parts 49 thr 1584 kN
+[   28.9s] ascent tel: rise alt 0.5 km v 86 m/s pitch 89.8 aoa 0.0 Ap 0.9 km stage 3 parts 49 thr 1591 kN
+[   30.6s] ascent: pitch-over at 101 m/s, 687 m
+[   30.9s] ascent tel: turn alt 0.7 km v 104 m/s pitch 89.6 aoa -0.1 Ap 1.3 km stage 3 parts 49 thr 1599 kN
+[   33.0s] ascent tel: turn alt 1.0 km v 123 m/s pitch 84.2 aoa -0.5 Ap 1.7 km stage 3 parts 49 thr 1608 kN
+[   35.1s] ascent tel: turn alt 1.2 km v 143 m/s pitch 83.1 aoa -0.4 Ap 2.3 km stage 3 parts 49 thr 1618 kN
+[   37.1s] ascent tel: turn alt 1.5 km v 163 m/s pitch 82.0 aoa -0.3 Ap 2.9 km stage 3 parts 49 thr 1629 kN
+[   39.1s] ascent tel: turn alt 1.9 km v 184 m/s pitch 80.9 aoa -0.3 Ap 3.6 km stage 3 parts 49 thr 1641 kN
+[   41.1s] ascent tel: turn alt 2.3 km v 205 m/s pitch 79.8 aoa -0.3 Ap 4.4 km stage 3 parts 49 thr 1653 kN
+[   43.2s] ascent tel: turn alt 2.7 km v 229 m/s pitch 78.5 aoa -0.3 Ap 5.4 km stage 3 parts 49 thr 1667 kN
+[   45.2s] ascent tel: turn alt 3.2 km v 253 m/s pitch 77.3 aoa -0.3 Ap 6.5 km stage 3 parts 49 thr 1681 kN
+[   47.3s] ascent tel: turn alt 3.7 km v 278 m/s pitch 76.0 aoa -0.3 Ap 7.6 km stage 3 parts 49 thr 1695 kN
+[   49.4s] ascent tel: turn alt 4.3 km v 305 m/s pitch 74.7 aoa -0.3 Ap 9.0 km stage 3 parts 49 thr 1709 kN
+[   51.4s] ascent tel: turn alt 4.9 km v 331 m/s pitch 73.4 aoa -0.3 Ap 10.4 km stage 3 parts 49 thr 1723 kN
+[   53.5s] ascent tel: turn alt 5.6 km v 359 m/s pitch 72.0 aoa -0.3 Ap 12.0 km stage 3 parts 49 thr 1737 kN
+[   55.6s] ascent tel: turn alt 6.3 km v 388 m/s pitch 70.6 aoa -0.3 Ap 13.7 km stage 3 parts 49 thr 1751 kN
+[   57.6s] ascent tel: turn alt 7.0 km v 415 m/s pitch 69.3 aoa -0.4 Ap 15.5 km stage 3 parts 49 thr 1763 kN
+[   59.7s] ascent tel: turn alt 7.8 km v 445 m/s pitch 67.9 aoa -0.4 Ap 17.4 km stage 3 parts 49 thr 1774 kN
+[   61.8s] ascent tel: turn alt 8.6 km v 467 m/s pitch 66.5 aoa -0.4 Ap 19.1 km stage 3 parts 49 thr 632 kN
+[   62.9s] hud: MAX-Q 40.9 kPa at T+42 s
+[   63.9s] ascent tel: turn alt 9.5 km v 462 m/s pitch 65.1 aoa -0.5 Ap 19.7 km stage 3 parts 49 thr 634 kN
+[   65.9s] ascent tel: turn alt 10.3 km v 459 m/s pitch 63.8 aoa -0.5 Ap 20.2 km stage 3 parts 49 thr 637 kN
+[   68.0s] ascent tel: turn alt 11.1 km v 456 m/s pitch 62.6 aoa -0.5 Ap 20.8 km stage 3 parts 49 thr 639 kN
+[   70.2s] ascent tel: turn alt 12.0 km v 454 m/s pitch 61.2 aoa -0.5 Ap 21.4 km stage 3 parts 49 thr 640 kN
+[   70.3s] ascent: staging 3 -> 2 (4 dry engines dropped, 0 engines to light)
+[   72.8s] ascent tel: turn alt 13.0 km v 460 m/s pitch 60.9 aoa -0.4 Ap 22.5 km stage 2 parts 37 thr 642 kN
+[   74.8s] ascent tel: turn alt 13.8 km v 466 m/s pitch 58.5 aoa -0.5 Ap 23.4 km stage 2 parts 37 thr 643 kN
+[   76.9s] ascent tel: turn alt 14.7 km v 473 m/s pitch 57.3 aoa -0.5 Ap 24.4 km stage 2 parts 37 thr 644 kN
+[   79.0s] ascent tel: turn alt 15.6 km v 481 m/s pitch 56.2 aoa -0.5 Ap 25.4 km stage 2 parts 37 thr 645 kN
+[   81.0s] ascent tel: turn alt 16.4 km v 489 m/s pitch 55.1 aoa -0.5 Ap 26.4 km stage 2 parts 37 thr 646 kN
+[   83.0s] ascent tel: turn alt 17.2 km v 498 m/s pitch 54.0 aoa -0.5 Ap 27.4 km stage 2 parts 37 thr 647 kN
+[   85.1s] ascent tel: turn alt 18.1 km v 509 m/s pitch 52.8 aoa -0.4 Ap 28.5 km stage 2 parts 37 thr 647 kN
+[   87.1s] ascent tel: turn alt 19.0 km v 519 m/s pitch 51.8 aoa -0.4 Ap 29.5 km stage 2 parts 37 thr 648 kN
+[   89.2s] ascent tel: turn alt 19.9 km v 531 m/s pitch 50.7 aoa -0.4 Ap 30.6 km stage 2 parts 37 thr 648 kN
+[   91.3s] ascent tel: turn alt 20.7 km v 543 m/s pitch 49.7 aoa -0.4 Ap 31.7 km stage 2 parts 37 thr 648 kN
+[   93.4s] ascent tel: turn alt 21.7 km v 557 m/s pitch 48.6 aoa -0.3 Ap 32.8 km stage 2 parts 37 thr 649 kN
+[   95.4s] ascent tel: turn alt 22.5 km v 570 m/s pitch 47.6 aoa -0.3 Ap 34.0 km stage 2 parts 37 thr 649 kN
+[   97.4s] ascent tel: turn alt 23.4 km v 584 m/s pitch 46.6 aoa -0.3 Ap 35.1 km stage 2 parts 37 thr 649 kN
+[   99.5s] ascent tel: turn alt 24.4 km v 600 m/s pitch 45.5 aoa -0.3 Ap 36.3 km stage 2 parts 37 thr 649 kN
+[  101.6s] ascent tel: turn alt 25.3 km v 615 m/s pitch 44.5 aoa -0.2 Ap 37.5 km stage 2 parts 37 thr 649 kN
+[  103.7s] ascent tel: turn alt 26.2 km v 631 m/s pitch 43.5 aoa -0.2 Ap 38.7 km stage 2 parts 37 thr 649 kN
+[  105.7s] ascent tel: turn alt 27.1 km v 648 m/s pitch 42.5 aoa -0.2 Ap 39.9 km stage 2 parts 37 thr 649 kN
+[  107.8s] ascent tel: turn alt 28.1 km v 666 m/s pitch 41.5 aoa -0.2 Ap 41.1 km stage 2 parts 37 thr 650 kN
+[  109.8s] ascent tel: turn alt 29.0 km v 684 m/s pitch 40.5 aoa -0.2 Ap 42.4 km stage 2 parts 37 thr 650 kN
+[  111.9s] ascent tel: turn alt 30.0 km v 702 m/s pitch 39.5 aoa -0.2 Ap 43.6 km stage 2 parts 37 thr 650 kN
+[  113.9s] ascent tel: turn alt 30.9 km v 721 m/s pitch 38.6 aoa -0.2 Ap 44.9 km stage 2 parts 37 thr 650 kN
+[  116.0s] ascent tel: turn alt 31.9 km v 741 m/s pitch 37.6 aoa -0.1 Ap 46.2 km stage 2 parts 37 thr 650 kN
+[  118.0s] ascent tel: turn alt 32.8 km v 761 m/s pitch 36.7 aoa -0.1 Ap 47.5 km stage 2 parts 37 thr 650 kN
+[  120.1s] ascent tel: turn alt 33.8 km v 783 m/s pitch 35.7 aoa -0.1 Ap 48.8 km stage 2 parts 37 thr 650 kN
+[  122.2s] ascent tel: turn alt 34.8 km v 804 m/s pitch 34.7 aoa -0.1 Ap 50.2 km stage 2 parts 37 thr 650 kN
+[  124.2s] ascent tel: turn alt 35.8 km v 827 m/s pitch 33.8 aoa -0.1 Ap 51.6 km stage 2 parts 37 thr 650 kN
+[  126.3s] ascent tel: turn alt 36.8 km v 850 m/s pitch 32.8 aoa -0.2 Ap 53.0 km stage 2 parts 37 thr 650 kN
+[  128.4s] ascent tel: turn alt 37.8 km v 874 m/s pitch 31.9 aoa -0.2 Ap 54.4 km stage 2 parts 37 thr 650 kN
+[  130.4s] ascent tel: turn alt 38.8 km v 898 m/s pitch 30.9 aoa -0.2 Ap 55.9 km stage 2 parts 37 thr 650 kN
+[  132.5s] ascent tel: turn alt 39.8 km v 921 m/s pitch 30.1 aoa -0.2 Ap 57.2 km stage 2 parts 37 thr 650 kN
+[  134.6s] ascent tel: turn alt 40.8 km v 947 m/s pitch 29.1 aoa -0.2 Ap 58.7 km stage 2 parts 37 thr 650 kN
+[  136.7s] ascent tel: turn alt 41.8 km v 973 m/s pitch 28.2 aoa -0.2 Ap 60.2 km stage 2 parts 37 thr 650 kN
+[  138.7s] ascent tel: turn alt 42.9 km v 1000 m/s pitch 27.3 aoa -0.2 Ap 61.8 km stage 2 parts 37 thr 650 kN
+[  140.8s] ascent tel: turn alt 43.9 km v 1027 m/s pitch 26.4 aoa -0.3 Ap 63.4 km stage 2 parts 37 thr 650 kN
+[  142.9s] ascent tel: turn alt 44.9 km v 1055 m/s pitch 25.5 aoa -0.3 Ap 65.0 km stage 2 parts 37 thr 650 kN
+[  144.9s] ascent tel: turn alt 46.0 km v 1083 m/s pitch 24.6 aoa -0.3 Ap 66.6 km stage 2 parts 37 thr 650 kN
+[  147.0s] ascent tel: turn alt 47.0 km v 1113 m/s pitch 23.7 aoa -0.3 Ap 68.3 km stage 2 parts 37 thr 650 kN
+[  149.0s] ascent tel: turn alt 48.1 km v 1143 m/s pitch 22.8 aoa -0.4 Ap 70.0 km stage 2 parts 37 thr 650 kN
+[  150.9s] ascent: closed-loop apoapsis phase at 49 km (Ap 72 km)
+[  151.1s] ascent tel: apoapsis alt 49.1 km v 1173 m/s pitch 21.4 aoa -0.8 Ap 71.8 km stage 2 parts 37 thr 650 kN
+[  153.1s] ascent tel: apoapsis alt 50.2 km v 1202 m/s pitch -0.7 aoa -3.2 Ap 73.1 km stage 2 parts 37 thr 650 kN
+[  155.2s] ascent tel: apoapsis alt 51.2 km v 1229 m/s pitch -4.5 aoa -3.3 Ap 73.4 km stage 2 parts 37 thr 650 kN
+[  157.2s] ascent tel: apoapsis alt 52.2 km v 1258 m/s pitch -4.5 aoa -3.1 Ap 73.7 km stage 2 parts 37 thr 650 kN
+[  159.3s] ascent tel: apoapsis alt 53.2 km v 1287 m/s pitch -4.6 aoa -3.0 Ap 74.1 km stage 2 parts 37 thr 650 kN
+[  161.3s] ascent tel: apoapsis alt 54.1 km v 1317 m/s pitch -4.6 aoa -2.9 Ap 74.4 km stage 2 parts 37 thr 650 kN
+[  163.4s] ascent tel: apoapsis alt 55.0 km v 1349 m/s pitch -4.7 aoa -2.8 Ap 74.8 km stage 2 parts 37 thr 650 kN
+[  165.4s] ascent tel: apoapsis alt 55.9 km v 1382 m/s pitch -4.7 aoa -2.6 Ap 75.3 km stage 2 parts 37 thr 650 kN
+[  167.5s] ascent tel: apoapsis alt 56.8 km v 1416 m/s pitch -4.7 aoa -2.5 Ap 75.7 km stage 2 parts 37 thr 650 kN
+[  169.6s] ascent tel: apoapsis alt 57.6 km v 1452 m/s pitch -4.8 aoa -2.4 Ap 76.2 km stage 2 parts 37 thr 650 kN
+[  171.6s] ascent tel: apoapsis alt 58.4 km v 1487 m/s pitch -4.8 aoa -2.3 Ap 76.8 km stage 2 parts 37 thr 650 kN
+[  173.6s] ascent tel: apoapsis alt 59.1 km v 1523 m/s pitch -4.8 aoa -2.3 Ap 77.4 km stage 2 parts 37 thr 650 kN
+[  175.6s] ascent tel: apoapsis alt 59.9 km v 1561 m/s pitch -4.9 aoa -2.2 Ap 78.1 km stage 2 parts 37 thr 650 kN
+[  177.7s] ascent tel: apoapsis alt 60.6 km v 1601 m/s pitch -4.9 aoa -2.1 Ap 78.9 km stage 2 parts 37 thr 650 kN
+[  179.8s] ascent tel: apoapsis alt 61.3 km v 1641 m/s pitch -5.0 aoa -2.0 Ap 79.8 km stage 2 parts 37 thr 650 kN
+[  181.8s] ascent tel: apoapsis alt 62.0 km v 1682 m/s pitch -5.0 aoa -2.0 Ap 80.8 km stage 2 parts 37 thr 650 kN
+[  183.9s] ascent tel: apoapsis alt 62.7 km v 1725 m/s pitch -5.0 aoa -1.9 Ap 82.1 km stage 2 parts 37 thr 650 kN
+[  186.0s] ascent tel: apoapsis alt 63.4 km v 1769 m/s pitch -5.1 aoa -1.8 Ap 83.6 km stage 2 parts 37 thr 650 kN
+[  188.0s] ascent tel: apoapsis alt 64.0 km v 1813 m/s pitch -5.1 aoa -1.8 Ap 85.6 km stage 2 parts 37 thr 650 kN
+[  190.0s] ascent tel: apoapsis alt 64.6 km v 1858 m/s pitch -5.2 aoa -1.7 Ap 88.0 km stage 2 parts 37 thr 650 kN
+[  192.1s] ascent tel: apoapsis alt 65.2 km v 1903 m/s pitch -5.2 aoa -1.7 Ap 91.3 km stage 2 parts 37 thr 650 kN
+[  194.1s] ascent tel: apoapsis alt 65.8 km v 1950 m/s pitch -5.2 aoa -1.7 Ap 96.0 km stage 2 parts 37 thr 546 kN
+[  196.2s] ascent tel: apoapsis alt 66.3 km v 1971 m/s pitch -5.3 aoa -1.6 Ap 99.0 km stage 2 parts 37 thr 142 kN
+[  198.2s] ascent tel: apoapsis alt 66.9 km v 1974 m/s pitch -5.3 aoa -1.6 Ap 99.8 km stage 2 parts 37 thr 32 kN
+[  199.2s] ascent: MECO, Ap 100.0 km
+[  199.2s] ascent: circularisation 198.4 m/s at apoapsis in 235 s
+[  199.2s] burn: warping 171s (dv 198.4 m/s, 7.6 s burn)
+[  293.9s] burn done: 198.4 m/s planned, 0.04 m/s left
+[  293.9s] ascent: orbit Ap 100.0 km Pe 100.0 km i 6.06 deg
+[  293.9s] orbit Ap=100.0km Pe=100.0km inc=6.063 (err Ap +3m Pe -50m)
+[  293.9s] orbit reached in 276s
+[  294.1s] pad cleared: clearpad 0
+[  297.1s] payload released (stage 1)
+[  300.3s] checkpoint saved: g5_orbit
+[  300.3s] flying core: T-WorksFineGF mass 21.6t fuel 918
+tools/orbit_recover.py:92: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  if mm.has_event(ev):
+tools/orbit_recover.py:101: DeprecationWarning: SpaceCenter.Module.fields is deprecated: Use Module.field_list instead, filtering by PartField.visible.
+  if any("moving" in str(x).lower() for x in mm.fields.values()):
+tools/orbit_recover.py:103: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  elif mm.has_event("Retract Fins"):
+[  321.9s] drag table out: brakes True, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[  330.8s] drag table out: CdA@10km 27.11 / 27.16 m^2 (repeatability 0.2 %)
+tools/orbit_recover.py:105: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  elif mm.has_event("Extend Fins"):
+[  336.8s] drag table in: read-back mismatch (fins in): re-commanding
+tools/orbit_recover.py:93: DeprecationWarning: SpaceCenter.Module.trigger_event is deprecated: Filter Module.event_list by PartEvent.gui_name and call PartEvent.trigger instead.
+  mm.trigger_event(ev)
+[  341.8s] drag table in: brakes False, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[  350.6s] drag table in: CdA@10km 11.90 / 11.98 m^2 (repeatability 0.7 %)
+[  356.7s] drag table out (restored): read-back mismatch (fins in): re-commanding
+[  361.8s] drag table out (restored): brakes True, fins out, airbrakes 70,70,70,70,70,70,70,70 deg (read back after 5 s)
+[  369.0s] drag table out: CdA@10km 27.11 before / 27.12 after the IN cycle (re-deploy repeatability 0.0 %)
+[  369.0s] drag tables measured: CdA@10km out 27.1 / in 11.9 m^2 (brakes; repeatability 0.7 %: out 0.2 / in 0.7 / re-deploy 0.0 %)
+[  369.0s] drag calibration applied (43 flights)
+[  369.1s] drag table (brakes out) CdA@100m/s,10km=25.7  @2000m/s,40km=156.7
+[  369.1s] core CdA brakes in = 11.90 m^2
+[  369.1s] core CdA (brakes out, 10 km) = 27.11 m^2
+[  371.4s] deorbit plan needs 154 m/s normal (> 30): waiting one revolution
+[  421.2s] deorbit plan needs 152 m/s normal (> 30): waiting one revolution
+[  470.3s] deorbit plan needs 160 m/s normal (> 30): waiting one revolution
+[  519.4s] deorbit plan: miss 0m dv 158.1 m/s (retro 149.9 normal 8.2) t_ign +4093s CdA 27.11
+[  519.4s] warping 3075s to node
+[  590.3s] burn: warping 30s (dv 8.2 m/s, 0.3 s burn)
+[  661.9s] burn done: 8.2 m/s planned, 0.08 m/s left
+[  662.0s] node done, remaining nodes 1
+[  662.0s] warping 834s to node
+[  685.9s] burn: warping 28s (dv 149.9 m/s, 4.8 s burn)
+[  763.1s] burn done: 149.9 m/s planned, 0.05 m/s left
+[  763.1s] node done, remaining nodes 0
+[  763.1s] learned cross-track offset: +0 m
+[  766.4s] vacuum correction 0: predicted miss 3603m (along +3603 cross +14) spread 0m, trim 0.663 m/s
+[  774.3s] burn done: 0.663 m/s timed pulse 0.60s at 3.5% thrust
+[  779.7s] trim effect 0.98x of prediction -> gain 0.55
+[  779.7s] vacuum correction 1: predicted miss 1492m (along +1492 cross +8) spread 0m, trim 0.267 m/s
+[  784.6s] burn done: 0.267 m/s timed pulse 0.60s at 1.4% thrust
+[  790.0s] trim effect 0.99x of prediction -> gain 0.50
+[  790.0s] vacuum correction 2: predicted miss 676m (along +676 cross +3) spread 0m, trim 0.114 m/s
+[  793.8s] burn done: 0.114 m/s timed pulse 0.36s at 1.0% thrust
+[  799.1s] trim effect 0.99x of prediction -> gain 0.46
+[  799.1s] vacuum correction 3: predicted miss 339m (along +339 cross +1) spread 0m, trim 0.054 m/s
+[  803.7s] burn done: 0.054 m/s timed pulse 0.17s at 1.0% thrust
+[  809.2s] trim effect 1.04x of prediction -> gain 0.40
+[  809.2s] vacuum correction 4: predicted miss 178m (along +178 cross +0) spread 2m, trim 0.025 m/s
+[  809.2s] warping to entry interface
+[  819.6s] checkpoint saved: g5_entry
+[  823.7s] CoM height above leg feet: 7.41 m, footprint radius 3.1 m, tip-over angle 23 deg
+[  823.8s] grid fins: mounting inward, authority -100% (engine-first flight reverses control surfaces)
+[  823.8s] learned aim offset: +0 m (29 flights)
+[  823.8s] drag modulation: CdA out 27.1 in 11.895439664872915
+[  823.8s] frozen 0 leading control surfaces
+[  825.0s] heat: 0.36 of max temperature (Grid Fin Medium)
+[  825.2s] drag modulation: brakes IN (out -1323m / in +30045m, k_out 1.00 k_in 1.00)
+[  826.8s] grid fins: re-extended 4
+[  873.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.2 kPa)
+[  879.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.3 kPa)
+[  884.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.5 kPa)
+[  884.4s] heat: 0.41 of max temperature (A.I.R.B.R.A.K.E.S)
+[  887.8s] heat: 0.47 of max temperature (A.I.R.B.R.A.K.E.S)
+[  889.5s] airflow check: drag vector 0.0 deg off the velocity axis (q 0.8 kPa)
+[  891.2s] heat: 0.52 of max temperature (A.I.R.B.R.A.K.E.S)
+[  892.2s] ENTRY BURN start h=44918m v=2101m/s q=1.1kPa heat 0.53
+[  892.4s] entry guidance: cross +1 m, 590 m/s left -> tilt -0.00 deg
+[  892.9s] entry guidance: cross +1 m, 570 m/s left -> tilt -0.00 deg
+[  893.4s] entry guidance: cross +0 m, 534 m/s left -> tilt -0.00 deg
+[  893.5s] grid fins: re-extended 4
+[  894.0s] entry guidance: cross -1 m, 499 m/s left -> tilt +0.00 deg
+[  894.6s] entry guidance: cross -2 m, 462 m/s left -> tilt +0.01 deg
+[  894.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.1 kPa)
+[  895.1s] entry guidance: cross -4 m, 427 m/s left -> tilt +0.01 deg
+[  895.7s] entry guidance: cross -5 m, 389 m/s left -> tilt +0.01 deg
+[  896.3s] entry guidance: cross -6 m, 350 m/s left -> tilt +0.02 deg
+[  896.8s] entry guidance: cross -6 m, 313 m/s left -> tilt +0.02 deg
+[  897.4s] entry guidance: cross -7 m, 276 m/s left -> tilt +0.02 deg
+[  897.9s] entry guidance: cross -7 m, 236 m/s left -> tilt +0.03 deg
+[  898.5s] entry guidance: cross -7 m, 197 m/s left -> tilt +0.03 deg
+[  899.0s] entry guidance: cross -7 m, 158 m/s left -> tilt +0.04 deg
+[  899.6s] entry guidance: cross -7 m, 117 m/s left -> tilt +0.06 deg
+[  899.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.1 kPa)
+[  900.2s] entry guidance: cross -7 m, 78 m/s left -> tilt +0.08 deg
+[  900.7s] entry guidance: cross -6 m, 36 m/s left -> tilt +0.14 deg
+[  901.1s] ENTRY BURN end h=40398m v=1509m/s q=1.1kPa dv flown 591 m/s
+[  901.2s] vernier plan: cross -4 m (along -1897), 64.9 m per m/s -> 0.07 m/s sideways
+[  902.0s] drag modulation: brakes IN (out -2737m / in +11709m, k_out 1.00 k_in 2.43)
+[  903.5s] grid fins: re-extended 4
+[  905.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.5 kPa)
+[  910.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 2.5 kPa)
+[  915.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 4.7 kPa)
+[  920.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 9.7 kPa)
+[  923.2s] grid fins: re-extended 4
+[  926.1s] cross glide: cross -4 m (24 m per m/s) along -1218 m (0) -> side 0.012 fwd 0.000 m/s^2, tilt 0.0 deg
+[  926.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 17.6 kPa)
+[  930.2s] heat: 0.57 of max temperature (A.I.R.B.R.A.K.E.S)
+[  935.6s] cross glide: cross -4 m (19 m per m/s) along -2150 m (0) -> side 0.014 fwd 0.000 m/s^2, tilt 0.0 deg
+[  937.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 23.1 kPa)
+[  946.1s] cross glide: cross -4 m (16 m per m/s) along -2397 m (0) -> side 0.017 fwd 0.000 m/s^2, tilt 0.1 deg
+[  947.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 20.6 kPa)
+[  954.4s] checkpoint saved: g5_mid at 14989 m
+[  956.5s] cross glide: cross -4 m (15 m per m/s) along -2617 m (0) -> side 0.016 fwd 0.000 m/s^2, tilt 0.1 deg
+[  957.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 11.3 kPa)
+[  959.0s] drag modulation: brakes IN (out -2697m / in -579m, k_out 1.14 k_in 2.01)
+[  963.0s] grid fins: re-extended 4
+[  967.2s] cross glide: cross -7 m (14 m per m/s) along -2077 m (0) -> side 0.034 fwd 0.000 m/s^2, tilt 0.2 deg
+[  967.5s] drag modulation: brakes IN (out -2074m / in -636m, k_out 1.14 k_in 1.76)
+[  968.0s] airflow check: drag vector 0.0 deg off the velocity axis (q 9.5 kPa)
+[  973.2s] grid fins: re-extended 4
+[  973.3s] drag modulation: brakes IN (out -1725m / in -766m, k_out 1.14 k_in 1.76)
+[  976.6s] cross glide: cross -9 m (13 m per m/s) along -1555 m (0) -> side 0.046 fwd 0.000 m/s^2, tilt 0.3 deg
+[  978.2s] airflow check: drag vector 0.0 deg off the velocity axis (q 10.2 kPa)
+[  979.3s] grid fins: re-extended 4
+[  988.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 7.0 kPa)
+[  998.6s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.3 kPa)
+[ 1008.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.1 kPa)
+[ 1014.9s] checkpoint saved: g5_term at 3999 m
+[ 1019.1s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.0 kPa)
+[ 1029.3s] airflow check: drag vector 0.0 deg off the velocity axis (q 6.0 kPa)
+[ 1036.2s] pad cleared: clearpad 0
+[ 1039.4s] airflow check: drag vector 0.0 deg off the velocity axis (q 5.9 kPa)
+[ 1044.6s] pad cleared: clearpad 0
+[ 1045.7s] landing burn: control surfaces released, gimbal only
+[ 1045.7s] IGNITION h=464m vz=-104.7 vh=6.4 offset=1220m cda=30.01
+[ 1049.8s] airflow check: drag vector 0.0 deg off the velocity axis (q 1.5 kPa)
+[ 1058.9s] below pad level (lower ground off the pad): radar ground 6.7 m, descending to touchdown
+[ 1078.5s] RESULT FAIL miss=1192.2m v_td=0.25m/s upright=1.000 fuel_left=370 parts=26 VesselSituation.landed
+[ 1078.5s] event ('ignition', 464, np.float64(-104.7), 1220)
+[ 1078.6s] smoothness (last 3 km): {'ap_err_rms': 2.38, 'py_rate_rms': 2.06, 'roll_rate_max': 0.1, 'roll_rate_rms': 0.02}
+shot: screenshots/20261021_005337_orbit_T-WorksFineGF.png

@@ -1,0 +1,37 @@
+[    0.2s] loading checkpoint g5_orbit
+[   21.8s] flying core: T-WorksFinePayload mass 19.9t fuel 836
+[   39.7s] drag calibration applied (1 flights)
+[   39.7s] drag table (brakes out) CdA@100m/s,10km=17.7  @2000m/s,40km=140.0
+[   39.7s] core CdA brakes in = 6.36 m^2
+[   39.7s] core CdA (brakes out, 10 km) = 19.34 m^2
+[   41.9s] deorbit plan: miss 1m dv 52.1 m/s (retro 47.8 normal 4.4) t_ign +2645s CdA 19.34
+[   41.9s] warping 1871s to node
+[  185.9s] node done, remaining nodes 1
+[  185.9s] warping 586s to node
+[  304.5s] node done, remaining nodes 0
+[  307.7s] vacuum correction 0: predicted miss 3611m (along +3611 cross -18) spread 3m, trim 0.176 m/s
+[  315.3s] burn done: 0.176 m/s timed pulse 0.53s at 1.0% thrust
+[  320.5s] trim effect 1.03x of prediction -> gain 0.52
+[  320.5s] vacuum correction 1: predicted miss 1381m (along +1381 cross -7) spread 3m, trim 0.061 m/s
+[  325.0s] burn done: 0.061 m/s timed pulse 0.18s at 1.0% thrust
+[  330.2s] trim effect 1.08x of prediction -> gain 0.44
+[  330.2s] vacuum correction 2: predicted miss 596m (along +596 cross -3) spread 3m, trim 0.022 m/s
+[  330.2s] warping to entry interface
+[  342.9s] checkpoint saved: g5_entry
+[  347.0s] CoM height above leg feet: 7.20 m
+[  347.0s] drag modulation: CdA out 19.3 in 6.359478225749448
+[  347.0s] frozen 0 leading control surfaces
+[  347.2s] drag modulation: brakes IN (brakes-out prediction along -903m cross -3m, k_out 1.00 k_in 1.00)
+[  386.6s] drag modulation: brakes OUT (brakes-out prediction along +80m cross -3m, k_out 1.00 k_in 1.00)
+[  530.1s] drag modulation: brakes IN (brakes-out prediction along -198822m cross +63m, k_out 0.44 k_in 1.00)
+[  577.4s] ENTRY BURN start h=23263m v=1386m/s q=20.0kPa
+[  586.6s] ENTRY BURN end h=21452m v=897m/s q=12.0kPa
+[  611.1s] drag modulation: brakes IN (brakes-out prediction along -187701m cross -1m, k_out 0.92 k_in 0.30)
+[  615.2s] drag modulation: brakes IN (brakes-out prediction along -188161m cross -1m, k_out 0.86 k_in 0.30)
+[  619.2s] drag modulation: brakes IN (brakes-out prediction along -188459m cross -1m, k_out 0.83 k_in 0.30)
+[  623.4s] drag modulation: brakes IN (brakes-out prediction along -188740m cross -1m, k_out 0.81 k_in 0.30)
+[  628.5s] drag modulation: brakes IN (brakes-out prediction along -189105m cross -1m, k_out 0.76 k_in 0.30)
+[  634.3s] drag modulation: brakes IN (brakes-out prediction along -189481m cross -1m, k_out 0.66 k_in 0.30)
+[  638.9s] drag modulation: brakes IN (brakes-out prediction along -189605m cross -1m, k_out 0.64 k_in 0.30)
+[  643.5s] drag modulation: brakes IN (brakes-out prediction along -189607m cross -1m, k_out 0.68 k_in 0.30)
+[  647.7s] drag modulation: brakes IN (brakes-out prediction along -189569m cross -1m, k_out 0.75 k_in 0.30)

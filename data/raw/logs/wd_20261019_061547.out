@@ -1,0 +1,34 @@
+[    0.1s] loading checkpoint g5_orbit
+[   21.2s] flying core: T-WorksFinePayload mass 19.9t fuel 836
+[   38.9s] drag table (brakes out) CdA@100m/s,10km=17.7  @2000m/s,40km=139.9
+[   38.9s] core CdA brakes in = 6.37 m^2
+[   38.9s] core CdA (brakes out, 10 km) = 19.34 m^2
+[   40.5s] deorbit plan: miss 0m dv 52.1 m/s (retro 47.8 normal 4.3) t_ign +2549s CdA 19.34
+[   40.5s] warping 1858s to node
+[  184.7s] node done, remaining nodes 1
+[  184.7s] warping 502s to node
+[  302.1s] node done, remaining nodes 0
+[  305.2s] vacuum correction 0: predicted miss 4177m (along +4177 cross -9) spread 11m, trim 0.148 m/s
+[  310.4s] burn done: 0.148 m/s timed pulse 0.44s at 1.0% thrust
+[  315.6s] trim effect 1.06x of prediction -> gain 0.51
+[  315.6s] vacuum correction 1: predicted miss 1511m (along +1511 cross -4) spread 1m, trim 0.047 m/s
+[  315.6s] warping to entry interface
+[  328.4s] checkpoint saved: g5_entry
+[  332.5s] CoM height above leg feet: 7.20 m
+[  332.5s] drag modulation: CdA out 19.3 in 6.371849182728759
+[  332.6s] frozen 0 leading control surfaces
+[  361.2s] drag modulation: brakes IN (brakes-out prediction along -31m cross -4m)
+[  556.0s] IGNITION h=19998m vz=-278.0 vh=1869.6 offset=52340m cda=11.46
+[  609.2s] pad cleared: clearpad 0
+[  629.1s] vessel lost (mass 0)
+[  629.1s] RESULT FAIL miss=nanm v_td=nanm/s upright=0.000 fuel_left=0 parts=0 destroyed
+[  629.1s] event ('ignition', 19998, np.float64(-278.0), 52340)
+[  629.1s] event ('lost',)
+shot: screenshots/20261019_062618_orbit_T-WorksFinePayload.png
+[    0.1s] loading checkpoint g5_orbit
+[   22.1s] flying core: T-WorksFinePayload mass 19.9t fuel 836
+[   39.8s] drag table (brakes out) CdA@100m/s,10km=17.7  @2000m/s,40km=140.1
+[   39.8s] core CdA brakes in = 6.49 m^2
+[   39.8s] core CdA (brakes out, 10 km) = 19.37 m^2
+[   41.4s] deorbit plan: miss 0m dv 52.1 m/s (retro 47.8 normal 4.3) t_ign +2549s CdA 19.37
+[   41.4s] warping 1858s to node

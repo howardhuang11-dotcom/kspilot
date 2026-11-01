@@ -1,0 +1,18 @@
+| Population | Successes / missions | Proportion (%) | Wilson 95% CI (%) | Clopper-Pearson 95% CI (%) | Jeffreys 95% CI (%) |
+|---|---|---|---|---|---|
+| Exploratory window, complete missions (headline population) | 26 / 28 | 92.9 | 77.4-98.0 | 76.5-99.1 | 79.0-98.5 |
+| Return phase, conditional on reaching orbit | 26 / 27 | 96.3 | 81.7-99.3 | 81.0-99.9 | 84.0-99.6 |
+| Window; monitor-terminated run counted as a failure | 26 / 29 | 89.7 | 73.6-96.4 | 72.6-97.8 | 74.9-97.0 |
+| Window; also the in-window pad attempts that never launched | 26 / 31 | 83.9 | 67.4-92.9 | 66.3-94.5 | 68.2-93.6 |
+| Window extended to the two preceding complete missions | 26 / 30 | 86.7 | 70.3-94.7 | 69.3-96.2 | 71.3-95.3 |
+| All complete GF-family missions in the records | 26 / 33 | 78.8 | 62.2-89.3 | 61.1-91.0 | 62.8-90.0 |
+| All complete GF-family missions; monitor-terminated run as a failure | 26 / 34 | 76.5 | 60.0-87.6 | 58.8-89.3 | 60.5-88.2 |
+| Baseline configuration only (2.48 t, 100 km, 6 deg) | 16 / 17 | 94.1 | 73.0-99.0 | 71.3-99.9 | 75.6-99.4 |
+| Missions without a recording workload | 19 / 20 | 95.0 | 76.4-99.1 | 75.1-99.9 | 78.9-99.5 |
+| Missions with a recording workload | 7 / 8 | 87.5 | 52.9-97.8 | 47.3-99.7 | 54.6-98.6 |
+| Configuration epoch E1 (missions 1-12) | 11 / 12 | 91.7 | 64.6-98.5 | 61.5-99.8 | 67.2-99.1 |
+| Configuration epoch E2 (missions 13-21) | 8 / 9 | 88.9 | 56.5-98.0 | 51.8-99.7 | 58.6-98.8 |
+| Configuration epoch E3 (missions 22-28) | 7 / 7 | 100.0 | 64.6-100.0 | 59.0-100.0 | 70.8-100.0 |
+| After the separation corrective action (missions 13-28) | 15 / 16 | 93.8 | 71.7-98.9 | 69.8-99.8 | 74.3-99.3 |
+
+Intervals are nominal: they assume exchangeable missions, which a sequential development series with code changes does not provide.

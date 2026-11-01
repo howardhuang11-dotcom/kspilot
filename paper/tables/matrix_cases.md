@@ -1,0 +1,13 @@
+| Case | Vehicle | Payload (t) | Orbit (km) | Inclination (deg) | Overrides | Outcome | Miss (m) | Post-contact speed (m/s) | Propellant remaining (kg) | Ap / Pe error (m) | Inclination error (deg, signed) | Deorbit dv total / normal (m/s) / wait (h) | Matches supervisor log |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 110km | T-WorksFineGF | 2.48 | 110 x 110 | 6 | defaults | PASS | 1.45 | 0.26 | 4078 | -1 / -47 | 0.125 | 166 / 9 / 2.6 | yes |
+| inc0 | T-WorksFineGF | 2.48 | 100 x 100 | 0 | defaults | PASS | 1.56 | 0.11 | 4167 | -11 / -63 | 0.113 | 154 / 4 / 0.3 | yes |
+| inc28 | T-WorksFineGF | 2.48 | 100 x 100 | 28 | KSP_MAX_DVN=60 | PASS | 1.25 | 0.20 | 3989 | +4 / -32 | 0.226 | 157 / 7 / 2.6 | yes |
+| 80km | T-WorksFineGF | 2.48 | 80 x 80 | 6 | KSP_MAX_DVN=60 | PASS | 1.89 | 0.10 | 4322 | +84 / -151 | -0.021 | 180 / 46 / 2.7 | yes |
+| inc45 | T-WorksFineGF | 2.48 | 100 x 100 | 45 | KSP_MAX_DVN=100 | FAIL (ascent) | - | - | - | - | - | - | yes |
+| inc45 | T-WorksFineGF | 2.48 | 100 x 100 | 45 | KSP_MAX_DVN=100 | PASS | 1.76 | 0.20 | 3778 | -18 / -51 | 0.356 | 155 / 5 / 2.6 | yes |
+| p45 | T-WorksFineGF-P45 | 4.5 | 100 x 100 | 6 | defaults | PASS | 1.22 | 0.12 | 3100 | -9 / -53 | 0.184 | 159 / 9 / 2.6 | yes |
+| inc90 | T-WorksFineGF | 2.48 | 100 x 100 | 90 | KSP_MAX_DVN=130 | PASS | 2.27 | 0.14 | 3244 | +6 / -19 | 0.354 | 151 / 1 / 2.6 | yes |
+| p60 | T-WorksFineGF-P60 | 6.0 | 100 x 100 | 6 | defaults | PASS | 1.38 | 0.28 | 2533 | -42 / -103 | -0.030 | 158 / 9 / 2.8 | yes |
+
+Miss at 0.01 m from the experiment log. Propellant = LiquidFuel units x 11.11 kg (liquid fuel and oxidizer at the standard 0.9 : 1.1 ratio, 5 kg per unit).

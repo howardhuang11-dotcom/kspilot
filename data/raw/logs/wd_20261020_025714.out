@@ -1,0 +1,23 @@
+[    0.1s] loading checkpoint g5_term
+[   21.3s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   21.3s] learned aim offset: +0 m (29 flights)
+[   21.3s] drag modulation: CdA out 29.5 in 7.109681206949069
+[   21.3s] frozen 0 leading control surfaces
+[   21.5s] own attitude controller engaged at 2024 m
+[   21.5s] own attitude: quaternion check 2.000 / 1.996 -> conj=False
+[   22.3s] own attitude: control map identified {'pitch': (0, 1.0), 'yaw': (2, 1.0)}
+[   26.5s] pad cleared: clearpad 1
+[   34.4s] landing burn: control surfaces released, gimbal only
+[   34.4s] IGNITION h=698m vz=-97.7 vh=1.0 offset=59m cda=27.61
+Traceback (most recent call last):
+  File "tools/orbit_recover.py", line 153, in <module>
+    res = lander.run(timeout=1500)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "kspilot/landing.py", line 995, in run
+    set_thrust(act, cmd[0], cmd[1])
+  File "kspilot/flightctl.py", line 110, in set_thrust
+    along = float(np.dot(np.asarray(act.nose()), d))
+                                    ^^^^^^^^^^
+  File ".venv/lib/python3.12/site-packages/krpc/stream.py", line 65, in __call__
+    raise value
+krpc.error.StreamError: Stream does not exist

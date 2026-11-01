@@ -1,0 +1,91 @@
+kspilot
+Copyright (c) 2026 Howard Huang
+
+This file lists the licences that apply to the different parts of this repository and acknowledges third-party
+software, data and trademarks. It does not modify any licence.
+
+1. LICENCES OF THIS REPOSITORY
+
+   Source code (kspilot/, tools/, plugins/, tests/, analysis and figure       GNU GPL version 3 or later
+   scripts, and the build files)                                              (GPL-3.0-or-later), see LICENSE
+   Text, figures and data (paper/, docs/, data/, tests/data/)                 CC BY-SA 4.0, see LICENSE-docs
+   Craft files (craft/)                                                       GNU GPL version 3, see craft/LICENSE
+                                                                              and craft/SOURCES.md
+
+   Third-party files keep their own licences and are not covered by the licences above. In-game
+   images in the figures show Kerbal Space Program content, which remains the property of its owners; the
+   share-alike licence applies to this project's own contribution to those images (selection, cropping and
+   annotation), not to the game's assets.
+
+2. KERBAL SPACE PROGRAM
+
+   Kerbal Space Program and KSP are trademarks of Take-Two Interactive Software, Inc. The game was developed by
+   Squad and published by Private Division. This project is not affiliated with, sponsored by or endorsed by
+   Take-Two Interactive, Private Division or Squad.
+
+   This repository contains no game files: no game binaries or assemblies, models, textures, part configuration
+   files, saved games or other game assets. The AutoLab plugin (plugins/AutoLab) is distributed as source code
+   only; it is compiled against the assemblies of a locally installed copy of the game, which are referenced from
+   the KSP_DIR directory and are never copied into this repository or the build output.
+
+   data/kerbin.json contains numeric physical constants and atmosphere samples of the planet Kerbin, measured in
+   Kerbal Space Program 1.12.5 through kRPC.
+
+   Test fixtures in tests/data are excerpts of flight logs produced by this project's own software while running
+   in the game (see tests/data/SOURCES.txt).
+
+3. kRPC
+
+   kRPC (https://github.com/krpc/krpc), by djungelorm and contributors, is a runtime dependency and is not
+   distributed with this project. The Python client library (krpc on PyPI) is licensed under the GNU Lesser
+   General Public License version 3 (LGPL-3.0-only); the kRPC server mod that runs inside the game is distributed
+   separately by the kRPC project under its own licence. This project only imports the client library and does not
+   include or link the server.
+
+4. KERBAL REUSABILITY EXPANSION (KRE)
+
+   The grid-fin craft variants use parts of the Kerbal Reusability Expansion mod (tested with version 2.9.3).
+   KRE is not distributed with this project. It is licensed under the MIT License, Copyright (c) 2020 EmbersArc;
+   the maintained continuation is https://github.com/TundraMods/Kerbal-Reusability-Expansion (formerly
+   damonvv/Kerbal-Reusability-Expansion, which now redirects there).
+
+5. CRAFT FILE SOURCES
+
+   The craft files in craft/ are modified versions of craft published by fratardi/KSP_SCRIPTS
+   (https://github.com/fratardi/KSP_SCRIPTS, GPL-3.0) and of the MechJeb2 test craft by the MuMech contributors
+   (https://github.com/MuMech/MechJeb2, GPL-3.0): T-TinCan.craft, T-TinCan2Stage.craft and T-TinCanAsparagus.craft
+   are derived from MechJeb2 test craft and are not used in the flights reported in paper/. Provenance and
+   modification notices are in craft/SOURCES.md. MechJeb2 itself is not required by, or distributed with, this
+   project. kspilot/maneuver.py re-derives the closed-form approach of MechJeb2's OrbitalManeuverCalculator, which
+   was studied during development; according to the file's provenance note it is an independent implementation and
+   no MechJeb2 source code was copied or translated.
+
+6. OPTIONAL RECORDING TOOLS
+
+   The video recording and post-production tools (tools/obs_rec.py, tools/edit_obs.py, tools/edit_video.py and
+   kspilot/obsrec.py) are optional. They use OBS Studio (GPL-2.0-or-later) through obs-websocket and the
+   obsws-python client library (GPL-3.0-only), Pillow (HPND licence) and ffmpeg (LGPL/GPL, depending on the
+   build). None of these is distributed with this project; they are listed in requirements-optional.txt and in the
+   "recording" extra of pyproject.toml. Installing them is not needed for guidance, simulation or the test suite.
+
+7. OTHER PYTHON DEPENDENCIES
+
+   NumPy (BSD-3-Clause), SciPy (BSD-3-Clause), CVXPY (Apache-2.0) with its default solvers including Clarabel
+   (Apache-2.0), and pytest (MIT). None is distributed with this project.
+
+8. AI ASSISTANCE DISCLOSURE
+
+   Most of the flight software, the tools, the tests, the analysis scripts and the documentation, including the
+   report in paper/, were written by an agentic AI system (Claude Code, primarily Claude Opus 5.5; subagents used the
+   models and settings available in each session, and per-instance records were not kept), which also ran and
+   supervised the flights and analysed the logs, under the direction of the human author. The human author set the
+   goals, reviewed the outputs and the experimental results, approved the key project decisions and is accountable
+   for the content. He did not independently re-verify the numbers in the report. The audits of the numbers and of
+   the citations were done by separate instances of the same AI model family, which are not independent of the
+   author's tooling; this is a stated limitation. paper/kspilot_report.md (Sections 6 and 7.2) states what was and
+   was not verified, and by whom.
+
+   Copyright in material produced largely by an AI system is uncertain in several jurisdictions. The copyright
+   notice and the licences above are the human author's choice of terms for whatever rights subsist.
+
+media/kspilot_full_mission_v7.mp4: the overlay and editing are the project's work (CC BY-SA 4.0). The game footage and the in-game music and sound remain the property of their rights holders (Kerbal Space Program, Squad / Private Division) and are not licensed by this project.

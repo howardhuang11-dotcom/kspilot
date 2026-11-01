@@ -1,0 +1,29 @@
+[    0.1s] loading checkpoint g5_entry
+[   19.2s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   19.2s] learned aim offset: +70 m (26 flights)
+[   19.2s] drag modulation: CdA out 21.6 in 7.022900071911554
+[   19.2s] frozen 0 leading control surfaces
+[   19.5s] drag modulation: brakes IN (out -2285m / in +28235m, k_out 1.00 k_in 1.00)
+[   80.1s] ENTRY BURN start h=44905m v=2104m/s q=1.1kPa
+[   87.1s] ENTRY BURN end h=41347m v=1513m/s q=0.9kPa dv flown 593 m/s
+[   87.3s] drag modulation: brakes IN (out -1929m / in +26480m, k_out 1.00 k_in 0.91)
+[  104.5s] drag modulation: brakes OUT (out -45m / in +29596m, k_out 1.00 k_in 0.68)
+[  105.1s] range trim: retro pulse #1 (out +84m)
+[  108.2s] drag modulation: brakes IN (out -268m / in +27209m, k_out 1.01 k_in 0.68)
+[  143.1s] drag modulation: brakes IN (out -356m / in +5280m, k_out 1.02 k_in 0.68)
+[  153.0s] range trim: retro pulse #6 (out +525m)
+[  157.0s] fin steering: 8 trailing surfaces enabled at 11994 m
+[  158.3s] range trim: retro pulse #11 (out +331m)
+[  168.7s] drag modulation: brakes IN (out -107m / in +656m, k_out 0.94 k_in 0.64)
+[  171.8s] drag modulation: brakes OUT (out -95m / in +549m, k_out 0.94 k_in 0.66)
+[  174.9s] drag modulation: brakes IN (out -102m / in +429m, k_out 0.94 k_in 0.66)
+[  177.0s] drag modulation: brakes OUT (out -100m / in +364m, k_out 0.94 k_in 0.66)
+[  181.1s] drag modulation: brakes IN (out -108m / in +245m, k_out 0.96 k_in 0.66)
+[  188.5s] drag modulation: brakes OUT (out -99m / in +30m, k_out 0.96 k_in 1.46)
+[  220.8s] pad cleared: clearpad 0
+[  223.2s] IGNITION h=1175m vz=-127.7 vh=3.3 offset=120m cda=17.91
+[  229.4s] pad cleared: clearpad 0
+[  261.7s] RESULT FAIL miss=44.2m v_td=0.72m/s upright=0.098 fuel_left=126 parts=20 VesselSituation.landed
+[  261.7s] event ('ignition', 1175, np.float64(-127.7), 120)
+drag calibration (38 flights): 2km:0.88 6km:0.89 10km:0.91 14km:0.79 18km:0.91 22km:0.91 26km:0.92 30km:0.66 34km:0.38 38km:0.40 42km:0.85 46km:0.38 50km:0.38 54km:0.40 58km:0.41 62km:0.43 66km:0.45 70km:0.95
+shot: screenshots/20261019_214728_orbit_T-WorksFinePayload.png

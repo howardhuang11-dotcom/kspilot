@@ -1,0 +1,9 @@
+[    0.1s] loading checkpoint g5_orbit
+[   19.1s] flying core: T-WorksFinePayload mass 17.6t fuel 630
+[   39.2s] drag calibration applied (25 flights)
+[   39.2s] drag table (brakes out) CdA@100m/s,10km=19.6  @2000m/s,40km=148.8
+[   39.2s] core CdA brakes in = 8.85 m^2
+[   39.2s] core CdA (brakes out, 10 km) = 21.28 m^2
+[   41.8s] deorbit plan: miss 0m dv 159.3 m/s (retro 150.1 normal 9.2) t_ign +5830s CdA 21.28
+[   43.8s] predicted sun elevation at landing: 89 deg
+[   44.0s] warping 4809s to node

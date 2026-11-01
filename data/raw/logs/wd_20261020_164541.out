@@ -1,0 +1,10 @@
+[    0.1s] loading checkpoint g5_term
+[   20.2s] CoM height above leg feet: 7.05 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   20.2s] learned aim offset: +0 m (29 flights)
+[   20.2s] drag modulation: CdA out 27.7 in 7.606967295201137
+[   20.2s] frozen 0 leading control surfaces
+[   26.1s] landing burn: control surfaces released, gimbal only
+[   26.1s] IGNITION h=1808m vz=-149.8 vh=10.4 offset=137m cda=18.19
+[   28.6s] pad cleared: clearpad 0
+[   28.6s] fin steering: 8 trailing surfaces enabled at 1492 m
+[   37.7s] pad cleared: clearpad 0

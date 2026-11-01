@@ -1,0 +1,15 @@
+Flight-data fixtures for the offline replay tests (tests/flightdata.py).
+
+All files were produced by this project's own software in Kerbal Space Program 1.12.5 on 2026-10-20/21.
+
+  *_landing.csv.gz   landing telemetry CSVs written by kspilot.landing (gzip -9 -n of the original CSV, unmodified)
+                     20261020_203827  T-WorksFineGF0T, used by tests/test_aim.py (replay_sim closed loop)
+                     20261021_075304  T-WorksFineGF,   used by tests/test_rec_v2.py
+                     20261021_105006  T-WorksFineGF,   used by tests/test_rec_fix2.py
+                     20261021_121140  T-WorksFineGF,   used by tests/test_rec_fix3.py
+  wd_*.out           watchdog console logs of four complete missions (T-WorksFineGF), used by
+                     tests/test_sep_watch.py. Sanitised: the nine pre-launch feasibility report lines (printed in
+                     Chinese by an earlier version of kspilot.feasibility, now English) were removed, and
+                     absolute paths of the development machine were replaced by "<repo>". No other change.
+
+Licence: these data files are part of the test suite and are covered by CC BY-SA 4.0 (LICENSE-docs).

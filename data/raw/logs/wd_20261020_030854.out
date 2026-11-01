@@ -1,0 +1,13 @@
+[   16.3s] stage 3: ΔV  888 m/s (vacuum 1045) TWR sea level 1.73 burn  42s mass 92.7→59.3t
+[   16.3s] stage 2: ΔV 3699 m/s (vacuum 4219) TWR sea level 1.09 burn 190s mass 53.1→13.8t
+[   16.3s] low-TWR gravity loss +186 m/s
+[   16.3s] ascent+insertion requirement ≈ 3620 m/s  (vacuum equivalent)
+[   16.3s] recovery stage: dry 11.4t wet 59.4t engines 1 landing legs 4 CdA≈9.49m² terminal velocity≈144m/s landing TWR≈4.6
+[   16.3s] recovery requirement ≈ 1363 m/s  (deorbit+entry burn+landing burn+margin)
+[   16.3s] total available ΔV 5105 m/s , total required 4982 m/s , margin +123 m/s
+[   16.3s] verdict: [ok] go
+[   16.4s] ascent (own): target Pe 100 km Ap 100 km i 6.0 deg -> launch heading 83.5 deg
+[   25.7s] ascent: pitch-over at 71 m/s, 396 m
+[   60.2s] ascent: staging 3 -> 2 (4 dry engines dropped, 0 engines to light)
+[   81.3s] ascent ABORT: back on the surface
+[   81.3s] RESULT FAIL ascent

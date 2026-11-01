@@ -1,0 +1,31 @@
+[    0.1s] loading checkpoint g5_entry
+[   19.6s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   19.6s] learned aim offset: +69 m (29 flights)
+[   19.6s] drag modulation: CdA out 21.6 in 7.022900071911554
+[   19.6s] frozen 0 leading control surfaces
+[   19.9s] drag modulation: brakes IN (out -1956m / in +28429m, k_out 1.00 k_in 1.00)
+[   80.7s] ENTRY BURN start h=44899m v=2104m/s q=1.1kPa
+[   87.7s] ENTRY BURN end h=41339m v=1513m/s q=0.9kPa dv flown 593 m/s
+[   87.8s] post-entry trim: predicted cross +44 m (along -1341), 65.8 m per m/s -> -0.67 m/s sideways
+[  108.3s] burn skipped: could not align
+[  109.0s] drag modulation: brakes IN (out -4368m / in +17517m, k_out 1.03 k_in 0.95)
+[  143.6s] drag modulation: brakes IN (out -3547m / in +1085m, k_out 1.04 k_in 0.95)
+[  150.5s] drag modulation: brakes IN (out -2433m / in +412m, k_out 0.75 k_in 0.82)
+[  157.0s] drag modulation: brakes IN (out -1853m / in -139m, k_out 0.60 k_in 0.73)
+[  162.3s] drag modulation: brakes IN (out -1575m / in -514m, k_out 0.54 k_in 0.73)
+[  166.2s] drag modulation: brakes IN (out -1546m / in -734m, k_out 0.56 k_in 0.73)
+[  170.5s] drag modulation: brakes IN (out -1562m / in -948m, k_out 0.60 k_in 0.73)
+[  175.0s] drag modulation: brakes IN (out -1593m / in -1135m, k_out 0.66 k_in 0.73)
+[  179.5s] drag modulation: brakes IN (out -1628m / in -1285m, k_out 0.72 k_in 0.73)
+[  184.1s] drag modulation: brakes IN (out -1657m / in -1403m, k_out 0.79 k_in 0.73)
+[  188.4s] drag modulation: brakes IN (out -1667m / in -1487m, k_out 0.84 k_in 0.73)
+[  192.5s] drag modulation: brakes IN (out -1668m / in -1546m, k_out 0.87 k_in 0.73)
+[  196.7s] drag modulation: brakes IN (out -1667m / in -1590m, k_out 0.90 k_in 0.73)
+[  200.9s] drag modulation: brakes IN (out -1665m / in -1620m, k_out 0.92 k_in 0.73)
+[  201.4s] fin steering: 8 trailing surfaces enabled at 2988 m
+[  211.8s] pad cleared: clearpad 0
+[  218.8s] pad cleared: clearpad 0
+[  219.4s] IGNITION h=489m vz=-125.4 vh=5.2 offset=1690m cda=17.74
+[  247.3s] RESULT FAIL miss=1681.0m v_td=0.25m/s upright=1.000 fuel_left=189 parts=22 VesselSituation.landed
+[  247.3s] event ('ignition', 489, np.float64(-125.4), 1690)
+shot: screenshots/20261019_221847_orbit_T-WorksFinePayload.png

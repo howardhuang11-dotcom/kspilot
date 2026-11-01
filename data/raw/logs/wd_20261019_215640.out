@@ -1,0 +1,28 @@
+[    0.1s] loading checkpoint g5_entry
+[   19.3s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   19.4s] learned aim offset: +77 m (28 flights)
+[   19.4s] drag modulation: CdA out 21.6 in 7.022900071911554
+[   19.4s] frozen 0 leading control surfaces
+[   19.7s] drag modulation: brakes IN (out -1677m / in +28535m, k_out 1.00 k_in 1.00)
+[   80.4s] ENTRY BURN start h=44809m v=2104m/s q=1.1kPa
+[   87.5s] ENTRY BURN end h=41239m v=1511m/s q=0.9kPa dv flown 595 m/s
+[   87.6s] drag modulation: brakes IN (out -1119m / in +26627m, k_out 1.00 k_in 0.94)
+[  100.3s] drag modulation: brakes OUT (out -91m / in +26313m, k_out 1.00 k_in 0.94)
+[  102.4s] drag modulation: brakes IN (out -135m / in +25824m, k_out 1.00 k_in 0.94)
+[  104.5s] drag modulation: brakes OUT (out -70m / in +25388m, k_out 1.00 k_in 0.94)
+[  105.5s] range trim: retro pulse #1 (out +111m)
+[  107.0s] drag modulation: brakes IN (out -136m / in +24256m, k_out 1.00 k_in 0.94)
+[  108.6s] drag modulation: brakes OUT (out +26m / in +23734m, k_out 1.00 k_in 0.94)
+[  145.4s] drag modulation: brakes IN (out -226m / in +3765m, k_out 1.13 k_in 0.94)
+[  149.8s] drag modulation: brakes OUT (out -20m / in +3241m, k_out 1.13 k_in 0.80)
+[  154.9s] range trim: retro pulse #6 (out +119m)
+[  162.2s] range trim: retro pulse #11 (out +85m)
+[  211.9s] fin steering: 8 trailing surfaces enabled at 2991 m
+[  223.2s] pad cleared: clearpad 0
+[  227.8s] IGNITION h=875m vz=-125.3 vh=2.5 offset=49m cda=18.11
+[  230.6s] pad cleared: clearpad 0
+[  261.2s] RESULT PASS miss=10.6m v_td=0.40m/s upright=1.000 fuel_left=143 parts=22 VesselSituation.landed
+[  261.2s] event ('ignition', 875, np.float64(-125.3), 49)
+[  261.2s] aim offset updated: ignition along +49 m cross +5 m -> offsets +92 / +32 m
+drag calibration (41 flights): 2km:0.88 6km:0.88 10km:0.90 14km:0.80 18km:0.91 22km:0.91 26km:0.92 30km:0.70 34km:0.36 38km:0.36 42km:0.84 46km:0.37 50km:0.38 54km:0.39 58km:0.41 62km:0.43 66km:0.45 70km:0.95
+shot: screenshots/20261019_220103_orbit_T-WorksFinePayload.png

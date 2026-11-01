@@ -1,0 +1,41 @@
+[   26.8s] stage 3: ΔV  888 m/s (vacuum 1045) TWR sea level 1.73 burn  42s mass 92.7→59.3t
+[   26.8s] stage 2: ΔV 3699 m/s (vacuum 4219) TWR sea level 1.09 burn 190s mass 53.1→13.8t
+[   26.8s] low-TWR gravity loss +186 m/s
+[   26.8s] ascent+insertion requirement ≈ 3620 m/s  (vacuum equivalent)
+[   26.8s] recovery stage: dry 11.4t wet 59.4t engines 1 landing legs 4 CdA≈9.48m² terminal velocity≈144m/s landing TWR≈4.6
+[   26.8s] recovery requirement ≈ 1363 m/s  (deorbit+entry burn+landing burn+margin)
+[   26.8s] total available ΔV 5105 m/s , total required 4982 m/s , margin +123 m/s
+[   26.8s] verdict: [ok] go
+[   27.1s] ascent (own): target Pe 100 km Ap 100 km i 6.0 deg -> launch heading 83.5 deg
+[   29.2s] ascent tel: rise alt 0.1 km v 4 m/s pitch 90.0 aoa -0.0 Ap 0.1 km stage 3 parts 49 thr 1571 kN
+[   31.4s] ascent tel: rise alt 0.1 km v 11 m/s pitch 90.0 aoa -0.0 Ap 0.1 km stage 3 parts 49 thr 1573 kN
+[   34.1s] ascent tel: rise alt 0.1 km v 18 m/s pitch 90.0 aoa -0.0 Ap 0.1 km stage 3 parts 49 thr 1573 kN
+[   36.0s] ascent tel: rise alt 0.1 km v 23 m/s pitch 90.0 aoa -0.0 Ap 0.2 km stage 3 parts 49 thr 1574 kN
+[   38.4s] ascent tel: rise alt 0.1 km v 29 m/s pitch 90.0 aoa -0.0 Ap 0.2 km stage 3 parts 49 thr 1575 kN
+[   40.9s] ascent tel: rise alt 0.2 km v 36 m/s pitch 90.0 aoa -0.0 Ap 0.2 km stage 3 parts 49 thr 1576 kN
+[   43.4s] ascent tel: rise alt 0.2 km v 44 m/s pitch 90.0 aoa -0.0 Ap 0.3 km stage 3 parts 49 thr 1578 kN
+[   45.5s] ascent tel: rise alt 0.2 km v 50 m/s pitch 90.0 aoa -0.0 Ap 0.4 km stage 3 parts 49 thr 1579 kN
+[   47.7s] ascent tel: rise alt 0.3 km v 55 m/s pitch 89.9 aoa -0.0 Ap 0.4 km stage 3 parts 49 thr 1581 kN
+[   50.6s] ascent tel: rise alt 0.3 km v 64 m/s pitch 89.9 aoa -0.0 Ap 0.6 km stage 3 parts 49 thr 1583 kN
+[   52.6s] ascent: pitch-over at 71 m/s, 396 m
+[   52.7s] ascent tel: kick alt 0.4 km v 72 m/s pitch 89.9 aoa -0.0 Ap 0.7 km stage 3 parts 49 thr 1586 kN
+[   55.2s] ascent tel: turn alt 0.5 km v 80 m/s pitch 87.1 aoa -1.9 Ap 0.8 km stage 3 parts 49 thr 1589 kN
+[   57.2s] ascent tel: turn alt 0.5 km v 86 m/s pitch 82.9 aoa -3.4 Ap 0.9 km stage 3 parts 49 thr 1591 kN
+[   59.6s] ascent tel: turn alt 0.6 km v 93 m/s pitch 75.5 aoa -4.6 Ap 1.1 km stage 3 parts 49 thr 1594 kN
+[   61.8s] ascent tel: turn alt 0.7 km v 100 m/s pitch 66.6 aoa -5.3 Ap 1.2 km stage 3 parts 49 thr 1598 kN
+[   64.0s] ascent tel: turn alt 0.8 km v 106 m/s pitch 58.4 aoa -5.6 Ap 1.3 km stage 3 parts 49 thr 1601 kN
+[   66.6s] ascent tel: turn alt 0.9 km v 113 m/s pitch 49.3 aoa -4.7 Ap 1.5 km stage 3 parts 49 thr 1605 kN
+[   68.6s] ascent tel: turn alt 1.0 km v 117 m/s pitch 44.8 aoa -3.5 Ap 1.6 km stage 3 parts 49 thr 1608 kN
+[   71.5s] ascent tel: turn alt 1.0 km v 123 m/s pitch 40.1 aoa -2.1 Ap 1.7 km stage 3 parts 49 thr 1612 kN
+[   72.8s] ascent tel: turn alt 1.1 km v 130 m/s pitch 36.9 aoa -1.7 Ap 1.7 km stage 3 parts 49 thr 1614 kN
+[   75.0s] ascent tel: turn alt 1.2 km v 138 m/s pitch 33.5 aoa -2.4 Ap 1.8 km stage 3 parts 49 thr 1618 kN
+[   77.8s] ascent tel: turn alt 1.3 km v 148 m/s pitch 30.3 aoa -2.9 Ap 1.9 km stage 3 parts 49 thr 1622 kN
+[   80.9s] ascent tel: turn alt 1.4 km v 158 m/s pitch 26.7 aoa -2.9 Ap 2.0 km stage 3 parts 49 thr 1626 kN
+[   82.8s] ascent tel: turn alt 1.5 km v 168 m/s pitch 23.7 aoa -2.7 Ap 2.0 km stage 3 parts 49 thr 1628 kN
+[   85.0s] ascent tel: turn alt 1.6 km v 180 m/s pitch 20.3 aoa -2.3 Ap 2.1 km stage 3 parts 49 thr 1631 kN
+[   86.9s] ascent tel: turn alt 1.7 km v 190 m/s pitch 17.5 aoa -2.0 Ap 2.1 km stage 3 parts 49 thr 1633 kN
+[   89.8s] ascent tel: turn alt 1.7 km v 204 m/s pitch 13.8 aoa -1.5 Ap 2.1 km stage 3 parts 49 thr 1636 kN
+[   92.5s] ascent tel: turn alt 1.8 km v 220 m/s pitch 10.1 aoa -0.9 Ap 2.1 km stage 3 parts 49 thr 1639 kN
+[   95.1s] ascent tel: turn alt 1.9 km v 235 m/s pitch 7.4 aoa -0.4 Ap 2.1 km stage 3 parts 49 thr 1641 kN
+[   97.3s] ascent tel: turn alt 1.9 km v 242 m/s pitch 6.4 aoa -0.3 Ap 2.1 km stage 3 parts 49 thr 1642 kN
+[   99.4s] ascent tel: turn alt 1.9 km v 250 m/s pitch 5.2 aoa -0.1 Ap 2.1 km stage 3 parts 49 thr 1643 kN

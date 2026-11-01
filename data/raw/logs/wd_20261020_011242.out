@@ -1,0 +1,42 @@
+[    0.2s] loading checkpoint g5_entry
+[   20.1s] CoM height above leg feet: 7.28 m, footprint radius 3.1 m, tip-over angle 23 deg
+[   20.1s] learned aim offset: +0 m (29 flights)
+[   20.1s] drag modulation: CdA out 29.3 in 7.970333153147449
+[   20.1s] frozen 0 leading control surfaces
+[   20.4s] drag modulation: brakes IN (out -1222m / in +30248m, k_out 1.00 k_in 1.00)
+[   75.6s] drag modulation: brakes OUT (out -18m / in +28487m, k_out 1.00 k_in 1.14)
+[   77.8s] drag modulation: brakes IN (out -92m / in +28169m, k_out 1.00 k_in 1.14)
+[   81.0s] drag modulation: brakes OUT (out +1m / in +28007m, k_out 1.00 k_in 1.13)
+[   81.1s] ENTRY BURN start h=44891m v=2099m/s q=1.1kPa
+[   81.3s] entry guidance: cross +3 m, 590 m/s left -> tilt -0.00 deg
+[   81.8s] entry guidance: cross +3 m, 563 m/s left -> tilt -0.00 deg
+[   82.3s] entry guidance: cross +1 m, 521 m/s left -> tilt -0.00 deg
+[   82.9s] entry guidance: cross -3 m, 479 m/s left -> tilt +0.01 deg
+[   83.5s] entry guidance: cross -7 m, 434 m/s left -> tilt +0.02 deg
+[   84.0s] entry guidance: cross -10 m, 388 m/s left -> tilt +0.03 deg
+[   84.5s] entry guidance: cross -12 m, 343 m/s left -> tilt +0.03 deg
+[   85.1s] entry guidance: cross -13 m, 299 m/s left -> tilt +0.04 deg
+[   85.6s] entry guidance: cross -15 m, 249 m/s left -> tilt +0.06 deg
+[   86.2s] entry guidance: cross -16 m, 200 m/s left -> tilt +0.07 deg
+[   86.8s] entry guidance: cross -16 m, 151 m/s left -> tilt +0.10 deg
+[   87.3s] entry guidance: cross -16 m, 104 m/s left -> tilt +0.14 deg
+[   87.8s] entry guidance: cross -14 m, 56 m/s left -> tilt +0.22 deg
+[   88.3s] ENTRY BURN end h=41233m v=1504m/s q=0.9kPa dv flown 591 m/s
+[   88.5s] vernier plan: cross -11 m (along -1021), 64.9 m per m/s -> 0.16 m/s sideways
+[   88.6s] drag modulation: brakes IN (out -1867m / in +24081m, k_out 1.00 k_in 1.13)
+[  108.0s] drag modulation: brakes OUT (out -16m / in +26279m, k_out 1.00 k_in 0.93)
+[  109.0s] range trim: retro pulse #1 (out +209m)
+[  141.1s] drag modulation: brakes IN (out -374m / in +6371m, k_out 1.05 k_in 0.93)
+[  151.9s] range trim: retro pulse #6 (out +739m)
+[  157.1s] range trim: retro pulse #11 (out +560m)
+[  162.1s] range trim: retro pulse #16 (out +329m)
+[  170.3s] drag modulation: brakes IN (out -54m / in +799m, k_out 0.99 k_in 0.83)
+[  173.4s] drag modulation: brakes OUT (out -17m / in +744m, k_out 0.99 k_in 0.83)
+[  242.3s] pad cleared: clearpad 1
+[  242.3s] fin steering: 12 trailing surfaces enabled at 1496 m
+[  252.1s] pad cleared: clearpad 0
+[  253.3s] landing burn: control surfaces released, gimbal only
+[  253.3s] IGNITION h=475m vz=-88.8 vh=2.5 offset=16m cda=32.91
+[  281.3s] RESULT PASS miss=0.8m v_td=0.17m/s upright=1.000 fuel_left=88 parts=26 VesselSituation.landed
+[  281.3s] event ('ignition', 475, np.float64(-88.8), 16)
+shot: screenshots/20261020_011726_orbit_T-WorksFineGF.png

@@ -1,0 +1,6 @@
+# Runtime and test dependencies (tested versions; Python 3.12).
+krpc==0.6.0          # LGPL-3.0-only client library; requires the kRPC server mod 0.6.0 in the game
+numpy>=2.0           # tested 2.5.4
+scipy>=1.11          # tested 1.18.1
+cvxpy>=1.5           # tested 1.9.3 (uses the bundled Clarabel solver)
+pytest>=8            # offline test suite; tested 9.1.1

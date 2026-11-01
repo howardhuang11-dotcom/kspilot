@@ -1,0 +1,57 @@
+[    0.2s] loading checkpoint g5_orbit
+[   26.0s] flying core: T-WorksFinePayload mass 19.9t fuel 836
+[   43.8s] drag calibration applied (11 flights)
+[   43.9s] drag table (brakes out) CdA@100m/s,10km=17.7  @2000m/s,40km=139.9
+[   43.9s] core CdA brakes in = 6.36 m^2
+[   43.9s] core CdA (brakes out, 10 km) = 19.35 m^2
+[   45.9s] deorbit plan: miss 0m dv 142.9 m/s (retro 138.4 normal 4.5) t_ign +2912s CdA 19.35
+[   45.9s] warping 1893s to node
+[  190.1s] node done, remaining nodes 1
+[  190.1s] warping 833s to node
+[  317.8s] node done, remaining nodes 0
+[  321.0s] vacuum correction 0: predicted miss 3655m (along +3654 cross -26) spread 0m, trim 0.707 m/s
+[  329.1s] burn done: 0.707 m/s timed pulse 0.60s at 3.4% thrust
+[  334.3s] trim effect 1.00x of prediction -> gain 0.54
+[  334.3s] vacuum correction 1: predicted miss 1457m (along +1457 cross -11) spread 2m, trim 0.268 m/s
+[  339.2s] burn done: 0.268 m/s timed pulse 0.60s at 1.3% thrust
+[  344.6s] trim effect 1.01x of prediction -> gain 0.48
+[  344.6s] vacuum correction 2: predicted miss 661m (along +661 cross -4) spread 0m, trim 0.113 m/s
+[  344.7s] warping to entry interface
+[  353.9s] checkpoint saved: g5_entry
+[  358.0s] CoM height above leg feet: 7.18 m
+[  358.0s] learned aim offset: +130 m (5 flights)
+[  358.0s] drag modulation: CdA out 19.3 in 6.364788731580124
+[  358.0s] frozen 0 leading control surfaces
+[  358.3s] drag modulation: brakes IN (out -842m / in +34488m, k_out 1.00 k_in 1.00)
+[  418.3s] drag modulation: brakes OUT (out -152m / in +34196m, k_out 1.00 k_in 1.02)
+[  418.8s] drag modulation: brakes IN (out -194m / in +34195m, k_out 1.00 k_in 1.02)
+[  419.9s] drag modulation: brakes OUT (out -139m / in +34193m, k_out 1.00 k_in 1.02)
+[  423.1s] drag modulation: brakes IN (out -177m / in +33921m, k_out 1.00 k_in 1.02)
+[  425.2s] drag modulation: brakes OUT (out -145m / in +33795m, k_out 1.00 k_in 1.02)
+[  427.8s] drag modulation: brakes IN (out -162m / in +33538m, k_out 1.00 k_in 1.02)
+[  429.6s] drag modulation: brakes OUT (out -158m / in +33388m, k_out 1.00 k_in 1.02)
+[  432.2s] drag modulation: brakes IN (out -193m / in +33052m, k_out 1.00 k_in 1.02)
+[  434.4s] drag modulation: brakes OUT (out -125m / in +32873m, k_out 1.00 k_in 1.02)
+[  437.9s] drag modulation: brakes IN (out -591m / in +32357m, k_out 1.03 k_in 1.02)
+[  441.7s] drag modulation: brakes OUT (out -159m / in +32884m, k_out 1.03 k_in 0.95)
+[  442.2s] ENTRY BURN start h=44907m v=2075m/s q=1.0kPa
+[  450.3s] ENTRY BURN end h=41375m v=1495m/s q=0.9kPa dv flown 591 m/s
+[  452.5s] drag modulation: brakes IN (out -515m / in +30475m, k_out 1.05 k_in 0.95)
+[  457.3s] drag modulation: brakes OUT (out -150m / in +30704m, k_out 1.05 k_in 0.91)
+[  460.6s] drag modulation: brakes IN (out -556m / in +30012m, k_out 1.07 k_in 0.91)
+[  464.3s] drag modulation: brakes OUT (out -78m / in +30335m, k_out 1.07 k_in 0.86)
+[  464.8s] range trim: retro pulse #1 (out +33m)
+[  469.7s] drag modulation: brakes IN (out -210m / in +27880m, k_out 1.08 k_in 0.86)
+[  470.8s] drag modulation: brakes OUT (out -154m / in +27410m, k_out 1.08 k_in 0.86)
+[  514.6s] range trim: retro pulse #6 (out +426m)
+[  519.9s] range trim: retro pulse #11 (out +349m)
+[  525.2s] range trim: retro pulse #16 (out +238m)
+[  530.4s] range trim: retro pulse #21 (out +76m)
+[  591.4s] pad cleared: clearpad 0
+[  599.1s] pad cleared: clearpad 0
+[  600.5s] IGNITION h=407m vz=-131.2 vh=2.7 offset=26m cda=17.48
+[  622.5s] RESULT FAIL miss=3.7m v_td=1.74m/s upright=-0.041 fuel_left=324 parts=19 VesselSituation.landed
+[  622.5s] event ('ignition', 407, np.float64(-131.2), 26)
+[  622.5s] aim offset updated: ignition along -1 m -> offset +130 m
+drag calibration (12 flights): 2km:0.98 6km:0.98 10km:0.99 14km:0.89 18km:0.97 22km:0.98 26km:0.99 30km:0.93 34km:0.87 38km:0.52 42km:1.68 46km:0.76 50km:0.73 54km:0.57 58km:0.52 62km:0.55 66km:0.57 70km:0.95
+shot: screenshots/20261019_091152_orbit_T-WorksFinePayload.png

@@ -1,0 +1,37 @@
+[    0.1s] rendezvous: chaser R1-Chaser a 700.3 km e 0.0001 | target R1-Station a 700.3 km e 0.0001 | rel inc 0.000 deg | dist 1.2 km
+[    0.1s] R1-d: terminal phase with --rcs-trim: no main-engine null (RCS only), |rhod| 0.292 m/s
+[    0.1s] rcs monoprop: -; total 0.0000 u (start 50.00 u); controls zeroed, RCS off
+[    0.1s] Traceback (most recent call last):
+  File "tools/rdv_r1.py", line 1472, in run
+    return Rendezvous(env, args).run()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tools/rdv_r1.py", line 1352, in run
+    self.rcs_trim()
+  File "tools/rdv_r1.py", line 1106, in rcs_trim
+    blocks = [(float(r.available_thrust), [_fl(t.thrust_direction(rfv)) for t in r.thrusters])
+                                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File ".venv/lib/python3.12/site-packages/krpc/services/spacecenter.py", line 30727, in thrust_direction
+    return self._client._invoke(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ".venv/lib/python3.12/site-packages/krpc/client.py", line 225, in _invoke
+    raise self._build_error(response.results[0].error)
+krpc.error.RPCError: 
+Server stack trace:
+  at (wrapper managed-to-native) UnityEngine.Transform.get_rotation_Injected(UnityEngine.Transform,UnityEngine.Quaternion&)
+  at UnityEngine.Transform.get_rotation () [0x00000] in <ef038509c5b948af8d6049dcab97ad3f>:0 
+  at UnityEngine.Transform.get_forward () [0x00001] in <ef038509c5b948af8d6049dcab97ad3f>:0 
+  at KRPC.SpaceCenter.Services.Parts.Thruster.get_WorldThrustDirection () [0x00023] in <f1773ffb70fa488dab4ae2b41d658d1d>:0 
+  at KRPC.SpaceCenter.Services.Parts.Thruster.ThrustDirection (KRPC.SpaceCenter.Services.ReferenceFrame referenceFrame) [0x00014] in <f1773ffb70fa488dab4ae2b41d658d1d>:0 
+  at (wrapper dynamic-method) System.Object.lambda_method(System.Runtime.CompilerServices.Closure,object,object[])
+  at KRPC.Service.ClassMethodHandler.Invoke (System.Object instance, System.Object[] arguments) [0x00001] in <96c426f535db4c9daa669caa35f61868>:0 
+  at KRPC.Service.Services.ExecuteCall (KRPC.Service.Scanner.ProcedureSignature procedure, System.Object instance, System.Object[] arguments) [0x0003a] in <96c426f535db4c9daa669caa35f61868>:0
+[    0.2s] RESULT FAIL exception RPCError: 
+Server stack trace:
+  at (wrapper managed-to-native) UnityEngine.Transform.get_rotation_Injected(UnityEngine.Transform,UnityEngine.Quaternion&)
+  at UnityEngine.Transform.get_rotation () [0x00000] in <ef038509c5b948af8d6049dcab97ad3f>:0 
+  at UnityEngine.Transform.get_forward () [0x00001] in <ef038509c5b948af8d6049dcab97ad3f>:0 
+  at KRPC.SpaceCenter.Services.Parts.Thruster.get_WorldThrustDirection () [0x00023] in <f1773ffb70fa488dab4ae2b41d658d1d>:0 
+  at KRPC.SpaceCenter.Services.Parts.Thruster.ThrustDirection (KRPC.SpaceCenter.Services.ReferenceFrame referenceFrame) [0x00014] in <f1773ffb70fa488dab4ae2b41d658d1d>:0 
+  at (wrapper dynamic-method) System.Object.lambda_method(System.Runtime.CompilerServices.Closure,object,object[])
+  at KRPC.Service.ClassMethodHandler.Invoke (System.Object instance, System.Object[] arguments) [0x00001] in <96c426f535db4c9daa669caa35f61868>:0 
+  at KRPC.Service.Services.ExecuteCall (KRPC.Service.Scanner.ProcedureSignature procedure, System.Object instance, System.Object[] arguments) [0x0003a] in <96c426f535db4c9daa669caa35f61868>:0 

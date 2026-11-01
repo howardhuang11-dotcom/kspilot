@@ -1,0 +1,27 @@
+[    0.1s] loading checkpoint g5_orbit
+[   15.6s] flying core: T-WorksFinePayload mass 17.6t fuel 630
+[   35.1s] drag calibration applied (25 flights)
+[   35.1s] drag table (brakes out) CdA@100m/s,10km=19.5  @2000m/s,40km=148.5
+[   35.1s] core CdA brakes in = 7.24 m^2
+[   35.1s] core CdA (brakes out, 10 km) = 21.22 m^2
+[   37.3s] deorbit plan: miss 1m dv 159.3 m/s (retro 150.1 normal 9.2) t_ign +5830s CdA 21.22
+[   39.3s] predicted sun elevation at landing: 89 deg
+[   39.3s] warping 4809s to node
+[  143.7s] burn: warping 30s (dv 9.2 m/s, 0.2 s burn)
+[  205.4s] burn done: 9.2 m/s planned, 0.04 m/s left
+[  205.4s] node done, remaining nodes 1
+[  205.4s] warping 825s to node
+[  228.7s] burn: warping 28s (dv 150.1 m/s, 3.9 s burn)
+[  260.1s] burn: 234s late, flying it now
+[  269.9s] burn done: 150.1 m/s planned, 0.05 m/s left
+[  269.9s] node done, remaining nodes 0
+[  269.9s] learned cross-track offset: -14 m
+[  273.2s] vacuum correction 0: predicted miss 342496m (along +342496 cross -97) spread 2m, trim 64.451 m/s
+[  273.2s] warping to entry interface
+[  282.8s] checkpoint saved: g5_entry
+[  282.8s] sun elevation at KSC: 84 deg
+[  287.1s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[  287.1s] learned aim offset: +106 m (18 flights)
+[  287.1s] drag modulation: CdA out 21.2 in 7.235840814112961
+[  287.3s] frozen 0 leading control surfaces
+[  510.6s] ENTRY BURN start h=44910m v=2107m/s q=1.1kPa

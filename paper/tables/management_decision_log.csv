@@ -1,0 +1,81 @@
+entry,time_local_acdt,class,numbered_dr
+1,2026-10-20 21:20,numbered decision (DR),1
+2,2026-10-20 21:40,gate or flight result,0
+3,2026-10-20 22:10,numbered decision (DR),1
+4,2026-10-20 22:55,numbered decision (DR),1
+5,2026-10-20 23:00,numbered decision (DR),1
+6,2026-10-20 23:08,numbered decision (DR),1
+7,2026-10-20 23:30,secretary or direction audit,1
+8,2026-10-20 23:20,secretary or direction audit,0
+9,2026-10-21 03:10,"other decision, correction or status",0
+10,2026-10-21 05:35,secretary or direction audit,0
+11,2026-10-21 05:50,"other decision, correction or status",0
+12,2026-10-21 05:50,andon or mishap,0
+13,2026-10-21 06:05,"other decision, correction or status",0
+14,2026-10-21 06:15,andon or mishap,1
+15,2026-10-21 06:20,numbered decision (DR),1
+16,2026-10-21 07:53,andon or mishap,1
+17,2026-10-21 10:15,secretary or direction audit,0
+18,2026-10-21 10:52,gate or flight result,0
+19,2026-10-21 11:06,"other decision, correction or status",0
+20,2026-10-21 11:30,gate or flight result,0
+21,2026-10-21 12:12,gate or flight result,0
+22,2026-10-21 12:52,gate or flight result,0
+23,2026-10-21 13:00,"other decision, correction or status",0
+24,2026-10-21 13:20,secretary or direction audit,1
+25,2026-10-21 14:00,gate or flight result,0
+26,2026-10-21 14:35,andon or mishap,0
+27,2026-10-21 14:55,numbered decision (DR),1
+28,2026-10-21 15:20,numbered decision (DR),1
+29,2026-10-21 15:52,numbered decision (DR),1
+30,2026-10-21 16:15,gate or flight result,0
+31,2026-10-21 16:40,gate or flight result,0
+32,2026-10-21 16:55,numbered decision (DR),1
+33,2026-10-21 18:00,numbered decision (DR),1
+34,2026-10-21 18:10,numbered decision (DR),1
+35,2026-10-21 18:35,"other decision, correction or status",0
+36,2026-10-21 20:20,"other decision, correction or status",0
+37,2026-10-21 21:05,gate or flight result,0
+38,2026-10-21 21:30,"other decision, correction or status",0
+39,2026-10-21 22:25,gate or flight result,0
+40,2026-10-21 22:45,secretary or direction audit,0
+41,2026-10-21 23:05,numbered decision (DR),1
+42,2026-10-21 23:45,"other decision, correction or status",0
+43,2026-10-22 00:05,"other decision, correction or status",0
+44,2026-10-22 00:20,numbered decision (DR),1
+45,2026-10-22 00:30,gate or flight result,0
+46,2026-10-22 00:30,"other decision, correction or status",0
+47,2026-10-22 00:40,numbered decision (DR),1
+48,2026-10-22 00:40,gate or flight result,0
+49,2026-10-22 00:55,gate or flight result,0
+50,2026-10-22 01:20,"other decision, correction or status",0
+51,2026-10-22 01:30,"other decision, correction or status",0
+52,2026-10-22 01:40,numbered decision (DR),1
+53,2026-10-22 01:25,gate or flight result,0
+54,2026-10-22 01:35,"other decision, correction or status",0
+55,2026-10-22 01:45,gate or flight result,0
+56,2026-10-22 02:06,gate or flight result,0
+57,2026-10-22 02:10,"other decision, correction or status",0
+58,2026-10-22 02:13,"other decision, correction or status",0
+59,2026-10-22 02:17,secretary or direction audit,0
+60,2026-10-22 02:19,"other decision, correction or status",0
+61,2026-10-22 02:19,gate or flight result,0
+62,2026-10-22 02:28,andon or mishap,0
+63,2026-10-22 02:32,"other decision, correction or status",0
+64,2026-10-22 02:40,"other decision, correction or status",0
+65,2026-10-22 02:41,"other decision, correction or status",0
+66,2026-10-22 02:43,gate or flight result,0
+67,2026-10-22 03:01,andon or mishap,0
+68,2026-10-22 03:02,andon or mishap,0
+69,2026-10-22 03:05,andon or mishap,0
+70,2026-10-22 03:12,gate or flight result,0
+71,2026-10-22 03:21,andon or mishap,0
+72,2026-10-22 03:25,"other decision, correction or status",0
+73,2026-10-22 03:28,gate or flight result,0
+74,2026-10-22 03:33,secretary or direction audit,0
+75,2026-10-22 03:37,"other decision, correction or status",0
+76,2026-10-22 03:40,"other decision, correction or status",0
+77,2026-10-22 12:41,"other decision, correction or status",0
+78,2026-10-22 13:18,"other decision, correction or status",0
+79,2026-10-22 14:03,"other decision, correction or status",0
+80,2026-10-22 19:07,"other decision, correction or status",0

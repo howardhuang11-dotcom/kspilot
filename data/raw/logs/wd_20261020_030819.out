@@ -1,0 +1,26 @@
+[   16.0s] stage 3: ΔV  888 m/s (vacuum 1045) TWR sea level 1.73 burn  42s mass 92.7→59.3t
+[   16.0s] stage 2: ΔV 3699 m/s (vacuum 4219) TWR sea level 1.09 burn 190s mass 53.1→13.8t
+[   16.0s] low-TWR gravity loss +186 m/s
+[   16.0s] ascent+insertion requirement ≈ 3620 m/s  (vacuum equivalent)
+[   16.0s] recovery stage: dry 11.4t wet 59.4t engines 1 landing legs 4 CdA≈9.49m² terminal velocity≈144m/s landing TWR≈4.6
+[   16.0s] recovery requirement ≈ 1363 m/s  (deorbit+entry burn+landing burn+margin)
+[   16.0s] total available ΔV 5105 m/s , total required 4982 m/s , margin +123 m/s
+[   16.0s] verdict: [ok] go
+[   16.1s] ascent (own): target Pe 100 km Ap 100 km i 6.0 deg -> launch heading 83.5 deg
+Traceback (most recent call last):
+  File "tools/orbit_recover.py", line 57, in <module>
+    if not m.fly_ascent():
+           ^^^^^^^^^^^^^^
+  File "kspilot/mission.py", line 168, in fly_ascent
+    ok = Ascent(self.conn, self.pe, self.ap, self.inc, self.log, autostage_limit=lim).fly()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "kspilot/ascent_own.py", line 97, in fly
+    if self._stage_if_needed(last_thrust):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "kspilot/ascent_own.py", line 61, in _stage_if_needed
+    dropped = set(p.id for p in v.parts.in_decouple_stage(nxt)) if hasattr(v.parts, "in_decouple_stage") else set()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "kspilot/ascent_own.py", line 61, in <genexpr>
+    dropped = set(p.id for p in v.parts.in_decouple_stage(nxt)) if hasattr(v.parts, "in_decouple_stage") else set()
+                  ^^^^
+AttributeError: 'Part' object has no attribute 'id'

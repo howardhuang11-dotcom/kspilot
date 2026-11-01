@@ -1,0 +1,25 @@
+[    0.1s] loading checkpoint g5_term
+[   21.4s] CoM height above leg feet: 7.07 m, footprint radius 3.1 m, tip-over angle 24 deg
+[   21.4s] learned aim offset: +0 m (29 flights)
+[   21.5s] drag modulation: CdA out 29.5 in 7.109681206949069
+[   21.5s] frozen 0 leading control surfaces
+[   21.6s] own attitude controller engaged at 2026 m
+[   21.6s] own attitude: quaternion check 1.000 / 0.999 -> conj=False
+Traceback (most recent call last):
+  File "tools/orbit_recover.py", line 153, in <module>
+    res = lander.run(timeout=1500)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "kspilot/landing.py", line 997, in run
+    d[0], d[1], d[2], v.control.throttle, act.ap.error) + ",%.2f,%.2f,%.2f,%.6f,%.0f" % (tuple(self.a_dist) + (self.aero.c, q))
+                                          ^^^^^^^^^^^^
+  File ".venv/lib/python3.12/site-packages/krpc/services/spacecenter.py", line 2870, in error
+    return self._client._invoke(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ".venv/lib/python3.12/site-packages/krpc/client.py", line 225, in _invoke
+    raise self._build_error(response.results[0].error)
+RuntimeError: The auto-pilot is not engaged
+Server stack trace:
+  at KRPC.SpaceCenter.Services.AutoPilot.get_Error () [0x00082] in <f1773ffb70fa488dab4ae2b41d658d1d>:0 
+  at (wrapper dynamic-method) System.Object.lambda_method(System.Runtime.CompilerServices.Closure,object,object[])
+  at KRPC.Service.ClassMethodHandler.Invoke (System.Object instance, System.Object[] arguments) [0x00001] in <96c426f535db4c9daa669caa35f61868>:0 
+  at KRPC.Service.Services.ExecuteCall (KRPC.Service.Scanner.ProcedureSignature procedure, System.Object instance, System.Object[] arguments) [0x0003a] in <96c426f535db4c9daa669caa35f61868>:0 

@@ -1,0 +1,1723 @@
+{
+ "definitions": {
+  "pass_rule": "landed, miss < 20 m, touchdown speed < 4 m/s, upright cosine > 0.95 (tools/orbit_recover.py)",
+  "campaign_start": "2026-10-21T01:10:00",
+  "data_freeze": "2026-10-22T00:00:00",
+  "gf_family": [
+   "T-WorksFineGF",
+   "T-WorksFineGF-P45",
+   "T-WorksFineGF-P60",
+   "T-WorksFineGF-LIT"
+  ],
+  "gate": "2 of 3 flights within 5 m from checkpoint g5_term_GF",
+  "freeze_rule": "every source filtered on the start time of its parent run",
+  "miss_source": "experiments.jsonl (0.01 m) joined by key; transcript (0.1 m) as fallback and for outcome classification",
+  "propellant": "kg of LiquidFuel + Oxidizer = LF units x 11.1111",
+  "rounding": "half up"
+ },
+ "script_sha256": "30af46799281dafb112478526f29afc0672ba7cc865e60cbbcc2028492d1c726",
+ "records": {
+  "wd_files": 278,
+  "jsonl_rows": 158,
+  "matrix_rows": 9,
+  "first_wd": "2026-10-19T04:30:16",
+  "last_wd": "2026-10-21T23:19:44",
+  "unresolved_craft": [],
+  "unclassified_start": [],
+  "jsonl_unjoined": 0,
+  "manifest_entries": 610
+ },
+ "flow": {
+  "transcripts": 278,
+  "by_inclusion": {
+   "outside the exploratory window definition": 242,
+   "analysed: complete mission": 28,
+   "excluded: no outcome line": 1,
+   "excluded: separation-only test": 5,
+   "in window, not launched (counted, not analysed)": 2
+  },
+  "table": [
+   [
+    "T-WorksFineGF family",
+    "4 km checkpoint",
+    "before",
+    47,
+    13,
+    0,
+    0,
+    2,
+    62
+   ],
+   [
+    "T-WorksFineGF family",
+    "4 km checkpoint",
+    "in",
+    25,
+    0,
+    0,
+    0,
+    0,
+    25
+   ],
+   [
+    "T-WorksFineGF family",
+    "orbit checkpoint",
+    "before",
+    2,
+    2,
+    0,
+    0,
+    3,
+    7
+   ],
+   [
+    "T-WorksFineGF family",
+    "orbit checkpoint",
+    "in",
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    "T-WorksFineGF family",
+    "pad",
+    "before",
+    0,
+    6,
+    0,
+    0,
+    4,
+    10
+   ],
+   [
+    "T-WorksFineGF family",
+    "pad",
+    "in",
+    26,
+    2,
+    1,
+    5,
+    2,
+    36
+   ],
+   [
+    "T-WorksFineGF family",
+    "pre-entry checkpoint",
+    "before",
+    8,
+    7,
+    0,
+    0,
+    1,
+    16
+   ],
+   [
+    "T-WorksFineGF family",
+    "pre-entry checkpoint",
+    "in",
+    4,
+    0,
+    0,
+    0,
+    0,
+    4
+   ],
+   [
+    "GF variants without airbrakes",
+    "15 km checkpoint",
+    "before",
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    "GF variants without airbrakes",
+    "4 km checkpoint",
+    "before",
+    0,
+    5,
+    0,
+    0,
+    2,
+    7
+   ],
+   [
+    "GF variants without airbrakes",
+    "orbit checkpoint",
+    "before",
+    0,
+    5,
+    0,
+    0,
+    1,
+    6
+   ],
+   [
+    "GF variants without airbrakes",
+    "pad",
+    "before",
+    0,
+    7,
+    3,
+    0,
+    4,
+    14
+   ],
+   [
+    "GF variants without airbrakes",
+    "pre-entry checkpoint",
+    "before",
+    0,
+    8,
+    0,
+    0,
+    0,
+    8
+   ],
+   [
+    "T-WorksFinePayload",
+    "4 km checkpoint",
+    "before",
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    "T-WorksFinePayload",
+    "orbit checkpoint",
+    "before",
+    7,
+    26,
+    0,
+    0,
+    15,
+    48
+   ],
+   [
+    "T-WorksFinePayload",
+    "pad",
+    "before",
+    1,
+    2,
+    0,
+    0,
+    0,
+    3
+   ],
+   [
+    "T-WorksFinePayload",
+    "pre-entry checkpoint",
+    "before",
+    16,
+    8,
+    0,
+    0,
+    5,
+    29
+   ],
+   [
+    "Total",
+    "",
+    "",
+    136,
+    93,
+    4,
+    5,
+    40,
+    278
+   ]
+  ]
+ },
+ "matrix": {
+  "attempts": 9,
+  "cases": 8,
+  "passed": 8,
+  "attempt": {
+   "k": 8,
+   "n": 9,
+   "p": 0.8888888888888888,
+   "wilson95": [
+    0.565000291629209,
+    0.9801091125830901
+   ],
+   "clopper_pearson95": [
+    0.517503485082663,
+    0.9971908632534008
+   ],
+   "jeffreys95": [
+    0.5855307225594675,
+    0.9877359123783804
+   ]
+  },
+  "miss": {
+   "n": 8,
+   "median": 1.505,
+   "q1": 1.3475,
+   "q3": 1.7925,
+   "min": 1.22,
+   "max": 2.27,
+   "mean": 1.5974999999999997,
+   "sd": 0.3581599802163433,
+   "median_ci95": [
+    1.22,
+    2.27
+   ],
+   "median_ci_coverage": 0.9921875
+  },
+  "fuel_kg": {
+   "n": 8,
+   "median": 3883.333333333333,
+   "q1": 3208.333333333333,
+   "q3": 4100.0,
+   "min": 2533.333333333333,
+   "max": 4322.222222222222,
+   "mean": 3651.3888888888887,
+   "sd": 626.4295819675355,
+   "median_ci95": [
+    2533.333333333333,
+    4322.222222222222
+   ],
+   "median_ci_coverage": 0.9921875
+  },
+  "overrides": [
+   "KSP_MAX_DVN=100",
+   "KSP_MAX_DVN=130",
+   "KSP_MAX_DVN=60"
+  ],
+  "inc_range": [
+   0.0,
+   90.0
+  ],
+  "orbit_km": [
+   80.0,
+   100.0,
+   110.0
+  ],
+  "payload_t": [
+   2.48,
+   4.5,
+   6.0
+  ]
+ },
+ "campaign": {
+  "candidates": 34,
+  "excluded_separation_tests": 5,
+  "excluded_no_result": 1,
+  "excluded_refused": 0,
+  "in_window_not_launched": [
+   {
+    "wd": "wd_20261021_222159.out",
+    "craft": "T-WorksFineGF-LIT",
+    "result": "REFUSED",
+    "detail": "(OBS recording failed: RecError('KSP window not found by OBS (is KSP running and on screen",
+    "note": ""
+   },
+   {
+    "wd": "wd_20261021_231728.out",
+    "craft": "T-WorksFineGF-LIT",
+    "result": null,
+    "detail": "",
+    "note": "kRPC connection refused before launch (game closed); decision record 23:45"
+   }
+  ],
+  "completed": 28,
+  "passed": 26,
+  "success": {
+   "k": 26,
+   "n": 28,
+   "p": 0.9285714285714286,
+   "wilson95": [
+    0.7735463727026133,
+    0.9801879360635548
+   ],
+   "clopper_pearson95": [
+    0.7649652268254092,
+    0.9912295032964729
+   ],
+   "jeffreys95": [
+    0.790052843020014,
+    0.9848591739945654
+   ]
+  },
+  "failures": [
+   {
+    "mission": 12,
+    "wd": "wd_20261021_054641.out",
+    "detail": "ascent",
+    "miss": NaN,
+    "miss2": NaN
+   },
+   {
+    "mission": 21,
+    "wd": "wd_20261021_135356.out",
+    "detail": "miss=3776.5m v_td=0.31m/s upright=1.000 fuel_left=277 parts=26 VesselSituation.l",
+    "miss": 3776.5,
+    "miss2": 3776.49
+   }
+  ],
+  "excluded_no_result_files": [
+   {
+    "wd": "wd_20261021_015055.out",
+    "note": "terminated by expiry of an external monitor during the deorbit-node warp; decision record, lesson 63"
+   }
+  ],
+  "miss_pass": {
+   "n": 26,
+   "median": 1.53,
+   "q1": 1.4425,
+   "q3": 1.6375,
+   "min": 1.22,
+   "max": 2.27,
+   "mean": 1.5557692307692312,
+   "sd": 0.2135448070438254,
+   "median_ci95": [
+    1.45,
+    1.63
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "miss_pass_transcript": {
+   "n": 26,
+   "median": 1.5,
+   "q1": 1.4,
+   "q3": 1.6,
+   "min": 1.2,
+   "max": 2.3,
+   "mean": 1.5423076923076924,
+   "sd": 0.22480761005460095,
+   "median_ci95": [
+    1.4,
+    1.6
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "miss_pass_baseline": {
+   "n": 16,
+   "median": 1.53,
+   "q1": 1.4475,
+   "q3": 1.6324999999999998,
+   "min": 1.35,
+   "max": 1.74,
+   "mean": 1.535625,
+   "sd": 0.12132428995602375,
+   "median_ci95": [
+    1.44,
+    1.64
+   ],
+   "median_ci_coverage": 0.978729248046875
+  },
+  "miss_pass_nonbaseline": {
+   "n": 10,
+   "median": 1.545,
+   "q1": 1.3975,
+   "q3": 1.7125,
+   "min": 1.22,
+   "max": 2.27,
+   "mean": 1.5879999999999996,
+   "sd": 0.31664210431056417,
+   "median_ci95": [
+    1.25,
+    1.89
+   ],
+   "median_ci_coverage": 0.978515625
+  },
+  "miss2_missing": [],
+  "v_td_pass": {
+   "n": 26,
+   "median": 0.14,
+   "q1": 0.1225,
+   "q3": 0.2,
+   "min": 0.09,
+   "max": 0.36,
+   "mean": 0.17423076923076922,
+   "sd": 0.07419827905945404,
+   "median_ci95": [
+    0.13,
+    0.2
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "v_contact_pass": {
+   "n": 26,
+   "median": 1.51,
+   "q1": 1.51,
+   "q3": 1.52,
+   "min": 1.5,
+   "max": 1.53,
+   "mean": 1.5134615384615389,
+   "sd": 0.008458041235325214,
+   "median_ci95": [
+    1.51,
+    1.52
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "fuel_pass_kg": {
+   "n": 26,
+   "median": 4000.0,
+   "q1": 3797.222222222222,
+   "q3": 4158.333333333334,
+   "min": 2533.333333333333,
+   "max": 4322.222222222222,
+   "mean": 3895.299145299146,
+   "sd": 397.7364730500612,
+   "median_ci95": [
+    3855.555555555555,
+    4133.333333333333
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "fuel_pass_lf_units": {
+   "n": 26,
+   "median": 360.0,
+   "q1": 341.75,
+   "q3": 374.25,
+   "min": 228.0,
+   "max": 389.0,
+   "mean": 350.5769230769231,
+   "sd": 35.7962825745055,
+   "median_ci95": [
+    347.0,
+    372.0
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "err_ap": {
+   "n": 27,
+   "median": 18.0,
+   "q1": 8.0,
+   "q3": 42.5,
+   "min": 1.0,
+   "max": 175.0,
+   "mean": 34.888888888888886,
+   "sd": 44.40922750036851,
+   "median_ci95": [
+    9.0,
+    42.0
+   ],
+   "median_ci_coverage": 0.9808427095413208
+  },
+  "err_pe": {
+   "n": 27,
+   "median": 47.0,
+   "q1": 42.0,
+   "q3": 54.0,
+   "min": 9.0,
+   "max": 151.0,
+   "mean": 55.407407407407405,
+   "sd": 33.0259330029032,
+   "median_ci95": [
+    42.0,
+    53.0
+   ],
+   "median_ci_coverage": 0.9808427095413208
+  },
+  "err_pe_signed": {
+   "n": 27,
+   "median": -47.0,
+   "q1": -54.0,
+   "q3": -42.0,
+   "min": -151.0,
+   "max": 12.0,
+   "mean": -53.851851851851855,
+   "sd": 35.59786478439371,
+   "median_ci95": [
+    -53.0,
+    -42.0
+   ],
+   "median_ci_coverage": 0.9808427095413208
+  },
+  "err_ap_signed": {
+   "n": 27,
+   "median": -5.0,
+   "q1": -18.0,
+   "q3": 27.0,
+   "min": -53.0,
+   "max": 175.0,
+   "mean": 11.407407407407407,
+   "sd": 55.68749290547085,
+   "median_ci95": [
+    -18.0,
+    12.0
+   ],
+   "median_ci_coverage": 0.9808427095413208
+  },
+  "pe_negative": 25,
+  "err_inc": {
+   "n": 27,
+   "median": 0.051000000000000156,
+   "q1": 0.03299999999999992,
+   "q3": 0.09650000000000003,
+   "min": 0.0030000000000001137,
+   "max": 0.35600000000000165,
+   "mean": 0.08629629629629629,
+   "sd": 0.09364080915712523,
+   "median_ci95": [
+    0.03599999999999959,
+    0.08000000000000007
+   ],
+   "median_ci_coverage": 0.9808427095413208
+  },
+  "orbits_reached": 27,
+  "trimmed": [
+   {
+    "mission": 7,
+    "first_err_ap": 3944.0,
+    "first_err_pe": -4523.0,
+    "final_err_ap": 169.0,
+    "final_err_pe": 9.0,
+    "recording": "orphan frame capture during ascent (decision record 04:15)"
+   },
+   {
+    "mission": 18,
+    "first_err_ap": 4222.0,
+    "first_err_pe": -4857.0,
+    "final_err_ap": 175.0,
+    "final_err_pe": 12.0,
+    "recording": "in-game frame capture"
+   },
+   {
+    "mission": 19,
+    "first_err_ap": 4091.0,
+    "first_err_pe": -4726.0,
+    "final_err_ap": 43.0,
+    "final_err_pe": -42.0,
+    "recording": "in-game frame capture"
+   },
+   {
+    "mission": 20,
+    "first_err_ap": 4175.0,
+    "first_err_pe": -4821.0,
+    "final_err_ap": 42.0,
+    "final_err_pe": -42.0,
+    "recording": "in-game frame capture"
+   },
+   {
+    "mission": 21,
+    "first_err_ap": 4392.0,
+    "first_err_pe": -5065.0,
+    "final_err_ap": 46.0,
+    "final_err_pe": -46.0,
+    "recording": "in-game frame capture"
+   }
+  ],
+  "by_craft": {
+   "T-WorksFineGF": {
+    "completed": 24,
+    "passed": 22
+   },
+   "T-WorksFineGF-P45": {
+    "completed": 1,
+    "passed": 1
+   },
+   "T-WorksFineGF-P60": {
+    "completed": 1,
+    "passed": 1
+   },
+   "T-WorksFineGF-LIT": {
+    "completed": 2,
+    "passed": 2
+   }
+  },
+  "under_2m": 25,
+  "eb_prop_after_fix": {
+   "n": 7,
+   "median": 3496.0,
+   "q1": 3496.0,
+   "q3": 3498.0,
+   "min": 3492.0,
+   "max": 3505.0,
+   "mean": 3497.285714285714,
+   "sd": 4.111540089159038,
+   "median_ci95": [
+    3492.0,
+    3505.0
+   ],
+   "median_ci_coverage": 0.984375
+  },
+  "eb_dv_after_fix": {
+   "n": 7,
+   "median": 592.0,
+   "q1": 592.0,
+   "q3": 593.0,
+   "min": 591.0,
+   "max": 594.0,
+   "mean": 592.4285714285714,
+   "sd": 1.1338934190276817,
+   "median_ci95": [
+    591.0,
+    594.0
+   ],
+   "median_ci_coverage": 0.984375
+  },
+  "eb_dv_all": {
+   "n": 27,
+   "median": 593.0,
+   "q1": 591.5,
+   "q3": 594.0,
+   "min": 590.0,
+   "max": 612.0,
+   "mean": 594.1111111111111,
+   "sd": 5.301185160184853,
+   "median_ci95": [
+    592.0,
+    594.0
+   ],
+   "median_ci_coverage": 0.9808427095413208
+  },
+  "deadman_total": 7,
+  "deadman_events": [
+   {
+    "mission": 20,
+    "wd": "wd_20261021_121138.out",
+    "stalls_s": [
+     [
+      0.1,
+      false
+     ],
+     [
+      2.6,
+      false
+     ]
+    ]
+   },
+   {
+    "mission": 21,
+    "wd": "wd_20261021_135356.out",
+    "stalls_s": [
+     [
+      2.9,
+      false
+     ],
+     [
+      2.8,
+      false
+     ],
+     [
+      0.1,
+      false
+     ],
+     [
+      2.7,
+      false
+     ],
+     [
+      0.1,
+      false
+     ]
+    ]
+   }
+  ],
+  "hibernation": {
+   "segments": 58,
+   "seconds": 245138.0,
+   "ec_used": 31.10000000000025,
+   "longest_s": 15398.0,
+   "flights": 19
+  },
+  "sep_q": {
+   "n": 16,
+   "median": 9.7,
+   "q1": 9.6,
+   "q3": 9.8,
+   "min": 9.4,
+   "max": 9.9,
+   "mean": 9.675,
+   "sd": 0.16532795690183003,
+   "median_ci95": [
+    9.6,
+    9.8
+   ],
+   "median_ci_coverage": 0.978729248046875
+  },
+  "sep_parts_checked": 16,
+  "sep_parts_ok": 16,
+  "sep_window_flights": 8,
+  "sep_window_booster": 4,
+  "sep_window_core": 0,
+  "deorbit_wait_h": {
+   "n": 27,
+   "median": 2.7,
+   "q1": 1.944861111111111,
+   "q3": 4.1,
+   "min": 0.27,
+   "max": 5.8,
+   "mean": 3.0056790123456785,
+   "sd": 1.687108880377369,
+   "median_ci95": [
+    2.4,
+    2.8
+   ],
+   "median_ci_coverage": 0.9808427095413208
+  },
+  "deorbit_dv": {
+   "n": 27,
+   "median": 158.0,
+   "q1": 151.0,
+   "q3": 158.2,
+   "min": 150.0,
+   "max": 180.0,
+   "mean": 156.6259259259259,
+   "sd": 6.179407028596775,
+   "median_ci95": [
+    151.0,
+    158.2
+   ],
+   "median_ci_coverage": 0.9808427095413208
+  },
+  "recording": {
+   "missions": [
+    {
+     "mission": 7,
+     "wd": "wd_20261021_035335.out",
+     "kind": "orphan frame capture during ascent (decision record 04:15)"
+    },
+    {
+     "mission": 18,
+     "wd": "wd_20261021_075302.out",
+     "kind": "in-game frame capture"
+    },
+    {
+     "mission": 19,
+     "wd": "wd_20261021_105003.out",
+     "kind": "in-game frame capture"
+    },
+    {
+     "mission": 20,
+     "wd": "wd_20261021_121138.out",
+     "kind": "in-game frame capture"
+    },
+    {
+     "mission": 21,
+     "wd": "wd_20261021_135356.out",
+     "kind": "in-game frame capture"
+    },
+    {
+     "mission": 22,
+     "wd": "wd_20261021_161137.out",
+     "kind": "screen recording"
+    },
+    {
+     "mission": 26,
+     "wd": "wd_20261021_180500.out",
+     "kind": "screen recording"
+    },
+    {
+     "mission": 28,
+     "wd": "wd_20261021_231944.out",
+     "kind": "screen recording"
+    }
+   ],
+   "rec": {
+    "k": 7,
+    "n": 8,
+    "p": 0.875,
+    "wilson95": [
+     0.5291118149439162,
+     0.9775825088000281
+    ],
+    "clopper_pearson95": [
+     0.4734903291247934,
+     0.9968402764687481
+    ],
+    "jeffreys95": [
+     0.5462806789675854,
+     0.9861617662096791
+    ]
+   },
+   "nonrec": {
+    "k": 19,
+    "n": 20,
+    "p": 0.95,
+    "wilson95": [
+     0.7638688045357189,
+     0.9911185512976646
+    ],
+    "clopper_pearson95": [
+     0.7512672372279723,
+     0.9987349105020502
+    ],
+    "jeffreys95": [
+     0.789181363750735,
+     0.9945509674185733
+    ]
+   }
+  },
+  "ignition_h": {
+   "n": 26,
+   "median": 509.54999999999995,
+   "q1": 495.675,
+   "q3": 515.5,
+   "min": 389.2,
+   "max": 953.3,
+   "mean": 549.8807692307693,
+   "sd": 150.8832767916465,
+   "median_ci95": [
+    497.7,
+    515.5
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "ignition_offset_m": {
+   "n": 26,
+   "median": 1.1291047069245166,
+   "q1": 0.7847830765727314,
+   "q3": 1.6872344641158983,
+   "min": 0.447213595499958,
+   "max": 2.154065922853802,
+   "mean": 1.2420214614649576,
+   "sd": 0.5273310125821054,
+   "median_ci95": [
+    0.8544003745317531,
+    1.6401219466856725
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "ignition_vh": {
+   "n": 26,
+   "median": 0.214939838519778,
+   "q1": 0.10740858489602423,
+   "q3": 0.22836366613689482,
+   "min": 0.014142135623730952,
+   "max": 0.28,
+   "mean": 0.17173986147361958,
+   "sd": 0.08846262928639886,
+   "median_ci95": [
+    0.12369316876852982,
+    0.22803508501982758
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "contact_e": {
+   "n": 26,
+   "median": -1.4,
+   "q1": -1.5,
+   "q3": -1.225,
+   "min": -1.8,
+   "max": -0.1,
+   "mean": -1.307692307692308,
+   "sd": 0.3610241841462446,
+   "median_ci95": [
+    -1.5,
+    -1.3
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "contact_n": {
+   "n": 26,
+   "median": 0.2,
+   "q1": 0.025,
+   "q3": 0.4,
+   "min": -1.2,
+   "max": 2.2,
+   "mean": 0.23076923076923087,
+   "sd": 0.6360938489054777,
+   "median_ci95": [
+    0.1,
+    0.4
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "contact_bias_m": 1.3278981924332363,
+  "contact_scatter_about_mean_m": {
+   "n": 26,
+   "median": 0.27626211359436914,
+   "q1": 0.19475367540264843,
+   "q3": 0.5081727675565779,
+   "min": 0.11538461538461506,
+   "max": 2.3100628849761597,
+   "mean": 0.5001062729691658,
+   "sd": 0.5242550052409723,
+   "median_ci95": [
+    0.19475367540264843,
+    0.49326829359635055
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "contact_radius_m": {
+   "n": 26,
+   "median": 1.4866068747318504,
+   "q1": 1.400891721190455,
+   "q3": 1.5596418187924987,
+   "min": 1.1045361017187263,
+   "max": 2.202271554554524,
+   "mean": 1.4950416815646763,
+   "sd": 0.2103434933617763,
+   "median_ci95": [
+    1.40356688476182,
+    1.5524174696260022
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "landing_csv_flights": 26,
+  "coast_segments": {
+   "n": 26,
+   "median": 8.0,
+   "q1": 7.0,
+   "q3": 10.0,
+   "min": 4,
+   "max": 13,
+   "mean": 8.423076923076923,
+   "sd": 2.2657992307012007,
+   "median_ci95": [
+    7,
+    10
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "coast_prop_kg": {
+   "n": 26,
+   "median": 282.0,
+   "q1": 252.75,
+   "q3": 310.75,
+   "min": 184.0,
+   "max": 366.0,
+   "mean": 279.38461538461536,
+   "sd": 42.55732785133665,
+   "median_ci95": [
+    261.0,
+    310.0
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "pulse_logged_max": {
+   "n": 26,
+   "median": 6.0,
+   "q1": 6.0,
+   "q3": 6.0,
+   "min": 1,
+   "max": 11,
+   "mean": 6.769230769230769,
+   "sd": 2.3204774044612853,
+   "median_ci95": [
+    6,
+    6
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "loop_burn_median_s": {
+   "n": 26,
+   "median": 0.059999999997671694,
+   "q1": 0.059999999997671694,
+   "q3": 0.059999999997671694,
+   "min": 0.03999999997904524,
+   "max": 0.06000000001222361,
+   "mean": 0.05769230768950925,
+   "sd": 0.006516251875282496,
+   "median_ci95": [
+    0.059999999997671694,
+    0.059999999997671694
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "loop_burn_p95_s": {
+   "n": 26,
+   "median": 0.08000000001338776,
+   "q1": 0.0799999999908323,
+   "q3": 0.08000000001629815,
+   "min": 0.04000000000814907,
+   "max": 0.10000000000582077,
+   "mean": 0.0776153846210106,
+   "sd": 0.015305102213930154,
+   "median_ci95": [
+    0.08000000000174623,
+    0.08000000001629815
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "loop_burn_max_s": {
+   "n": 26,
+   "median": 0.11999999999534339,
+   "q1": 0.10000000000582077,
+   "q3": 0.13999999999577994,
+   "min": 0.059999999997671694,
+   "max": 0.27999999999883585,
+   "mean": 0.12538461538609297,
+   "sd": 0.05013827035076375,
+   "median_ci95": [
+    0.10000000000582077,
+    0.139999999984866
+   ],
+   "median_ci_coverage": 0.9710407257080078
+  },
+  "vac": {
+   "missions": 27,
+   "predictions": {
+    "n": 27,
+    "median": 5.0,
+    "q1": 5.0,
+    "q3": 5.0,
+    "min": 5,
+    "max": 6,
+    "mean": 5.148148148148148,
+    "sd": 0.3620139928982456,
+    "median_ci95": [
+     5,
+     5
+    ],
+    "median_ci_coverage": 0.9808427095413208
+   },
+   "burns": {
+    "n": 27,
+    "median": 4.0,
+    "q1": 4.0,
+    "q3": 4.0,
+    "min": 4,
+    "max": 6,
+    "mean": 4.185185185185185,
+    "sd": 0.48334070138798957,
+    "median_ci95": [
+     4,
+     4
+    ],
+    "median_ci_coverage": 0.9808427095413208
+   },
+   "first_along_m": {
+    "n": 27,
+    "median": 3582.0,
+    "q1": 3537.0,
+    "q3": 3692.5,
+    "min": -12289.0,
+    "max": 4116.0,
+    "mean": 1461.5555555555557,
+    "sd": 5421.087403927891,
+    "median_ci95": [
+     3537.0,
+     3688.0
+    ],
+    "median_ci_coverage": 0.9808427095413208
+   },
+   "last_along_m": {
+    "n": 27,
+    "median": 177.0,
+    "q1": 170.5,
+    "q3": 183.5,
+    "min": -364.0,
+    "max": 216.0,
+    "mean": 111.4074074074074,
+    "sd": 175.3482818365208,
+    "median_ci95": [
+     171.0,
+     183.0
+    ],
+    "median_ci_coverage": 0.9808427095413208
+   },
+   "last_miss_m": {
+    "n": 27,
+    "median": 179.0,
+    "q1": 176.0,
+    "q3": 203.0,
+    "min": 161.0,
+    "max": 364.0,
+    "mean": 199.88888888888889,
+    "sd": 46.44461824692463,
+    "median_ci95": [
+     176.0,
+     199.0
+    ],
+    "median_ci_coverage": 0.9808427095413208
+   },
+   "trim_total_ms": {
+    "n": 27,
+    "median": 1.106,
+    "q1": 1.06,
+    "q3": 1.2335000000000003,
+    "min": 1.01,
+    "max": 3.8979999999999997,
+    "mean": 1.4789259259259262,
+    "sd": 0.8966435672047652,
+    "median_ci95": [
+     1.06,
+     1.231
+    ],
+    "median_ci_coverage": 0.9808427095413208
+   },
+   "effect_ratio": {
+    "n": 112,
+    "median": 1.005,
+    "q1": 0.99,
+    "q3": 1.0225,
+    "min": 0.93,
+    "max": 1.12,
+    "mean": 1.0121428571428572,
+    "sd": 0.038681619617949026,
+    "median_ci95": [
+     1.0,
+     1.01
+    ],
+    "median_ci_coverage": 0.9532649318060401
+   }
+  },
+  "epochs": [
+   {
+    "epoch": "E1: drag recalibration to separation corrective action",
+    "missions": "1-12",
+    "git": [
+     "16f34bd",
+     "2571e31",
+     "3087b11",
+     "3761728",
+     "4431361",
+     "f66c452"
+    ],
+    "k": 11,
+    "n": 12,
+    "p": 0.9166666666666666,
+    "wilson95": [
+     0.6461200862787544,
+     0.9851349057603305
+    ],
+    "clopper_pearson95": [
+     0.6152038348490558,
+     0.9978924067681398
+    ],
+    "jeffreys95": [
+     0.6715042735994117,
+     0.9908556737658516
+    ]
+   },
+   {
+    "epoch": "E2: separation corrective action to velocity-increment accounting correction",
+    "missions": "13-21",
+    "git": [
+     "2b0861f",
+     "34f1d81",
+     "4e3fd36",
+     "89829c0",
+     "aa26fe7",
+     "cd69be7"
+    ],
+    "k": 8,
+    "n": 9,
+    "p": 0.8888888888888888,
+    "wilson95": [
+     0.565000291629209,
+     0.9801091125830901
+    ],
+    "clopper_pearson95": [
+     0.517503485082663,
+     0.9971908632534008
+    ],
+    "jeffreys95": [
+     0.5855307225594675,
+     0.9877359123783804
+    ]
+   },
+   {
+    "epoch": "E3: after the velocity-increment accounting correction",
+    "missions": "22-28",
+    "git": [
+     "1fae509",
+     "4a0c585",
+     "67536e8",
+     "b415189",
+     "d53a4d8"
+    ],
+    "k": 7,
+    "n": 7,
+    "p": 1.0,
+    "wilson95": [
+     0.6456695613241317,
+     1.0
+    ],
+    "clopper_pearson95": [
+     0.5903836027749965,
+     1.0
+    ],
+    "jeffreys95": [
+     0.70756382633769,
+     1.0
+    ]
+   }
+  ],
+  "sensitivity": [
+   {
+    "population": "Exploratory window, complete missions (headline population)",
+    "k": 26,
+    "n": 28,
+    "p": 0.9285714285714286,
+    "wilson95": [
+     0.7735463727026133,
+     0.9801879360635548
+    ],
+    "clopper_pearson95": [
+     0.7649652268254092,
+     0.9912295032964729
+    ],
+    "jeffreys95": [
+     0.790052843020014,
+     0.9848591739945654
+    ]
+   },
+   {
+    "population": "Return phase, conditional on reaching orbit",
+    "k": 26,
+    "n": 27,
+    "p": 0.9629629629629629,
+    "wilson95": [
+     0.8171653389987218,
+     0.9934318540919532
+    ],
+    "clopper_pearson95": [
+     0.8102943825869553,
+     0.9990627429080552
+    ],
+    "jeffreys95": [
+     0.8396475896875102,
+     0.9959742621426191
+    ]
+   },
+   {
+    "population": "Window; monitor-terminated run counted as a failure",
+    "k": 26,
+    "n": 29,
+    "p": 0.896551724137931,
+    "wilson95": [
+     0.7361491875205077,
+     0.9641851089287603
+    ],
+    "clopper_pearson95": [
+     0.7264848021075772,
+     0.9781362631701465
+    ],
+    "jeffreys95": [
+     0.7490066097469015,
+     0.9699893971097431
+    ]
+   },
+   {
+    "population": "Window; also the in-window pad attempts that never launched",
+    "k": 26,
+    "n": 31,
+    "p": 0.8387096774193549,
+    "wilson95": [
+     0.6736564589149602,
+     0.9290737560150889
+    ],
+    "clopper_pearson95": [
+     0.6627284150268207,
+     0.9454756737849166
+    ],
+    "jeffreys95": [
+     0.6819921022031001,
+     0.9356742517913648
+    ]
+   },
+   {
+    "population": "Window extended to the two preceding complete missions",
+    "k": 26,
+    "n": 30,
+    "p": 0.8666666666666667,
+    "wilson95": [
+     0.7031867316460598,
+     0.9469034455288754
+    ],
+    "clopper_pearson95": [
+     0.6927816497238732,
+     0.9624465036616368
+    ],
+    "jeffreys95": [
+     0.7134710731517382,
+     0.9532724978151752
+    ]
+   },
+   {
+    "population": "All complete GF-family missions in the records",
+    "k": 26,
+    "n": 33,
+    "p": 0.7878787878787878,
+    "wilson95": [
+     0.6224835486508011,
+     0.8932397852491516
+    ],
+    "clopper_pearson95": [
+     0.6109190803258866,
+     0.9101957554572988
+    ],
+    "jeffreys95": [
+     0.6280291821216142,
+     0.8997635815273166
+    ]
+   },
+   {
+    "population": "All complete GF-family missions; monitor-terminated run as a failure",
+    "k": 26,
+    "n": 34,
+    "p": 0.7647058823529411,
+    "wilson95": [
+     0.6000386193800363,
+     0.8756301453064358
+    ],
+    "clopper_pearson95": [
+     0.5882921580928333,
+     0.892538184224992
+    ],
+    "jeffreys95": [
+     0.604548333005358,
+     0.8819674982188872
+    ]
+   },
+   {
+    "population": "Baseline configuration only (2.48 t, 100 km, 6 deg)",
+    "k": 16,
+    "n": 17,
+    "p": 0.9411764705882353,
+    "wilson95": [
+     0.7301796914154303,
+     0.9895395991310502
+    ],
+    "clopper_pearson95": [
+     0.7131106033327794,
+     0.9985118256087333
+    ],
+    "jeffreys95": [
+     0.7563844828550981,
+     0.993577813205025
+    ]
+   },
+   {
+    "population": "Missions without a recording workload",
+    "k": 19,
+    "n": 20,
+    "p": 0.95,
+    "wilson95": [
+     0.7638688045357189,
+     0.9911185512976646
+    ],
+    "clopper_pearson95": [
+     0.7512672372279723,
+     0.9987349105020502
+    ],
+    "jeffreys95": [
+     0.789181363750735,
+     0.9945509674185733
+    ]
+   },
+   {
+    "population": "Missions with a recording workload",
+    "k": 7,
+    "n": 8,
+    "p": 0.875,
+    "wilson95": [
+     0.5291118149439162,
+     0.9775825088000281
+    ],
+    "clopper_pearson95": [
+     0.4734903291247934,
+     0.9968402764687481
+    ],
+    "jeffreys95": [
+     0.5462806789675854,
+     0.9861617662096791
+    ]
+   },
+   {
+    "population": "Configuration epoch E1 (missions 1-12)",
+    "k": 11,
+    "n": 12,
+    "p": 0.9166666666666666,
+    "wilson95": [
+     0.6461200862787544,
+     0.9851349057603305
+    ],
+    "clopper_pearson95": [
+     0.6152038348490558,
+     0.9978924067681398
+    ],
+    "jeffreys95": [
+     0.6715042735994117,
+     0.9908556737658516
+    ]
+   },
+   {
+    "population": "Configuration epoch E2 (missions 13-21)",
+    "k": 8,
+    "n": 9,
+    "p": 0.8888888888888888,
+    "wilson95": [
+     0.565000291629209,
+     0.9801091125830901
+    ],
+    "clopper_pearson95": [
+     0.517503485082663,
+     0.9971908632534008
+    ],
+    "jeffreys95": [
+     0.5855307225594675,
+     0.9877359123783804
+    ]
+   },
+   {
+    "population": "Configuration epoch E3 (missions 22-28)",
+    "k": 7,
+    "n": 7,
+    "p": 1.0,
+    "wilson95": [
+     0.6456695613241317,
+     1.0
+    ],
+    "clopper_pearson95": [
+     0.5903836027749965,
+     1.0
+    ],
+    "jeffreys95": [
+     0.70756382633769,
+     1.0
+    ]
+   },
+   {
+    "population": "After the separation corrective action (missions 13-28)",
+    "k": 15,
+    "n": 16,
+    "p": 0.9375,
+    "wilson95": [
+     0.716712622018518,
+     0.9888806553587528
+    ],
+    "clopper_pearson95": [
+     0.6976792615654681,
+     0.998418888277234
+    ],
+    "jeffreys95": [
+     0.7430785701142262,
+     0.9931712779441131
+    ]
+   }
+  ],
+  "pre_window_complete": [
+   {
+    "wd": "wd_20261020_030624.out",
+    "result": "FAIL",
+    "detail": "ascent",
+    "miss": NaN
+   },
+   {
+    "wd": "wd_20261020_030854.out",
+    "result": "FAIL",
+    "detail": "ascent",
+    "miss": NaN
+   },
+   {
+    "wd": "wd_20261020_031038.out",
+    "result": "FAIL",
+    "detail": "ascent",
+    "miss": NaN
+   },
+   {
+    "wd": "wd_20261020_231839.out",
+    "result": "FAIL",
+    "detail": "miss=189.0m v_td=1.51m/s upright=0.319 fuel_left=0 parts=7 V",
+    "miss": 189.0
+   },
+   {
+    "wd": "wd_20261021_003535.out",
+    "result": "FAIL",
+    "detail": "miss=1192.2m v_td=0.25m/s upright=1.000 fuel_left=370 parts=",
+    "miss": 1192.2
+   }
+  ],
+  "ascent_loss_timing": {
+   "mission": 12,
+   "wd": "wd_20261021_054641.out",
+   "liftoff_supervisor_s": 13.1,
+   "staging_supervisor_s": 64.0,
+   "abort_supervisor_s": 195.9,
+   "staging_after_liftoff_s": 50.9,
+   "abort_after_liftoff_s": 182.8
+  }
+ },
+ "gates": {
+  "gate_sessions": 14,
+  "gate_passed": 14,
+  "term_flights": 44,
+  "term_miss": {
+   "n": 44,
+   "median": 3.67,
+   "q1": 3.5775,
+   "q3": 3.7725,
+   "min": 1.05,
+   "max": 6.69,
+   "mean": 3.610454545454546,
+   "sd": 0.7631695064402494,
+   "median_ci95": [
+    3.62,
+    3.71
+   ],
+   "median_ci_coverage": 0.9512332340955254
+  },
+  "term_under5": 43
+ },
+ "entry_gates": [
+  {
+   "time": "2026-10-21T15:41:09",
+   "review": "DR-010 entry gate 1 (non-recording, from g5_entry)",
+   "miss": 1.46,
+   "ok": true
+  },
+  {
+   "time": "2026-10-21T15:46:11",
+   "review": "DR-010 entry gate 2 (non-recording, from g5_entry)",
+   "miss": 1.74,
+   "ok": true
+  },
+  {
+   "time": "2026-10-21T15:57:25",
+   "review": "rec v3 OBS entry gate (B2)",
+   "miss": 1.48,
+   "ok": true
+  },
+  {
+   "time": "2026-10-21T16:10:29",
+   "review": "rec v3 OBS entry gate #2 (B2, import fix)",
+   "miss": 1.23,
+   "ok": true
+  }
+ ],
+ "entry_gate_prop": [
+  {
+   "wd": "wd_20261021_153608.out",
+   "dv": 596.0,
+   "prop": 3513.0,
+   "deadman": 0,
+   "miss": 1.46
+  },
+  {
+   "wd": "wd_20261021_154112.out",
+   "dv": 593.0,
+   "prop": 3496.0,
+   "deadman": 0,
+   "miss": 1.74
+  },
+  {
+   "wd": "wd_20261021_155124.out",
+   "dv": 594.0,
+   "prop": 3500.0,
+   "deadman": 0,
+   "miss": 1.48
+  },
+  {
+   "wd": "wd_20261021_160422.out",
+   "dv": 592.0,
+   "prop": 3492.0,
+   "deadman": 0,
+   "miss": 1.23
+  }
+ ],
+ "septests": [
+  {
+   "wd": "wd_20261021_060856.out",
+   "q_kPa": 18.8,
+   "explosions": 0.0,
+   "core_hit": 0.0,
+   "parts": 37.0,
+   "thrust_kN": 647.0
+  },
+  {
+   "wd": "wd_20261021_061027.out",
+   "q_kPa": 19.1,
+   "explosions": 4.0,
+   "core_hit": 0.0,
+   "parts": 37.0,
+   "thrust_kN": 647.0
+  },
+  {
+   "wd": "wd_20261021_061212.out",
+   "q_kPa": 9.6,
+   "explosions": 0.0,
+   "core_hit": 0.0,
+   "parts": 37.0,
+   "thrust_kN": 649.0
+  },
+  {
+   "wd": "wd_20261021_061353.out",
+   "q_kPa": 9.6,
+   "explosions": 0.0,
+   "core_hit": 0.0,
+   "parts": 37.0,
+   "thrust_kN": 649.0
+  },
+  {
+   "wd": "wd_20261021_061534.out",
+   "q_kPa": 9.5,
+   "explosions": 0.0,
+   "core_hit": 0.0,
+   "parts": 37.0,
+   "thrust_kN": 649.0
+  }
+ ],
+ "history": {
+  "T-WorksFineGF|entry": {
+   "n": 16,
+   "ok": 12
+  },
+  "T-WorksFineGF|orbit": {
+   "n": 4,
+   "ok": 2
+  },
+  "T-WorksFineGF|term": {
+   "n": 83,
+   "ok": 72
+  },
+  "T-WorksFineGF2|pad": {
+   "n": 1,
+   "ok": 0
+  },
+  "T-WorksFineGF2|term": {
+   "n": 1,
+   "ok": 0
+  },
+  "T-WorksFineGF2T|term": {
+   "n": 4,
+   "ok": 0
+  },
+  "T-WorksFineGF2T|pad": {
+   "n": 2,
+   "ok": 0
+  },
+  "T-WorksFineGF2T|entry": {
+   "n": 6,
+   "ok": 0
+  },
+  "T-WorksFineGF0T|pad": {
+   "n": 4,
+   "ok": 0
+  },
+  "T-WorksFineGF0T|entry": {
+   "n": 2,
+   "ok": 0
+  },
+  "T-WorksFineGF0T|orbit": {
+   "n": 5,
+   "ok": 0
+  },
+  "T-WorksFineGF0T|mid": {
+   "n": 1,
+   "ok": 0
+  },
+  "T-WorksFineGF|pad": {
+   "n": 25,
+   "ok": 22
+  },
+  "T-WorksFineGF-P45|pad": {
+   "n": 1,
+   "ok": 1
+  },
+  "T-WorksFineGF-P60|pad": {
+   "n": 1,
+   "ok": 1
+  },
+  "T-WorksFineGF-LIT|pad": {
+   "n": 2,
+   "ok": 2
+  }
+ }
+}

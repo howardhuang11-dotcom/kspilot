@@ -1,0 +1,77 @@
+[    0.1s] loading checkpoint g5_entry
+tools/orbit_recover.py:51: DeprecationWarning: SpaceCenter.Module.has_event is deprecated: Filter Module.event_list by PartEvent.gui_name instead.
+  if mm.name == "ModuleAnimateGeneric" and mm.has_event(ev):
+[   44.1s] drag tables measured: CdA@10km belly 12 deg 17.3 / straight 13.8 m^2
+[   48.1s] CoM height above leg feet: 7.48 m, footprint radius 2.7 m, tip-over angle 20 deg
+[   48.2s] grid fins: mounting outward, authority -100% (engine-first flight reverses control surfaces)
+[   48.2s] learned aim offset: +0 m (29 flights)
+[   48.2s] drag modulation: CdA out 17.3 in 13.848656642038838
+[   48.2s] frozen 0 leading control surfaces
+[   49.1s] heat: 0.15 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[   49.2s] drag modulation: airbrakes  95% (out -257m / in +5310m, k_out 1.00 k_in 1.00)
+[   53.7s] drag modulation: airbrakes  95% (out -300m / in +5255m, k_out 1.00 k_in 1.00)
+[   58.9s] drag modulation: airbrakes  95% (out -302m / in +5239m, k_out 1.00 k_in 1.00)
+[   64.0s] heat: 0.20 of max temperature (T-222 "Nemesis" Grid Fin Medium)
+[   64.0s] drag modulation: airbrakes  95% (out -275m / in +5245m, k_out 1.00 k_in 1.00)
+[   68.9s] drag modulation: airbrakes 100% (out +6733m / in +5253m, k_out 0.62 k_in 1.00)
+[   73.7s] drag modulation: airbrakes 100% (out +8662m / in +5267m, k_out 0.53 k_in 1.00)
+[   74.6s] heat: 0.25 of max temperature ([mod part name] Jumbo-64 fuel tank)
+[   78.8s] drag modulation: airbrakes 100% (out +9108m / in +5290m, k_out 0.50 k_in 1.00)
+[   82.4s] heat: 0.30 of max temperature ([mod part name] Jumbo-64 fuel tank)
+[   84.0s] drag modulation: airbrakes 100% (out +9231m / in +5321m, k_out 0.50 k_in 1.00)
+[   88.7s] drag modulation: airbrakes 100% (out +9319m / in +5356m, k_out 0.49 k_in 1.00)
+[   89.1s] heat: 0.36 of max temperature ([mod part name] Jumbo-64 fuel tank)
+[   94.0s] drag modulation: airbrakes 100% (out +9348m / in +5412m, k_out 0.49 k_in 1.00)
+[   95.0s] heat: 0.41 of max temperature ([mod part name] Jumbo-64 fuel tank)
+[   95.9s] ENTRY BURN start h=44899m v=2101m/s q=1.1kPa heat 0.42
+[   96.0s] entry guidance: cross +1 m, 800 m/s left -> tilt -0.00 deg
+[   96.5s] entry guidance: cross +2 m, 767 m/s left -> tilt -0.00 deg
+[   97.0s] entry guidance: cross +1 m, 735 m/s left -> tilt -0.00 deg
+[   97.5s] entry guidance: cross -2 m, 702 m/s left -> tilt +0.00 deg
+[   98.1s] entry guidance: cross -4 m, 669 m/s left -> tilt +0.01 deg
+[   98.5s] entry guidance: cross -6 m, 636 m/s left -> tilt +0.01 deg
+[   99.1s] entry guidance: cross -8 m, 599 m/s left -> tilt +0.01 deg
+[   99.7s] entry guidance: cross -10 m, 561 m/s left -> tilt +0.02 deg
+[  100.2s] entry guidance: cross -11 m, 524 m/s left -> tilt +0.02 deg
+[  100.8s] entry guidance: cross -12 m, 484 m/s left -> tilt +0.02 deg
+[  101.3s] entry guidance: cross -13 m, 447 m/s left -> tilt +0.02 deg
+[  101.9s] entry guidance: cross -14 m, 409 m/s left -> tilt +0.03 deg
+[  102.4s] entry guidance: cross -14 m, 370 m/s left -> tilt +0.03 deg
+[  102.9s] entry guidance: cross -14 m, 334 m/s left -> tilt +0.03 deg
+[  103.4s] entry guidance: cross -14 m, 297 m/s left -> tilt +0.04 deg
+[  103.9s] entry guidance: cross -14 m, 260 m/s left -> tilt +0.04 deg
+[  104.5s] entry guidance: cross -13 m, 220 m/s left -> tilt +0.05 deg
+[  105.0s] entry guidance: cross -12 m, 179 m/s left -> tilt +0.05 deg
+[  105.5s] entry guidance: cross -11 m, 140 m/s left -> tilt +0.06 deg
+[  106.0s] entry guidance: cross -10 m, 99 m/s left -> tilt +0.08 deg
+[  106.6s] entry guidance: cross -8 m, 57 m/s left -> tilt +0.11 deg
+[  107.3s] ENTRY BURN end h=39105m v=1329m/s q=1.0kPa dv flown 805 m/s
+[  107.3s] vernier plan: cross -4 m (along +8457), 77.3 m per m/s -> 0.05 m/s sideways
+[  107.5s] range trim: retro pulse #1 (out +7711m)
+[  109.0s] drag modulation: airbrakes 100% (out +6519m / in +2950m, k_out 0.49 k_in 1.00)
+[  109.6s] belly: roll reversal (cross -126 m)
+[  110.1s] range trim: retro pulse #6 (out +5820m)
+[  112.6s] range trim: retro pulse #11 (out +4019m)
+[  113.6s] belly: roll reversal (cross -739 m)
+[  114.2s] drag modulation: airbrakes 100% (out +2930m / in -394m, k_out 0.49 k_in 1.00)
+[  115.2s] range trim: retro pulse #16 (out +2343m)
+[  117.9s] range trim: retro pulse #21 (out +780m)
+[  117.9s] belly: roll reversal (cross -555 m)
+[  119.2s] cross glide: cross -681 m (56 m per m/s) along +144 m (0) -> side 0.809 fwd 0.000 m/s^2, tilt 12.0 deg
+[  119.5s] drag modulation: airbrakes 100% (out +3m / in -3090m, k_out 0.49 k_in 1.00)
+[  120.0s] drag modulation: airbrakes   0% (out -3m / in -3087m, k_out 0.49 k_in 1.00)
+[  124.1s] cross glide: cross -660 m (47 m per m/s) along -53 m (0) -> side 0.928 fwd 0.000 m/s^2, tilt 9.9 deg
+[  124.4s] drag modulation: airbrakes   0% (out -54m / in -1992m, k_out 0.49 k_in 0.90)
+[  129.5s] cross glide: cross -652 m (37 m per m/s) along -768 m (0) -> side 1.163 fwd 0.000 m/s^2, tilt 5.3 deg
+[  139.9s] cross glide: cross -976 m (25 m per m/s) along -6320 m (0) -> side 2.620 fwd 0.000 m/s^2, tilt 5.4 deg
+[  149.4s] cross glide: cross -1364 m (19 m per m/s) along -6267 m (0) -> side 4.741 fwd 0.000 m/s^2, tilt 5.5 deg
+[  160.0s] cross glide: cross -1945 m (15 m per m/s) along -6094 m (0) -> side 8.668 fwd 0.000 m/s^2, tilt 8.3 deg
+[  190.7s] checkpoint saved: g5_term at 3995 m
+[  207.5s] pad cleared: clearpad 0
+[  211.6s] landing burn: control surfaces released, gimbal only
+[  211.6s] IGNITION h=911m vz=-136.3 vh=38.0 offset=5359m cda=15.54
+[  214.6s] pad cleared: clearpad 0
+[  246.3s] RESULT FAIL miss=5234.0m v_td=0.26m/s upright=1.000 fuel_left=180 parts=18 VesselSituation.landed
+[  246.3s] event ('ignition', 911, np.float64(-136.3), 5359)
+[  246.3s] smoothness (last 3 km): {'ap_err_rms': 4.07, 'py_rate_rms': 3.13, 'roll_rate_max': 40.2, 'roll_rate_rms': 11.09}
+shot: screenshots/20261020_191315_orbit_T-WorksFineGF0T.png

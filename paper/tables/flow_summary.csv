@@ -1,0 +1,19 @@
+Family,Starting point,Window,PASS,FAIL,REFUSED,SEPTEST,No outcome,Transcripts
+T-WorksFineGF family,4 km checkpoint,before,47,13,0,0,2,62
+T-WorksFineGF family,4 km checkpoint,in,25,0,0,0,0,25
+T-WorksFineGF family,orbit checkpoint,before,2,2,0,0,3,7
+T-WorksFineGF family,orbit checkpoint,in,0,0,0,0,1,1
+T-WorksFineGF family,pad,before,0,6,0,0,4,10
+T-WorksFineGF family,pad,in,26,2,1,5,2,36
+T-WorksFineGF family,pre-entry checkpoint,before,8,7,0,0,1,16
+T-WorksFineGF family,pre-entry checkpoint,in,4,0,0,0,0,4
+GF variants without airbrakes,15 km checkpoint,before,0,1,0,0,0,1
+GF variants without airbrakes,4 km checkpoint,before,0,5,0,0,2,7
+GF variants without airbrakes,orbit checkpoint,before,0,5,0,0,1,6
+GF variants without airbrakes,pad,before,0,7,3,0,4,14
+GF variants without airbrakes,pre-entry checkpoint,before,0,8,0,0,0,8
+T-WorksFinePayload,4 km checkpoint,before,0,1,0,0,0,1
+T-WorksFinePayload,orbit checkpoint,before,7,26,0,0,15,48
+T-WorksFinePayload,pad,before,1,2,0,0,0,3
+T-WorksFinePayload,pre-entry checkpoint,before,16,8,0,0,5,29
+Total,,,136,93,4,5,40,278

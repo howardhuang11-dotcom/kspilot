@@ -1,0 +1,21 @@
+[    0.1s] loading checkpoint g5_orbit
+[   16.0s] flying core: T-WorksFineGF mass 17.6t fuel 564
+[   34.0s] drag calibration applied (43 flights)
+[   34.0s] drag table (brakes out) CdA@100m/s,10km=28.5  @2000m/s,40km=165.2
+[   34.0s] core CdA brakes in = 7.03 m^2
+[   34.0s] core CdA (brakes out, 10 km) = 29.61 m^2
+[   36.2s] deorbit plan: miss 1m dv 159.2 m/s (retro 150.0 normal 9.2) t_ign +5836s CdA 29.61
+[   38.3s] predicted sun elevation at landing: -74 deg
+[   88.9s] predicted sun elevation at landing: -74 deg
+[  139.4s] predicted sun elevation at landing: -74 deg
+[  189.9s] predicted sun elevation at landing: -38 deg
+Traceback (most recent call last):
+  File "tools/orbit_recover.py", line 113, in <module>
+    plan, _ = m.deorbit(v, cda=cda, aim_bias=0.0, daylight=bool(os.environ.get("HOP_REC")), drag=drag_out)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "kspilot/mission.py", line 201, in deorbit
+    plan = deorbit.plan_deorbit(np.asarray(v.position(rf)), np.asarray(v.velocity(rf)), veh,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "kspilot/deorbit.py", line 152, in plan_deorbit
+    raise RuntimeError("no impact passes the target within the scan window (dv too small / window too short?)")
+RuntimeError: no impact passes the target within the scan window (dv too small / window too short?)

@@ -1,0 +1,20 @@
+| Session record time | Code rev. | Review label | n | Miss (m) | Gate |
+|---|---|---|---|---|---|
+| 2026-10-20 21:10 | be39eff | DR-001 regression HEAD vs gf-baseline | 3 | 3.59 / 3.39 / 3.66 | PASS |
+| 2026-10-20 21:37 | d5487bb | regression gate after C-mode deletion | 3 | 3.54 / 3.86 / 3.79 | PASS |
+| 2026-10-20 22:44 | 3314a2e | regression gate after IDENT mode b6bfed1 | 3 | 6.69 / 3.77 / 3.73 | PASS |
+| 2026-10-20 22:58 | 235cc11 | regression gate after DR-004 13ac316 | 3 | 3.94 / 3.78 / 3.70 | PASS |
+| 2026-10-21 00:21 | ba395d1 | regression gate after CA-3 4df7642 | 3 | 3.84 / 3.62 / 3.57 | PASS |
+| 2026-10-21 00:32 | d8de707 | regression gate after CA-2a+CA-4 (d8de707) | 3 | 3.71 / 3.70 / 3.45 | PASS |
+| 2026-10-21 01:08 | 3087b11 | regression gate after recalibration 478a897 | 3 | 3.68 / 3.54 / 3.58 | PASS |
+| 2026-10-21 03:26 | 12f3773 | regression gate after HUD v8 + director merge 12f3773 | 3 | 4.02 / 3.54 / 3.57 | PASS |
+| 2026-10-21 04:33 | 7bca1a7 | regression gate after perf+power merge ae914a4 | 3 | 3.72 / 3.58 / 3.62 | PASS |
+| 2026-10-21 10:47 | 6816512 | regression gate after rec v2 merge 6816512 | 3 | 3.95 / 3.66 / 3.66 | PASS |
+| 2026-10-21 12:09 | f869a28 | regression gate after rec v2 fix2 f869a28 | 3 | 3.93 / 3.67 / 3.63 | PASS |
+| 2026-10-21 13:47 | e243013 | regression gate after rec v2 fix3 e243013 | 3 | 2.18 / 1.05 / 1.19 | PASS |
+| 2026-10-21 13:52 | e243013 | slowdown check after fix3 (no parallel CPU load) | 1 | 3.67 | - |
+| 2026-10-21 15:15 | 72c4bff | OBS bench: 4 km landing while OBS records | 1 | 3.48 | - |
+| 2026-10-21 15:48 | 292cea8 | regression gate after DR-010 + rec v3 | 3 | 3.68 / 3.71 / 3.87 | PASS |
+| 2026-10-21 18:02 | 1fae509 | gate after video round 6 merge | 3 | 3.96 / 3.66 / 3.73 | PASS |
+
+Gate rule: >= 2 of the first 3 flights within 5 m and all flights PASS. Session record time is the experiment-log write time of the first flight (its run started 1-2 min earlier).

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "tools/orbit_recover.py", line 28, in <module>
+    conn = core.connect("orbit")
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "kspilot/core.py", line 16, in connect
+    return krpc.connect(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File ".venv/lib/python3.12/site-packages/krpc/__init__.py", line 32, in connect
+    rpc_connection.connect()
+  File ".venv/lib/python3.12/site-packages/krpc/connection.py", line 18, in connect
+    self._socket.connect((self._address, self._port))
+ConnectionRefusedError: [Errno 61] Connection refused
